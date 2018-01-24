@@ -5,7 +5,27 @@ permalink: /
 
 # Non-technical introduction to Git via GitHub. Almost no command line required.
 
-ABSTRACT HERE.
+In this tutorial we will start out with a super brief introduction to Git and
+GitHub and exercise useful workflows within GitHub. As an example, we will
+practice to implement changes to a repository and test and review these
+changes before they are integrated in the main repository.
+
+
+## Requirements
+
+- [GitHub account](https://github.com/join)
+- Bring your laptop with wireless network connectivity
+- Linux and Mac OS X users: [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- Windows users: [Install Git for Windows](https://git-scm.com/downloads)
+
+
+## Not required
+
+- Previous knowledge of Git or GitHub
+- Knowledge of the command line
+
+
+## Why [GitHub](https://github.com)?
 
 We will do this exercise on [GitHub](https://github.com) but also
 [GitLab](https://gitlab.com) and [Bitbucket](https://bitbucket.org) allow
@@ -19,9 +39,3 @@ choose to host your Git repository on another platform.
 
 We also encourage course participants to use our new [Nordic research software repository platform](https://source.coderefinery.org),
 for more information see [http://coderefinery.org/repository/](http://coderefinery.org/repository/).
-
-
-## Prerequisites
-
-1. You need a [GitHub](https://github.com) account.
-2. For updating forks you will need to install Git (GIVE MORE DETAILS).
