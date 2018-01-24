@@ -1,14 +1,18 @@
 ---
 layout: episode
-title: Write me
-teaching: 20
-exercises: 10
+title: Introduction and motivation
+teaching: 15
+exercises: 0
 questions:
-  - A question.
+  - What is a commit?
+  - What is a branch?
+  - What is a repository?
+  - What is Git?
+  - What is GitHub?
 objectives:
-  - An objective.
-keypoints:
-  - A keypoint.
+  - Get a mental representation for commits and branches.
+  - Motivate why Git and GitHub are so popular.
+  - Understand the difference between Git and GitHub.
 ---
 
 ## Commits are snapshots
