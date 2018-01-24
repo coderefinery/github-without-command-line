@@ -1,0 +1,13 @@
+[person-a/feature]-->d2
+                     |
+                     |
+                     |
+                     d1
+                      \
+                       \
+                        \
+              [master]-->c2<--[person-b/feature]
+                         |
+                         |
+                         |
+                         c1
