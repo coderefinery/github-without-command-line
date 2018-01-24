@@ -26,6 +26,7 @@ objectives:
 - Configuring Git
 - Cloning, pushing, pulling
 - Rebasing and squashing
+- HEAD pointer
 - Git under the hood
 
 ---
