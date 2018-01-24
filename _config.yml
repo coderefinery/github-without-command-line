@@ -24,10 +24,6 @@ limit_posts: 0
 future: true
 unpublished: false
 
-# plugins
-whitelist: []
-plugins: []
-
 # conversion
 markdown: kramdown
 highlighter: rouge
