@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: Collaborating on a project within the same repository
+title: Collaborating on a project using forks
 teaching: 10
 exercises: 20
 questions:
