@@ -8,8 +8,8 @@
                  xmlns="http://www.w3.org/2000/svg"
                  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
                  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-                 width="131.0"
-                 height="210.0"
+                 width="310.0"
+                 height="90.0"
                  id="svg2"
                  version="1.1"
                  inkscape:version="0.48.3.1 r9886"
@@ -44,29 +44,13 @@
                 </defs>
                 <g inkscape:label="layer1"
                    inkscape:groupmode="layer"
-                   transform="translate(99.0,180.0) rotate(0)"
+                   transform="translate(179.0,60.0) rotate(0)"
                    id="layer1">
                    
-           <line x1="16.0"
-                 y1="-45.0"
-                 x2="16.0"
-                 y2="-105.0"
-                 style="stroke:#000000;
-                        stroke-width:2.5;
-                        stroke-opacity:0.8" />
-           
            <line x1="16.0"
                  y1="15.0"
                  x2="16.0"
                  y2="-45.0"
-                 style="stroke:#000000;
-                        stroke-width:2.5;
-                        stroke-opacity:0.8" />
-           
-           <line x1="16.0"
-                 y1="-105.0"
-                 x2="16.0"
-                 y2="-165.0"
                  style="stroke:#000000;
                         stroke-width:2.5;
                         stroke-opacity:0.8" />
@@ -119,54 +103,6 @@
                  x="7.5"
                  y="20.5">c1</text>
            
-           <rect style="fill:#c7b8f8;
-                        stroke:#8172B2;
-                        stroke-width:1.25;
-                        stroke-miterlimit:4;
-                        stroke-opacity:1.0;
-                        stroke-dasharray:none"
-                 width="32.0"
-                 height="30.0"
-                 x="0.0"
-                 y="-120.0"
-                 ry="5.0" />
-           <text style="font-size:12.5px;
-                        font-style:normal;
-                        font-weight:normal;
-                        line-height:125%%;
-                        letter-spacing:0px;
-                        word-spacing:0px;
-                        fill:#000000;
-                        fill-opacity:1.0;
-                        stroke:none;
-                        font-family:DejaVu Sans Mono"
-                 x="7.5"
-                 y="-99.5">c3</text>
-           
-           <rect style="fill:#c7b8f8;
-                        stroke:#8172B2;
-                        stroke-width:1.25;
-                        stroke-miterlimit:4;
-                        stroke-opacity:1.0;
-                        stroke-dasharray:none"
-                 width="32.0"
-                 height="30.0"
-                 x="0.0"
-                 y="-180.0"
-                 ry="5.0" />
-           <text style="font-size:12.5px;
-                        font-style:normal;
-                        font-weight:normal;
-                        line-height:125%%;
-                        letter-spacing:0px;
-                        word-spacing:0px;
-                        fill:#000000;
-                        fill-opacity:1.0;
-                        stroke:none;
-                        font-family:DejaVu Sans Mono"
-                 x="7.5"
-                 y="-159.5">c4</text>
-           
            <path style="fill:none;
                  stroke:#000000;
                  stroke-width:2.5;
@@ -176,7 +112,7 @@
                  marker-end:url(#fullmarker);
                  stroke-miterlimit:4;
                  stroke-dasharray:none"
-                 d="M -67.0,-165.0 -0.6000000000000014,-165.0"
+                 d="M -107.0,-45.0 -1.2200000000000024,-45.0"
                  inkscape:connector-curvature="0" />
            
            <rect style="fill:#dddddd;
@@ -185,10 +121,10 @@
                         stroke-miterlimit:4;
                         stroke-opacity:1.0;
                         stroke-dasharray:none"
-                 width="64.0"
+                 width="144.0"
                  height="30.0"
-                 x="-99.0"
-                 y="-180.0"
+                 x="-179.0"
+                 y="-60.0"
                  ry="0.0" />
            <text style="font-size:12.5px;
                         font-style:normal;
@@ -200,8 +136,44 @@
                         fill-opacity:1.0;
                         stroke:none;
                         font-family:DejaVu Sans Mono"
-                 x="-91.5"
-                 y="-159.5">master</text>
+                 x="-171.5"
+                 y="-39.5">person-a/feature</text>
+           
+           <path style="fill:none;
+                 stroke:#000000;
+                 stroke-width:2.5;
+                 stroke-linecap:butt;
+                 stroke-linejoin:miter;
+                 stroke-opacity:1.0;
+                 marker-end:url(#fullmarker);
+                 stroke-miterlimit:4;
+                 stroke-dasharray:none"
+                 d="M 99.0,-45.0 32.6,-45.0"
+                 inkscape:connector-curvature="0" />
+           
+           <rect style="fill:#dddddd;
+                        stroke:#000000;
+                        stroke-width:1.25;
+                        stroke-miterlimit:4;
+                        stroke-opacity:1.0;
+                        stroke-dasharray:none"
+                 width="64.0"
+                 height="30.0"
+                 x="67.0"
+                 y="-60.0"
+                 ry="0.0" />
+           <text style="font-size:12.5px;
+                        font-style:normal;
+                        font-weight:normal;
+                        line-height:125%%;
+                        letter-spacing:0px;
+                        word-spacing:0px;
+                        fill:#000000;
+                        fill-opacity:1.0;
+                        stroke:none;
+                        font-family:DejaVu Sans Mono"
+                 x="74.5"
+                 y="-39.5">master</text>
            
                 </g>
               </svg>

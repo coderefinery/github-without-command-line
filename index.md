@@ -3,7 +3,7 @@ layout: lesson
 permalink: /
 ---
 
-# Non-technical introduction to Git via GitHub. Almost no command line required.
+# Non-technical introduction to Git using GitHub and GitHub pages
 
 In this tutorial we will start out with a super brief introduction to Git and
 GitHub and exercise useful workflows within GitHub. As an example, we will

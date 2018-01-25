@@ -1,0 +1,5 @@
+[master]-->c2<--[person-a/feature,person-b/feature]
+           |
+           |
+           |
+           c1
