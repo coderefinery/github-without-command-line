@@ -1,6 +1,6 @@
 
 
-# Non-technical introduction to Git via GitHub. Almost no command line required.
+# Non-technical introduction to Git using GitHub and GitHub pages
 
 ## Credit and license
 
