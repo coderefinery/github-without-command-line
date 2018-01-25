@@ -32,13 +32,10 @@ objectives:
 
 ---
 
-## Commits are snapshots
+## What are version control tools?
 
-- A commit is a snapshot of the project (like regularly taking a photo of your work).
-
-Four snapshots on one branch (c1 is the oldest, c4 the most recent snapshot):
-
-![]({{ site.baseurl }}/img/four-snapshots.svg)
+- Version control is a tool that can record snapshots of a project.
+- You can picture version control like regularly taking a photo of your work.
 
 ---
 
@@ -60,6 +57,30 @@ Four snapshots on one branch (c1 is the oldest, c4 the most recent snapshot):
 - We have the means to refer to a well-defined version of a project.
 - Reproducibility.
 - We can often find out why something was introduced.
+
+---
+
+## Git
+
+- Git is a tool that can record and synchronize snapshots.
+- Git is not the only tool that can record snapshots (other popular tools are Subversion and Mercurial).
+
+---
+
+## GitHub
+
+- GitHub is a service that provides hosting for Git repositories with a nice web interface.
+- GitHub is not the only service that provides this (other popular services are GitLab and Bitbucket).
+
+---
+
+## Commits are snapshots
+
+- A commit is a snapshot of the project (like regularly taking a photo of your work).
+
+Four snapshots on one branch (c1 is the oldest, c4 the most recent snapshot):
+
+![]({{ site.baseurl }}/img/four-snapshots.svg)
 
 ---
 
@@ -92,20 +113,6 @@ Here we have two branches, one is called `master`, the other is called `some-ide
 - We do not have to wait for others to send us "the latest version" over email.
 - We do not have to merge parallel developments by hand.
 - It is possible to serve websites directly from a repository.
-
----
-
-## Git
-
-- Git is a tool that can record commits and allows us to branch and merge and much more.
-- Git is not the only tool that can record snapshots (other popular tools are Subversion and Mercurial).
-
----
-
-## GitHub
-
-- GitHub is a service that provides hosting for Git repositories with a nice web interface.
-- GitHub is not the only service that provides this (other popular services are GitLab and Bitbucket).
 
 ---
 
