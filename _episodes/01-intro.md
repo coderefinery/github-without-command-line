@@ -28,6 +28,7 @@ objectives:
 - Rebasing and squashing
 - HEAD pointer
 - Git under the hood
+- Tags
 
 ---
 
@@ -66,7 +67,7 @@ Four snapshots on one branch (c1 is the oldest, c4 the most recent snapshot):
 
 - Commits form a graph (directed and acyclic).
 - The graph can branch (c2) and merge (m1).
-- Git branches and tags are pointers (labels) to commits.
+- Git branches are pointers (labels) to commits.
 - Often we call the main development line `master`.
 
 Here we have two branches, one is called `master`, the other is called `some-idea`:
@@ -75,17 +76,9 @@ Here we have two branches, one is called `master`, the other is called `some-ide
 
 ---
 
-## Tags
-
-- Tags are like branches: they point to specific commits.
-- Typically they are used to mark a milestone of a project.
-- While branch pointers can move when new snapshots are added, tags never move.
-
----
-
 ## Repositories
 
-- The whole thing (all commits, branches, and tags) are a repository.
+- The whole thing (all commits and branches) are a repository.
 - We can store the repository in one or several places (GitHub, GitLab, Bitbucket, laptop, desktop, cloud, where-ever we like).
 
 ---
