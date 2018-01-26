@@ -14,16 +14,24 @@ objectives:
 
 ## Exercise
 
-- Fork an example repository
-- Create branch on fork
-- Implement changes on fork
-- Submit pull request
+In this exercise we will collaborate on a repository by forking it.
+We will improve a simple website together. In this example we will find it advantageous
+to not create new branches so that we can preview the modified website on our forked repositories.
+
+For all other situations it is *always* advisable to first create a new branch on the fork
+before doing any modification and to regard upstream branches as read-only.
+
+Our plan:
+
+- Fork an example repository, if you already have a fork, update it first (last point)
+- Commit a change
+- Submit pull request towards the central repository
 - Pull requests are reviewed and integrated
 - Possible conflicts are discussed and resolved
 - Commit graph is reviewed and discussed
-- Update fork
+- We update all forks
 
-TODO: add more text, context, and screenshots, explain briefly what a fork is
+**TODO**: add more text, context, and screenshots, explain briefly what a fork is
 
 
 ### 1) We start out with a relatively simple central repository
