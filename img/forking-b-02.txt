@@ -1,8 +1,0 @@
-                             b1<--[person-b/feature]
-                            /
-                           /
-                         c2
-                         |
-                         |
-                         |
-                         c1
