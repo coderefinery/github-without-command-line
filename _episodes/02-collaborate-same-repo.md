@@ -2,7 +2,7 @@
 layout: episode
 title: Collaborating on a project within the same repository
 teaching: 5
-exercises: 20
+exercises: 30
 questions:
   - How can teams collaborate within the same repository?
 objectives:

@@ -2,7 +2,7 @@
 layout: episode
 title: Collaborating on a project using forks
 teaching: 10
-exercises: 20
+exercises: 30
 questions:
   - What are forks?
   - How can we collaborate via forks?
