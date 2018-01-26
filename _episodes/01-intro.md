@@ -4,8 +4,8 @@ title: Introduction and motivation
 teaching: 15
 exercises: 0
 questions:
-  - What is a commit?
-  - What is a branch?
+  - What is version control and why?
+  - What are commits and branches?
   - What is a repository?
   - What is Git?
   - What is GitHub?
@@ -17,7 +17,7 @@ objectives:
 
 ## Goal of this tutorial
 
-- Get a grasp of Git and GitHub without command line
+- Get a grasp of Git and GitHub without the command line
 
 
 ### What we will not cover
@@ -95,12 +95,16 @@ Here we have two branches, one is called `master`, the other is called `some-ide
 
 ![]({{ site.baseurl }}/img/two-branches.svg)
 
+When we talk about a branch, we often mean the commit with the particular "label" and
+all its parent commits since the beginning of the project.
+
 ---
 
 ## Repositories
 
 - The whole thing (all commits and branches) are a repository.
-- We can store the repository in one or several places (GitHub, GitLab, Bitbucket, laptop, desktop, cloud, where-ever we like).
+- We can store the repository in one or several places
+ (GitHub, GitLab, Bitbucket, laptop, desktop, cloud, USB key, ...).
 
 ---
 
@@ -116,9 +120,9 @@ Here we have two branches, one is called `master`, the other is called `some-ide
 
 ---
 
-## FIXME
+## How do these concepts look in real life?
 
-- look at commits on github
-- look at branches on github
-- look at commit annotation (commit message, date, author, hash)
-- explain why commits have hashes and are not simply numbered
+- Example: [commits on GitHub](https://github.com/neicnordic/ahm18.neic.nordforsk.org/commits/master).
+- Example: [branches on GitHub](https://github.com/neicnordic/ahm18.neic.nordforsk.org/network).
+- Example: [commit annotation on GitHub](https://github.com/neicnordic/ahm18.neic.nordforsk.org/commit/2b9c551d41529fb1372dc281b7384c842899834c).
+- Commits are uniquely labeled by their checksum.
