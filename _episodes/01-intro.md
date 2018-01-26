@@ -96,7 +96,10 @@ Here we have two branches, one is called `master`, the other is called `some-ide
 ![]({{ site.baseurl }}/img/two-branches.svg)
 
 When we talk about a branch, we often mean the commit with the particular "label" and
-all its parent commits since the beginning of the project.
+all its parent commits since the beginning of the project:
+
+- Commits c1, c2, c3, and c4 are part of `master`.
+- All commits are part of `some-idea`.
 
 ---
 
