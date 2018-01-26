@@ -15,15 +15,16 @@ Goal of the exercise: collaboratively improve a recipe together. Ideally a recip
 with several files to minimize chance of conflicts.
 
 - Start from a repo that contains a recipe
-- Add participants as collaborators
-- Distribute tasks
+- Participants work in groups of two
+- Add one user of each group as collaborator to the repository
+- Distribute tasks to groups
 - Each participant creates a branch and implements changes
 - Submit pull request
 - Pull requests are reviewed and integrated
 - Possible conflicts are discussed and resolved
 - Commit graph is reviewed and discussed
 
-TODO: add more text, context, and screenshots
+**TODO**: add more text, context, and screenshots
 
 
 ### 1) Beginning
