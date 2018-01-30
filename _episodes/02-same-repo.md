@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: Collaborating on a project within the same repository
+title: Collaborating using the same repository
 teaching: 5
 exercises: 30
 questions:
