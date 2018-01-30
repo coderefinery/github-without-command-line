@@ -1,17 +1,17 @@
-                         m2<--[master]
-                        /|
-                       / |
-                      /  |
-[person-a/feature]-->d2  |
-                     |   |
-                     |   m1
-                     |   | \
-                     d1  |  \
-                      \  |   b1<--[person-b/feature]
-                       \ |  /
-                        \| /
-                         c2
-                         |
-                         |
-                         |
-                         c1
+             m2<--[master]
+            /|
+           / |
+          /  |
+[soup]-->x2  |
+         |   |
+         |   m1
+         |   | \
+         x1  |  \
+          \  |   z1<--[appetizer]
+           \ |  /
+            \| /
+             c2
+             |
+             |
+             |
+             c1

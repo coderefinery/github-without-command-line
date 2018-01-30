@@ -1,4 +1,4 @@
-[master]-->c2<--[person-a/feature,person-b/feature]
+[master]-->c2<--[soup,appetizer]
            |
            |
            |

@@ -8,7 +8,7 @@
                  xmlns="http://www.w3.org/2000/svg"
                  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
                  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-                 width="489.0"
+                 width="337.0"
                  height="90.0"
                  id="svg2"
                  version="1.1"
@@ -148,7 +148,7 @@
                  marker-end:url(#fullmarker);
                  stroke-miterlimit:4;
                  stroke-dasharray:none"
-                 d="M 139.0,-45.0 33.22,-45.0"
+                 d="M 91.0,-45.0 32.5,-45.0"
                  inkscape:connector-curvature="0" />
            
            <rect style="fill:#dddddd;
@@ -157,7 +157,7 @@
                         stroke-miterlimit:4;
                         stroke-opacity:1.0;
                         stroke-dasharray:none"
-                 width="144.0"
+                 width="48.0"
                  height="30.0"
                  x="67.0"
                  y="-60.0"
@@ -173,7 +173,7 @@
                         stroke:none;
                         font-family:DejaVu Sans Mono"
                  x="74.5"
-                 y="-39.5">person-a/feature</text>
+                 y="-39.5">soup</text>
            
            <path style="fill:none;
                  stroke:#000000;
@@ -184,7 +184,7 @@
                  marker-end:url(#fullmarker);
                  stroke-miterlimit:4;
                  stroke-dasharray:none"
-                 d="M 318.0,-45.0 212.39,-45.0"
+                 d="M 194.0,-45.0 115.72,-45.0"
                  inkscape:connector-curvature="0" />
            
            <rect style="fill:#dddddd;
@@ -193,9 +193,9 @@
                         stroke-miterlimit:4;
                         stroke-opacity:1.0;
                         stroke-dasharray:none"
-                 width="144.0"
+                 width="88.0"
                  height="30.0"
-                 x="246.0"
+                 x="150.0"
                  y="-60.0"
                  ry="0.0" />
            <text style="font-size:12.5px;
@@ -208,8 +208,8 @@
                         fill-opacity:1.0;
                         stroke:none;
                         font-family:DejaVu Sans Mono"
-                 x="253.5"
-                 y="-39.5">person-b/feature</text>
+                 x="157.5"
+                 y="-39.5">appetizer</text>
            
                 </g>
               </svg>

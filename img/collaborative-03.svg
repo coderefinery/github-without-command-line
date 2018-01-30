@@ -8,7 +8,7 @@
                  xmlns="http://www.w3.org/2000/svg"
                  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
                  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-                 width="450.0"
+                 width="298.0"
                  height="210.0"
                  id="svg2"
                  version="1.1"
@@ -44,7 +44,7 @@
                 </defs>
                 <g inkscape:label="layer1"
                    inkscape:groupmode="layer"
-                   transform="translate(239.0,180.0) rotate(0)"
+                   transform="translate(143.0,180.0) rotate(0)"
                    id="layer1">
                    
            <line x1="-44.0"
@@ -71,8 +71,8 @@
                         stroke-width:2.5;
                         stroke-opacity:0.8" />
            
-           <rect style="fill:#ffffba;
-                        stroke:#CCB974;
+           <rect style="fill:#92b8f6;
+                        stroke:#4C72B0;
                         stroke-width:1.25;
                         stroke-miterlimit:4;
                         stroke-opacity:1.0;
@@ -93,10 +93,10 @@
                         stroke:none;
                         font-family:DejaVu Sans Mono"
                  x="-52.5"
-                 y="-159.5">d2</text>
+                 y="-159.5">x2</text>
            
-           <rect style="fill:#ffffba;
-                        stroke:#CCB974;
+           <rect style="fill:#92b8f6;
+                        stroke:#4C72B0;
                         stroke-width:1.25;
                         stroke-miterlimit:4;
                         stroke-opacity:1.0;
@@ -117,7 +117,7 @@
                         stroke:none;
                         font-family:DejaVu Sans Mono"
                  x="-52.5"
-                 y="-99.5">d1</text>
+                 y="-99.5">x1</text>
            
            <rect style="fill:#c7b8f8;
                         stroke:#8172B2;
@@ -176,6 +176,42 @@
                  marker-end:url(#fullmarker);
                  stroke-miterlimit:4;
                  stroke-dasharray:none"
+                 d="M 111.0,-45.0 32.150000000000006,-45.0"
+                 inkscape:connector-curvature="0" />
+           
+           <rect style="fill:#dddddd;
+                        stroke:#000000;
+                        stroke-width:1.25;
+                        stroke-miterlimit:4;
+                        stroke-opacity:1.0;
+                        stroke-dasharray:none"
+                 width="88.0"
+                 height="30.0"
+                 x="67.0"
+                 y="-60.0"
+                 ry="0.0" />
+           <text style="font-size:12.5px;
+                        font-style:normal;
+                        font-weight:normal;
+                        line-height:125%%;
+                        letter-spacing:0px;
+                        word-spacing:0px;
+                        fill:#000000;
+                        fill-opacity:1.0;
+                        stroke:none;
+                        font-family:DejaVu Sans Mono"
+                 x="74.5"
+                 y="-39.5">appetizer</text>
+           
+           <path style="fill:none;
+                 stroke:#000000;
+                 stroke-width:2.5;
+                 stroke-linecap:butt;
+                 stroke-linejoin:miter;
+                 stroke-opacity:1.0;
+                 marker-end:url(#fullmarker);
+                 stroke-miterlimit:4;
+                 stroke-dasharray:none"
                  d="M -67.0,-45.0 -0.6000000000000014,-45.0"
                  inkscape:connector-curvature="0" />
            
@@ -212,7 +248,7 @@
                  marker-end:url(#fullmarker);
                  stroke-miterlimit:4;
                  stroke-dasharray:none"
-                 d="M 139.0,-45.0 33.22,-45.0"
+                 d="M -119.0,-165.0 -60.5,-165.0"
                  inkscape:connector-curvature="0" />
            
            <rect style="fill:#dddddd;
@@ -221,45 +257,9 @@
                         stroke-miterlimit:4;
                         stroke-opacity:1.0;
                         stroke-dasharray:none"
-                 width="144.0"
+                 width="48.0"
                  height="30.0"
-                 x="67.0"
-                 y="-60.0"
-                 ry="0.0" />
-           <text style="font-size:12.5px;
-                        font-style:normal;
-                        font-weight:normal;
-                        line-height:125%%;
-                        letter-spacing:0px;
-                        word-spacing:0px;
-                        fill:#000000;
-                        fill-opacity:1.0;
-                        stroke:none;
-                        font-family:DejaVu Sans Mono"
-                 x="74.5"
-                 y="-39.5">person-b/feature</text>
-           
-           <path style="fill:none;
-                 stroke:#000000;
-                 stroke-width:2.5;
-                 stroke-linecap:butt;
-                 stroke-linejoin:miter;
-                 stroke-opacity:1.0;
-                 marker-end:url(#fullmarker);
-                 stroke-miterlimit:4;
-                 stroke-dasharray:none"
-                 d="M -167.0,-165.0 -61.22,-165.0"
-                 inkscape:connector-curvature="0" />
-           
-           <rect style="fill:#dddddd;
-                        stroke:#000000;
-                        stroke-width:1.25;
-                        stroke-miterlimit:4;
-                        stroke-opacity:1.0;
-                        stroke-dasharray:none"
-                 width="144.0"
-                 height="30.0"
-                 x="-239.0"
+                 x="-143.0"
                  y="-180.0"
                  ry="0.0" />
            <text style="font-size:12.5px;
@@ -272,8 +272,8 @@
                         fill-opacity:1.0;
                         stroke:none;
                         font-family:DejaVu Sans Mono"
-                 x="-231.5"
-                 y="-159.5">person-a/feature</text>
+                 x="-135.5"
+                 y="-159.5">soup</text>
            
                 </g>
               </svg>

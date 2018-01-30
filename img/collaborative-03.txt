@@ -1,13 +1,13 @@
-[person-a/feature]-->d2
-                     |
-                     |
-                     |
-                     d1
-                      \
-                       \
-                        \
-              [master]-->c2<--[person-b/feature]
-                         |
-                         |
-                         |
-                         c1
+[soup]-->x2
+         |
+         |
+         |
+         x1
+          \
+           \
+            \
+  [master]-->c2<--[appetizer]
+             |
+             |
+             |
+             c1
