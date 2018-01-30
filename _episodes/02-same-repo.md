@@ -93,3 +93,10 @@ If they are still there, we wish to
 ![]({{ site.baseurl }}/img/collaborative-07.svg)
 
 Notice that we have not removed any snapshots.
+
+---
+
+## Why pull requests?
+
+- It provides us with a mechanism to review and discuss changes, before they go into production.
+- Code review can also be a great learning opportunity.
