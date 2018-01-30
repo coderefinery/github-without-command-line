@@ -35,7 +35,7 @@ objectives:
 ## What are version control tools?
 
 - Version control is a tool that can record snapshots of a project.
-- You can picture version control like regularly taking a photo of your work.
+- You can think of version control like regularly taking a photo of your work.
 
 ---
 
@@ -53,24 +53,26 @@ objectives:
 
 ## Why are snapshots valuable?
 
-- If we discover a problem, we can find out when it was introduced (remember http://heartbleed.com?).
+- If we discover a problem, we can find out when it was introduced (remember [heartbleed](http://heartbleed.com)?).
 - We have the means to refer to a well-defined version of a project.
 - Reproducibility.
 - We can often find out why something was introduced.
 
 ---
 
-## Git
+## [Git](https://git-scm.com)
 
 - Git is a tool that can record and synchronize snapshots.
-- Git is not the only tool that can record snapshots (other popular tools are Subversion and Mercurial).
+- Git is not the only tool that can record snapshots (other popular tools are
+  [Subversion](https://subversion.apache.org) and [Mercurial](https://www.mercurial-scm.org)).
 
 ---
 
-## GitHub
+## [GitHub](https://github.com)
 
 - GitHub is a service that provides hosting for Git repositories with a nice web interface.
-- GitHub is not the only service that provides this (other popular services are GitLab and Bitbucket).
+- GitHub is not the only service that provides this (other popular services are
+  [GitLab](https://about.gitlab.com/) and [Bitbucket](https://bitbucket.org)).
 
 ---
 
@@ -78,7 +80,7 @@ objectives:
 
 - A commit is a snapshot of the project (like regularly taking a photo of your work).
 
-Four snapshots on one branch (c1 is the oldest, c4 the most recent snapshot):
+Four snapshots on one branch (c1 is the oldest, c4 the most recent snapshot, time arrow points up):
 
 ![]({{ site.baseurl }}/img/four-snapshots.svg)
 
@@ -98,8 +100,8 @@ Here we have two branches, one is called `master`, the other is called `some-ide
 When we talk about a branch, we often mean the commit with the particular "label" and
 all its parent commits since the beginning of the project:
 
-- Commits c1, c2, c3, and c4 are part of `master`.
-- All commits are part of `some-idea`.
+- Commits c1, c2, c3, and c4 are part of the `master` branch.
+- All commits are part of the `some-idea` branch.
 
 ---
 
