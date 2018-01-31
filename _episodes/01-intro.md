@@ -24,6 +24,7 @@ objectives:
 
 - Command line
 - Configuring Git
+- Cloning using SSH protocol and SSH keys
 - Cloning, pushing, pulling
 - Rebasing and squashing
 - HEAD pointer
