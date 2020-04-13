@@ -8,6 +8,7 @@
 - https://coderefinery.github.io/github-without-command-line/license/
 
 
-## Inspirations and similar projects
+## Similar workshops which serve as insipration
 
 - https://github.com/lexnederbragt/github_collab_workshop
+- https://github.com/arockenberger/github_collab_workshop
