@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: Collaborating using the same repository
+title: Collaborating using the same repository (old episode)
 teaching: 5
 exercises: 30
 questions:

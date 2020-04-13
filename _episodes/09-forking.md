@@ -1,6 +1,6 @@
 ---
 layout: episode
-title: Collaborating using forks
+title: Collaborating using forks (old episode)
 teaching: 10
 exercises: 30
 questions:
