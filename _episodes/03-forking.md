@@ -58,11 +58,11 @@ Some software projects have thousands of forks!
     <td>
       Central repo
     </td>
-     
+
     <td>
       Fork X
     </td>
-      
+
     <td>
       Fork Z
     </td>
@@ -71,11 +71,11 @@ Some software projects have thousands of forks!
     <td>
       <img src="{{ site.baseurl }}/img/forking-c-01.svg"/>
     </td>
-     
+
     <td>
       <img src="{{ site.baseurl }}/img/forking-c-01.svg"/>
     </td>
-      
+
     <td>
       <img src="{{ site.baseurl }}/img/forking-c-01.svg"/>
     </td>
@@ -94,11 +94,11 @@ your GitHub username). This website is automatically generated since this projec
     <td>
       Central repo
     </td>
-     
+
     <td>
       Fork X
     </td>
-      
+
     <td>
       Fork Z
     </td>
@@ -107,11 +107,11 @@ your GitHub username). This website is automatically generated since this projec
     <td>
       <img src="{{ site.baseurl }}/img/forking-c-01.svg"/>
     </td>
-     
+
     <td>
       <img src="{{ site.baseurl }}/img/forking-x-01.svg"/>
     </td>
-      
+
     <td>
       <img src="{{ site.baseurl }}/img/forking-z-01.svg"/>
     </td>
@@ -139,11 +139,11 @@ request a new merge commit is created, authored by the person accepting the pull
     <td>
       Central repo
     </td>
-     
+
     <td>
       Fork X
     </td>
-      
+
     <td>
       Fork Z
     </td>
@@ -152,11 +152,11 @@ request a new merge commit is created, authored by the person accepting the pull
     <td>
       <img src="{{ site.baseurl }}/img/forking-c-02.svg"/>
     </td>
-     
+
     <td>
       <img src="{{ site.baseurl }}/img/forking-x-01.svg"/>
     </td>
-      
+
     <td>
       <img src="{{ site.baseurl }}/img/forking-z-01.svg"/>
     </td>
@@ -170,11 +170,11 @@ And then merge the pull request from group Z:
     <td>
       Central repo
     </td>
-     
+
     <td>
       Fork X
     </td>
-      
+
     <td>
       Fork Z
     </td>
@@ -183,11 +183,11 @@ And then merge the pull request from group Z:
     <td>
       <img src="{{ site.baseurl }}/img/forking-c-03.svg"/>
     </td>
-     
+
     <td>
       <img src="{{ site.baseurl }}/img/forking-x-01.svg"/>
     </td>
-      
+
     <td>
       <img src="{{ site.baseurl }}/img/forking-z-01.svg"/>
     </td>
@@ -229,11 +229,11 @@ Sitaution after we have updated the forks:
     <td>
       Central repo
     </td>
-     
+
     <td>
       Fork X
     </td>
-      
+
     <td>
       Fork Z
     </td>
@@ -242,11 +242,11 @@ Sitaution after we have updated the forks:
     <td>
       <img src="{{ site.baseurl }}/img/forking-c-03.svg"/>
     </td>
-     
+
     <td>
       <img src="{{ site.baseurl }}/img/forking-c-03.svg"/>
     </td>
-      
+
     <td>
       <img src="{{ site.baseurl }}/img/forking-c-03.svg"/>
     </td>
