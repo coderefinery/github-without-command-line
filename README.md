@@ -4,7 +4,7 @@
 
 ## Credit and license
 
-- https://coderefinery.github.io/git-in-the-browser/license/
+- https://coderefinery.github.io/github-without-command-line/license/
 
 ## Inspirations and similar projects
 

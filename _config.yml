@@ -1,5 +1,5 @@
-fork_me_ribbon_url: https://github.com/coderefinery/git-in-the-browser
-baseurl: "/git-in-the-browser"
+fork_me_ribbon_url: https://github.com/coderefinery/github-without-command-line
+baseurl: "/github-without-command-line"
 title: "Non-technical introduction to Git using GitHub and GitHub pages"
 
 source: .
