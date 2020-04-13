@@ -33,6 +33,11 @@ sharing using graphical interfaces (web interface or GitHub Desktop).
 - Knowledge of the command line
 
 
+## Optional reading
+
+- [Quickly get started with common tasks on GitHub](https://help.github.com/en/github/getting-started-with-github/quickstart)
+
+
 ## Why [GitHub](https://github.com)?
 
 We will do this exercise on [GitHub](https://github.com) but also
