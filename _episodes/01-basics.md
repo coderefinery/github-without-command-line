@@ -75,8 +75,8 @@ objectives:
 - **Branch:** independent development line, often we call the main development line `master`
 - **Tag:** like a sticky note that you attach to a particular commit (e.g. `phd-printed` or `paper-submitted`)
 - **Cloning:** copying the whole repository to your laptop - the first time
-- **Forking:** taking a copy of a repository (which is typically not yours) - the
-  copy stays on GitHub and you can make changes to the copy
+- **Forking:** taking a copy of a repository (which is typically not yours) - your
+  copy (fork) stays on GitHub and you can make changes to your copy
 
 
 ### Interesting repositories to explore these concepts
