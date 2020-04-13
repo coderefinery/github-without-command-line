@@ -1,7 +1,7 @@
 ---
 layout: episode
-title: Creating repositories
-teaching: 40
+title: Creating repositories using the web interface
+teaching: 20
 exercises: 0
 questions:
   - ...
