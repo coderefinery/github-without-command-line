@@ -30,11 +30,7 @@ permalink: /guide/
 - How to share websites/homepages using GitHub Pages
 
 
-### Exercises
+### Timing
 
-- Collaboratively edit a CSV data file that resides on GitHub
-- Find typo/problem in a repository and fix it
-- Share your own example dataset
-- Get a DOI for your dataset
-- Create a website hosted on GitHub Pages
-- Make changes to a GitHub pages website
+First iteration of this workshop is given as 2 x (almost) 2 hours, one week
+apart.
