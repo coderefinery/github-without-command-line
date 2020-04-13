@@ -13,4 +13,4 @@ objectives:
 
 Exercises:
 - Fix a typo via the web interface
-- Submit a larger change using GitHub Desktop
+- Submit a larger change using GitHub Desktop by first opening an issue
