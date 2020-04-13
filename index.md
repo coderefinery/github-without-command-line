@@ -12,13 +12,13 @@ We will avoid using the command line and instead practice Collaborating and
 sharing using graphical interfaces (web interface or GitHub Desktop).
 
 
-## Similar workshops which serve as inspiration
+### Similar workshops which serve as inspiration
 
 - [https://github.com/lexnederbragt/github_collab_workshop](https://github.com/lexnederbragt/github_collab_workshop)
 - [https://github.com/arockenberger/github_collab_workshop](https://github.com/arockenberger/github_collab_workshop)
 
 
-## Please prepare these before the workshop
+### Please prepare these before the workshop
 
 - Install the [Zoom client](https://zoom.us/download)
 - Get a [GitHub account](https://github.com/join)
@@ -27,18 +27,18 @@ sharing using graphical interfaces (web interface or GitHub Desktop).
   - [Linux](https://github.com/shiftkey/desktop/blob/linux/README.md)
 
 
-## Not required
+### Not required
 
 - Previous knowledge of Git or GitHub
 - Knowledge of the command line
 
 
-## Optional reading
+### Optional reading
 
 - [Quickly get started with common tasks on GitHub](https://help.github.com/en/github/getting-started-with-github/quickstart)
 
 
-## Why [GitHub](https://github.com)?
+### Why [GitHub](https://github.com)?
 
 We will do this exercise on [GitHub](https://github.com) but also
 [GitLab](https://gitlab.com) and [Bitbucket](https://bitbucket.org) allow
