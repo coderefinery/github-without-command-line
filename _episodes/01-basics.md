@@ -70,7 +70,7 @@ objectives:
 
 - Commit: snapshot of the project, gets a unique identifier (e.g. `c7f0e8bfc718be04525847fc7ac237f470add76e`)
 - Branch: independent development line, often we call the main development line `master`
-- Tag: like a sticky note that you attach to a particular commit
+- Tag: like a sticky note that you attach to a particular commit (e.g. `phd-printed` or `paper-submitted`)
 - Repository: the project, contains all commits, all branches, all tags
 - Cloning: copying the whole repository to your laptop
 - Forking: taking a copy of a repository (which is typically not yours) - they
