@@ -10,4 +10,8 @@ objectives:
   - ...
 ---
 
-Write me ...
+Exercise:
+- create an example dataset (save excel spreadsheet to csv)
+- Share your own example dataset via GitHub
+- Activate Zenodo (sandbox)
+- Create a "release" and get a DOI for your dataset
