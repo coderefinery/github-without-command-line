@@ -4,8 +4,9 @@ title: Contributing to existing repositories
 teaching: 40
 exercises: 0
 questions:
-  - How to submit changes using pull requests
-  - How to propose, review, and discuss changes
+  - How to submit small changes using pull requests
+  - How to propose and submit larger changes
+  - How to review and discuss changes
 objectives:
   - ...
 ---
