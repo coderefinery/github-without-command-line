@@ -11,4 +11,6 @@ objectives:
   - ...
 ---
 
-Write me ...
+Exercises:
+- Fix a typo via the web interface
+- Submit a larger change using GitHub Desktop
