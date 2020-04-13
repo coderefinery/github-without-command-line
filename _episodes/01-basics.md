@@ -1,7 +1,7 @@
 ---
 layout: episode
-title: Introduction and motivation
-teaching: 15
+title: Basics and motivation
+teaching: 20
 exercises: 0
 questions:
   - What is version control and why?
