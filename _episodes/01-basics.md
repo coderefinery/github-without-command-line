@@ -47,6 +47,7 @@ objectives:
 
 ### Why are snapshots valuable? Reproducibility!
 
+- We can always go back if we make a mistake.
 - We have the means to refer to a well-defined version of a project when sharing, collaborating, and publishing.
 - If we discover a problem, we can find out when it was introduced.
 
@@ -58,6 +59,7 @@ objectives:
 - Tool that can record and synchronize snapshots.
 - Not the only tool that can record snapshots (other popular tools are
 [Subversion](https://subversion.apache.org) and [Mercurial](https://www.mercurial-scm.org)).
+- Format that can be read by many different tools.
 
 **GitHub**
 - Service that provides hosting for Git repositories with a nice web interface.
@@ -68,12 +70,12 @@ objectives:
 
 ## Commits, branches, repositories, forks, clones
 
-- Commit: snapshot of the project, gets a unique identifier (e.g. `c7f0e8bfc718be04525847fc7ac237f470add76e`)
-- Branch: independent development line, often we call the main development line `master`
-- Tag: like a sticky note that you attach to a particular commit
-- Repository: the project, contains all commits, all branches, all tags
-- Cloning: copying the whole repository to your laptop
-- Forking: taking a copy of a repository (which is typically not yours) - they
+- **Repository:** the project, contains all data and history (commits, branches, tags)
+- **Commit:** snapshot of the project, gets a unique identifier (e.g. `c7f0e8bfc718be04525847fc7ac237f470add76e`)
+- **Branch:** independent development line, often we call the main development line `master`
+- **Tag:** like a sticky note that you attach to a particular commit
+- **Cloning:** copying the whole repository to your laptop - the first time
+- **Forking:** taking a copy of a repository (which is typically not yours) - the
   copy stays on GitHub and you can make changes to the copy
 
 
@@ -83,10 +85,14 @@ objectives:
   - Repository: [https://github.com/achael/eht-imaging](https://github.com/achael/eht-imaging)
   - Commits, branches, forks: [https://github.com/achael/eht-imaging/network](https://github.com/achael/eht-imaging/network)
 - [Activity inequality study](http://activityinequality.stanford.edu/)
+  - Contains data and code necessary to create figures from their article.
   - Data: [https://github.com/timalthoff/activityinequality/tree/master/data](https://github.com/timalthoff/activityinequality/tree/master/data)
 - FiveThirtyEight story [Why We’re Sharing 3 Million Russian Troll Tweets](https://fivethirtyeight.com/features/why-were-sharing-3-million-russian-troll-tweets/)
+  - Contains data and readme file, no code.
   - Data: [https://github.com/fivethirtyeight/russian-troll-tweets](https://github.com/fivethirtyeight/russian-troll-tweets)
 - The NY Times Coronavirus (Covid-19) Data in the United States
+  - Contains data, readme, license, but no code.  As of 2020.april,
+    being updated every day.
   - Data: [https://github.com/nytimes/covid-19-data](https://github.com/nytimes/covid-19-data)
   - Website: [https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html)
 - CSV exports of the Getty Provenance Index
