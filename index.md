@@ -18,7 +18,7 @@ sharing using graphical interfaces (web interface or GitHub Desktop).
 - [https://github.com/arockenberger/github_collab_workshop](https://github.com/arockenberger/github_collab_workshop)
 
 
-## Requirements
+## Please prepare these before the workshop
 
 - Install the [Zoom client](https://zoom.us/download)
 - Get a [GitHub account](https://github.com/join)
