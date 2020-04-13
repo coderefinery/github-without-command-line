@@ -11,4 +11,11 @@ objectives:
   - ...
 ---
 
-Write me ...
+Exercise:
+- Create empty directory
+- Create spreadsheet
+- Export excel to csv
+- With GitHub Desktop "git init" that one
+- Push it to GitHub
+- Make a change and push it using Desktop
+- Make a change on the web and pull it using Desktop
