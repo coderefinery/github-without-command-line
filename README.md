@@ -1,10 +1,12 @@
 
 
-# Non-technical introduction to Git using GitHub and GitHub pages
+# Collaborating and sharing using GitHub without command line
+
 
 ## Credit and license
 
 - https://coderefinery.github.io/github-without-command-line/license/
+
 
 ## Inspirations and similar projects
 

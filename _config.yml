@@ -1,6 +1,6 @@
 fork_me_ribbon_url: https://github.com/coderefinery/github-without-command-line
 baseurl: "/github-without-command-line"
-title: "Non-technical introduction to Git using GitHub and GitHub pages"
+title: "Collaborating and sharing using GitHub without command line"
 
 source: .
 destination: ./_site
