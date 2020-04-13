@@ -13,8 +13,8 @@ changes before they are integrated in the main repository.
 
 ## Similar workshops which serve as insipration
 
-- https://github.com/lexnederbragt/github_collab_workshop
-- https://github.com/arockenberger/github_collab_workshop
+- [https://github.com/lexnederbragt/github_collab_workshop](https://github.com/lexnederbragt/github_collab_workshop)
+- [https://github.com/arockenberger/github_collab_workshop](https://github.com/arockenberger/github_collab_workshop)
 
 
 ## Requirements
