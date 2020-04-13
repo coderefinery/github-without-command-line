@@ -13,4 +13,12 @@ objectives:
   - ...
 ---
 
-Write me ...
+Exercise:
+- Create repository with README and LICENSE
+- Modify README
+- Create a new file
+- In the new file share a cooking recipe
+- Modify the recipe
+- Create a new branch
+- Modify on the branch
+- Browse network
