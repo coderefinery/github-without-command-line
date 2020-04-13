@@ -6,129 +6,106 @@ exercises: 0
 questions:
   - What is version control and why?
   - What are commits and branches?
-  - What is a repository?
-  - What is Git?
-  - What is GitHub?
+  - What are forks and clones?
 objectives:
   - Get a mental representation for commits and branches.
-  - Motivate why Git and GitHub are so popular.
+  - Understand the difference between forks and clones.
   - Understand the difference between Git and GitHub.
 ---
 
-## Goal of this tutorial
+> ## Goal of this tutorial
+>
+> - Get a grasp of Git and GitHub without the command line
+>
+> ### What we will not cover
+>
+> - Command line interface
+> - Cloning using SSH protocol and SSH keys
+> - Rebasing and squashing
+> - Many Git tricks which can be explored later
+{: .discussion}
 
-- Get a grasp of Git and GitHub without the command line
+## Version control
+
+### What are version control tools?
+
+- Version control is a tool that can **record snapshots of a project**.
+- You can think of version control like regularly taking a photo of your work
+  (movie sets take regular polaroids to be able to recreate a scene the next day).
 
 
-### What we will not cover
+### What we typically like to snapshot
 
-- Command line
-- Configuring Git
-- Cloning using SSH protocol and SSH keys
-- Cloning, pushing, pulling
-- Rebasing and squashing
-- HEAD pointer
-- Git under the hood
-- Tags
-
----
-
-## What are version control tools?
-
-- Version control is a tool that can record snapshots of a project.
-- You can think of version control like regularly taking a photo of your work.
-
----
-
-## What we typically like to snapshot
-
-- Software
+- Software (this is how it started but Git/GitHub can track a lot more)
 - Scripts
-- Documents
+- Documents (plain text file much better suitable than Word documents)
 - Manuscripts
 - Configuration files
 - Website sources
 - Data
 
----
 
-## Why are snapshots valuable?
+### Why are snapshots valuable? Reproducibility!
 
-- If we discover a problem, we can find out when it was introduced (remember [heartbleed](http://heartbleed.com)?).
-- We have the means to refer to a well-defined version of a project.
-- Reproducibility.
-- We can often find out why something was introduced.
+- We have the means to refer to a well-defined version of a project when sharing, collaborating, and publishing.
+- If we discover a problem, we can find out when it was introduced.
 
 ---
 
-## [Git](https://git-scm.com)
+## Difference between [Git](https://git-scm.com) and [GitHub](https://github.com)
 
-- Git is a tool that can record and synchronize snapshots.
-- Git is not the only tool that can record snapshots (other popular tools are
-  [Subversion](https://subversion.apache.org) and [Mercurial](https://www.mercurial-scm.org)).
+**Git**
+- Tool that can record and synchronize snapshots.
+- Not the only tool that can record snapshots (other popular tools are
+[Subversion](https://subversion.apache.org) and [Mercurial](https://www.mercurial-scm.org)).
 
----
-
-## [GitHub](https://github.com)
-
-- GitHub is a service that provides hosting for Git repositories with a nice web interface.
-- GitHub is not the only service that provides this (other popular services are
-  [GitLab](https://about.gitlab.com/) and [Bitbucket](https://bitbucket.org)).
+**GitHub**
+- Service that provides hosting for Git repositories with a nice web interface.
+- Not the only service that provides this (other popular services are
+[GitLab](https://about.gitlab.com/) and [Bitbucket](https://bitbucket.org)).
 
 ---
 
-## Commits are snapshots
+## Commits, branches, repositories, forks, clones
 
-- A commit is a snapshot of the project (like regularly taking a photo of your work).
+- Commit: snapshot of the project, gets a unique identifier (e.g. `c7f0e8bfc718be04525847fc7ac237f470add76e`)
+- Branch: independent development line, often we call the main development line `master`
+- Tag: like a sticky note that you attach to a particular commit
+- Repository: the project, contains all commits, all branches, all tags
+- Cloning: copying the whole repository to your laptop
+- Forking: taking a copy of a repository (which is typically not yours) - they
+  copy stays on GitHub and you can make changes to the copy
 
-Four snapshots on one branch (c1 is the oldest, c4 the most recent snapshot, time arrow points up):
 
-![]({{ site.baseurl }}/img/four-snapshots.svg)
+### Interesting repositories to explore these concepts
 
----
+- Event Horizon Telescope imaging software
+  - Repository: [https://github.com/achael/eht-imaging](https://github.com/achael/eht-imaging)
+  - Commits, branches, forks: [https://github.com/achael/eht-imaging/network](https://github.com/achael/eht-imaging/network)
+- [Activity inequality study](http://activityinequality.stanford.edu/)
+  - Data: [https://github.com/timalthoff/activityinequality/tree/master/data](https://github.com/timalthoff/activityinequality/tree/master/data)
+- FiveThirtyEight story [Why We’re Sharing 3 Million Russian Troll Tweets](https://fivethirtyeight.com/features/why-were-sharing-3-million-russian-troll-tweets/)
+  - Data: [https://github.com/fivethirtyeight/russian-troll-tweets](https://github.com/fivethirtyeight/russian-troll-tweets)
+- The NY Times Coronavirus (Covid-19) Data in the United States
+  - Data: [https://github.com/nytimes/covid-19-data](https://github.com/nytimes/covid-19-data)
+  - Website: [https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html)
+- CSV exports of the Getty Provenance Index
+  - Data: [https://github.com/thegetty/provenance-index-csv](https://github.com/thegetty/provenance-index-csv)
 
-## Branches
 
-- Commits form a graph (directed and acyclic).
-- The graph can branch (c2) and merge (m1).
-- Git branches are pointers (labels) to commits.
-- Often we call the main development line `master`.
+### [Example](https://github.com/achael/eht-imaging/network)
 
-Here we have two branches, one is called `master`, the other is called `some-idea`:
-
-![]({{ site.baseurl }}/img/two-branches.svg)
-
-When we talk about a branch, we often mean the commit with the particular "label" and
-all its parent commits since the beginning of the project:
-
-- Commits c1, c2, c3, and c4 are part of the `master` branch.
-- All commits are part of the `some-idea` branch.
-
----
-
-## Repositories
-
-- The whole thing (all commits and branches) are a repository.
-- We can store the repository in one or several places
- (GitHub, GitLab, Bitbucket, laptop, desktop, cloud, USB key, ...).
+<img src="{{ site.baseurl }}/img/commits-and-branches.svg" width="800px">
 
 ---
 
-## Why using repositories
-
-- All changes are recorded.
-- We do not have to send changes via email.
-- We can experiment with several ideas which might not work out (using branches).
-- Several people can work on the same project at the same time (using branches).
-- We do not have to wait for others to send us "the latest version" over email.
-- We do not have to merge parallel developments by hand.
-- It is possible to serve websites directly from a repository.
-
----
-
-## How do these concepts look in real life?
-
-- Example: [commits on GitHub](https://github.com/neicnordic/ahm18.neic.nordforsk.org/commits/master).
-- Example: [branches on GitHub](https://github.com/neicnordic/ahm18.neic.nordforsk.org/network).
-- Example: [commit annotation on GitHub](https://github.com/neicnordic/ahm18.neic.nordforsk.org/commit/2b9c551d41529fb1372dc281b7384c842899834c).
-- Commits are uniquely labeled by their checksum.
+> ## Why using repositories?
+>
+> - All changes are recorded.
+> - We do not have to send changes via email.
+> - We can experiment with several ideas which might not work out (using branches).
+> - Several people can work on the same project at the same time (using branches).
+> - We do not have to wait for others to send us "the latest version" over email.
+> - We do not have to merge parallel developments by hand.
+> - It is possible to serve websites directly from a repository.
+{: .discussion}
