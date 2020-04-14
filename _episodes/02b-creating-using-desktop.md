@@ -17,5 +17,7 @@ Exercise:
 - Export excel to csv
 - With GitHub Desktop "git init" that one
 - Push it to GitHub
-- Make a change and push it using Desktop
+- Make a change
+- Diff after edit
+- Push the change using Desktop
 - Make a change on the web and pull it using Desktop
