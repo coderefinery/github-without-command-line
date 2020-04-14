@@ -12,10 +12,11 @@ objectives:
 ---
 
 Exercise:
-- Create empty directory
+- With GitHub Desktop "git init" a repo with README (and LICENSE)
 - Create spreadsheet
-- Export excel to csv
-- With GitHub Desktop "git init" that one
+- Export excel to CSV
+- Copy the CSV file to the repo folder
+- Inspect diff
 - Push it to GitHub
 - Make a change
 - Diff after edit
