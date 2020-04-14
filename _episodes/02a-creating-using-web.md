@@ -37,12 +37,12 @@ participants can try on their own and then ask questions.
 Make sure that you are **logged into GitHub**.
 
 To create a repository we either click the green button "New" (top left corner):
-<img src="{{ site.baseurl }}/img/creating-web/new-top-left.png" width="400px" style="border:2px solid #000000;">>
+<img src="{{ site.baseurl }}/img/creating-web/new-top-left.png" width="400px" style="border:2px solid #000000;">
 
 ---
 
 Or if you see your profile page, there is a "+" menu (top right corner):
-<img src="{{ site.baseurl }}/img/creating-web/new-top-right.png" width="400px" style="border:2px solid #000000;">>
+<img src="{{ site.baseurl }}/img/creating-web/new-top-right.png" width="400px" style="border:2px solid #000000;">
 
 ---
 
