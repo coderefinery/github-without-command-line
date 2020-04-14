@@ -17,10 +17,10 @@ objectives:
 We will practice creating a new repository using the web interface, committing
 changes to it, browsing the changes, creating branches, and more.
 
-In small groups it can be useful to do this side by side and learners can ask
-each other questions and give suggestions. In a larger group the instructor can
-demonstrate these and then participants can try on their own and then ask
-questions.
+In small groups it can be useful to do this side by side (in-person) or one
+learner shares their screen (video) and others can ask questions and give
+suggestions. In a larger group the instructor can demonstrate these and then
+participants can try on their own and then ask questions.
 
 - [Step 1: Create a repository with a README and a license](#step-1-create-a-repository-with-a-readme-and-a-license)
 - [Step 2: Create a new file](#step-2-create-a-new-file)
