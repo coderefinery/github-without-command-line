@@ -77,6 +77,19 @@ Then add a commit message and commit (save):
 
 <img src="{{ site.baseurl }}/img/creating-web/new-file-commit.png" width="600px" style="border:2px solid #000000;">
 
+> ## Discussion: Good commit messages
+>
+> - What has changed is more useful than which file has changed
+> - Sometimes we forget to document *why* something was changed
+> - Many projects start out as projects "just for me" and end up to be successful projects
+>   that are developed by 50 people over decades.
+> - Write commit messages in English that will be understood
+>   15 years from now by someone else than you.
+> - ["My favourite Git commit"](https://fatbusinessman.com/2019/my-favourite-git-commit)
+> - ["On commit messages"](https://who-t.blogspot.com/2009/12/on-commit-messages.html)
+> - ["How to Write a Git Commit Message"](https://chris.beams.io/posts/git-commit/)
+{: .discussion}
+
 ---
 
 ### Step 2: Modify a file
