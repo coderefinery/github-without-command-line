@@ -70,13 +70,13 @@ objectives:
 
 ## Commits, branches, repositories, forks, clones
 
-- **Repository:** the project, contains all data and history (commits, branches, tags)
-- **Commit:** snapshot of the project, gets a unique identifier (e.g. `c7f0e8bfc718be04525847fc7ac237f470add76e`)
-- **Branch:** independent development line, often we call the main development line `master`
-- **Tag:** like a sticky note that you attach to a particular commit (e.g. `phd-printed` or `paper-submitted`)
-- **Cloning:** copying the whole repository to your laptop - the first time
-- **Forking:** taking a copy of a repository (which is typically not yours) - your
-  copy (fork) stays on GitHub and you can make changes to your copy
+- **repository**: The project, contains all data and history (commits, branches, tags).
+- **commit**: Snapshot of the project, gets a unique identifier (e.g. `c7f0e8bfc718be04525847fc7ac237f470add76e`).
+- **branch**: Independent development line, often we call the main development line `master`.
+- **tag**: A pointer to one commit, to be able to refer to it later. Like a sticky note that you attach to a particular commit (e.g. `phd-printed` or `paper-submitted`).
+- **cloning**: Copying the whole repository to your laptop - the first time.
+- **forking**: Taking a copy of a repository (which is typically not yours) - your
+  copy (fork) stays on GitHub and you can make changes to your copy.
 
 
 ### Interesting repositories to explore these concepts
