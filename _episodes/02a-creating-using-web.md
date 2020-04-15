@@ -185,10 +185,11 @@ changes.
 
 ---
 
-## Summary
-
-In this episode, we saw how we could do basic file management from the
-web.  It's not the best for making lots of new content, but it's
-pretty convenient for quick edits.  We will now see more advanced ways
-to do the same things - you can always check back on the web to see
-the effect.
+> ## Summary
+>
+> In this episode, we saw how we could do basic file management from the
+> web.  It's not the best for making lots of new content, but it's
+> pretty convenient for quick edits.  We will now see more advanced ways
+> to do the same things - you can always check back on the web to see
+> the effect.
+{: .discussion}

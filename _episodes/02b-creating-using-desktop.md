@@ -124,7 +124,7 @@ later.
 
 ### Step 6: Fetch and pull changes from the web
 
-Now we show how to **pull* code from Github→local.
+Now we show how to **pull** code from Github→local.
 
 - Edit the file via the GitHub web interface and commit there
 - Switch to GitHub Desktop
@@ -144,14 +144,15 @@ discuss later).
 
 ---
 
-### Summary
-
-With Github Desktop, we can do everything we can on the web, but it's
-more natural.  The most important concepts are that of **remotes**
-(links between repositories), **pushing**, and **pulling**.
-
-We don't cover it in this workshop, but you can eventually do all of
-these things from the command line, for example `git commit
-some_file.csv`.  Once you are doing many things, this can be faster.
-Still, there's almost always a place for applications like this to
-make things smoother.
+> ## Summary
+>
+> With Github Desktop, we can do everything we can on the web, but it's
+> more natural.  The most important concepts are that of **remotes**
+> (links between repositories), **pushing**, and **pulling**.
+>
+> We don't cover it in this workshop, but you can eventually do all of
+> these things from the command line, for example `git commit
+> some_file.csv`.  Once you are doing many things, this can be faster.
+> Still, there's almost always a place for applications like this to
+> make things smoother.
+{: .discussion}
