@@ -34,3 +34,9 @@ permalink: /guide/
 
 First iteration of this workshop is given as 2 x (almost) 2 hours, one week
 apart.
+
+
+### Exercise repository for the "contributing" episode
+
+Generate an exercise repository from
+https://github.com/coderefinery/template-contributing-exercise.
