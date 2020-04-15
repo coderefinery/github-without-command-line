@@ -100,4 +100,5 @@ Optional exercise:
 > - For controversial changes it can
 >   be useful to first discuss in an issue before submitting the changes.
 > - Note that you can mark pull requests as draft to collect feedback on unfinished work.
+> - Now that you know how to send improvements, we welcome improvements to this material also.
 {: .discussion}
