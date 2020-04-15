@@ -19,6 +19,10 @@ belong to others or belong to a group that you are part of.
 We will do this in a progression from a small trivial fix to a change proposal
 and discuss the pros and cons.
 
+- [Step 1: Learn how to add collaborators to your repository](#step-1-learn-how-to-add-collaborators-to-your-repository)
+- [Step 2: Submit a trivial change via the web interface](#step-2-submit-a-trivial-change-via-the-web-interface)
+- [Step 3: Contributing non-trivial changes](#step-3-contributing-non-trivial-changes)
+
 
 ### Note to instructors
 
@@ -68,7 +72,32 @@ We will practice this by fixing a typo in an example text.
 
 ### Step 3: Contributing non-trivial changes
 
-Submit a larger change using GitHub Desktop by first opening an issue.
+Submit a larger change using GitHub Desktop.  As an example our task will be to
+add a new file (in our case taco recipe) to the exercise repository.
+
+- We first open an issue and describe our idea. In the issue we can collect feedback.
+- We clone the exercise repository using GitHub Desktop.
+- Add the new file to the local repository.
+- Create a new branch.
+- Try to publish that branch (you may not have write permissions to the repository on GitHub).
+- If you don't have write permissions: "Fork this repository", then try to publish the branch to the fork.
+- "Create Pull Request"
+
+(instructor shows how, later we add screenshots)
 
 Optional exercise:
-- Sending a pull request with a typo/mistake in it and adjusting the pull request with a subsequent commit
+- Send a pull request with a typo/mistake in it and adjust the pull request with a subsequent commit. Discuss
+  how adjusting pull requests can be a useful mechanism.
+
+---
+
+> ## Summary
+>
+> - In this episode we learned how to propose changes and submit changes via "pull requests".
+> - Protecting the `master` branch and insisting on every change going
+>   through a pull request can be useful to get feedback on your changes
+>   and to improve knowledge transfer.
+> - For controversial changes it can
+>   be useful to first discuss in an issue before submitting the changes.
+> - Note that you can mark pull requests as draft to collect feedback on unfinished work.
+{: .discussion}
