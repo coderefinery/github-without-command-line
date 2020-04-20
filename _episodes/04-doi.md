@@ -1,11 +1,10 @@
 ---
 layout: episode
-title: Sharing your own work
+title: Making your project citable
 teaching: 10
 exercises: 20
 questions:
-  - How to put existing work on GitHub.
-  - How to get DOIs for particular versions of your project.
+  - How to get DOIs for particular versions of your project
 objectives:
   - ...
 ---
