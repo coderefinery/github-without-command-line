@@ -33,8 +33,9 @@ participants (see instructor guide for more details).
 > ## Recap: different methods to "download" a repository
 >
 > - There is no need to download each file one by one.
-> - You can either download the repository as ZIP file (green button "Clone or download") if you do not plan to change files.
-> - Possibly better: you clone the repository (green button on the web or through GitHub Desktop or command line) so that you
+> - You can either download the repository as ZIP file (green button "Clone or download") if you do not plan to change files
+    and if you are sure that you don't need to browse the history of file changes.
+> - **Possibly better: you clone the repository** (green button on the web or through GitHub Desktop or using command line) so that you
     can apply and track changes and possibly share them later.
 > - Cloning copies not only the latest version but all snapshots and all branches and tags: entire history.
 {: .discussion}
