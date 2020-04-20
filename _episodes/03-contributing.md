@@ -21,7 +21,8 @@ and discuss the pros and cons.
 
 - [Step 1: Learn how to add collaborators to your repository](#step-1-learn-how-to-add-collaborators-to-your-repository)
 - [Step 2: Submit a trivial change via the web interface](#step-2-submit-a-trivial-change-via-the-web-interface)
-- [Step 3: Contributing non-trivial changes](#step-3-contributing-non-trivial-changes)
+- [Step 3: Resolving a conflict](#step-3-resolving-a-conflict)
+- [Step 4: Contributing non-trivial changes](#step-3-contributing-non-trivial-changes)
 
 
 ### Note to instructors
@@ -79,7 +80,13 @@ We will practice this by fixing a typo in an example text.
 
 ---
 
-### Step 3: Contributing non-trivial changes
+### Step 3: Resolving a conflict
+
+To be written ...
+
+---
+
+### Step 4: Contributing non-trivial changes
 
 Submit a larger change using GitHub Desktop.  As an example our task will be to
 add a new file (in our case taco recipe) to the exercise repository.
