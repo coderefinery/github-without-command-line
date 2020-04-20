@@ -98,10 +98,10 @@ the web browser.  In this step, we also **push** the changes to the
 middle steps.
 
 - Browse the history (click "History")
-- Click "Publish repository"
-- Don't use the same name as the previous episode: you'll get a
-  conflict.
+- Don't use the same name as the previous episode
 - You can choose between a private and a public repository
+- Click "Publish repository"
+- After you have pushed, visit the repository via the website
 
 <img src="{{ site.baseurl }}/img/creating-desktop/publish.png" width="600px" style="border:2px solid #000000;">
 
