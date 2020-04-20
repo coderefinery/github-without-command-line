@@ -29,6 +29,14 @@ and discuss the pros and cons.
 The instructor will prepare an example repository and share the link with the
 participants (see instructor guide for more details).
 
+> ## Recap: different methods to "download" a repository
+>
+> - There is no need to download each file one by one.
+> - You can either download the repository as ZIP file (green button "Clone or download") if you do not plan to change files.
+> - Possibly better: you clone the repository (green button on the web or through GitHub Desktop or command line) so that you
+    can apply and track changes and possibly share them later.
+{: .discussion}
+
 ---
 
 ### Step 1: Learn how to add collaborators to your repository
