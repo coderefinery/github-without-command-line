@@ -48,7 +48,10 @@ Now we know how to share repositories and the first step to allow changes by
 others would be to add your group members or collaborators as "collaborators"
 under GitHub.
 
-(instructor shows how, later we add screenshots)
+- Click on "Settings" (top right), then "Manage access" (left), then "Invite a collaborator" (green button)
+- You can try this with one of the repositories which we created in the earlier episodes
+
+<img src="{{ site.baseurl }}/img/contributing/invite-collaborators.png" width="600px" style="border:2px solid #000000;">
 
 From here on everybody can push changes in the same way as we have done in a
 single-person repository in the previous episodes.
