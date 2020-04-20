@@ -39,7 +39,7 @@ objectives:
 - Software (this is how it started but Git/GitHub can track a lot more)
 - Scripts
 - Documents (plain text file much better suitable than Word documents)
-- Manuscripts
+- Manuscripts (Git is great for collaborating/sharing LaTeX manuscripts)
 - Configuration files
 - Website sources
 - Data
