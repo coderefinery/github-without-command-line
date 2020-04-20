@@ -153,6 +153,7 @@ discuss later).
 > We don't cover it in this workshop, but you can eventually do all of
 > these things from the command line, for example `git commit
 > some_file.csv`.  Once you are doing many things, this can be faster.
-> Still, there's almost always a place for applications like this to
+> Still, there's almost always a place for applications like the GitHub Desktop
+> and other graphical user interfaces to
 > make things smoother.
 {: .discussion}
