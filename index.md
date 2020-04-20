@@ -30,6 +30,12 @@ sharing using graphical interfaces (web interface or GitHub Desktop).
 >   - [Linux](https://github.com/shiftkey/desktop/blob/linux/README.md)
 >
 >
+> ### Troubleshooting
+>
+>   - GitHub Desktop not showing up on macOS launchpad:
+>     - You can find it in "Downloads"
+>
+>
 > ### Not required
 >
 > - Previous knowledge of Git or GitHub
