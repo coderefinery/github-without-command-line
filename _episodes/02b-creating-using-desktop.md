@@ -100,7 +100,7 @@ middle steps.
 - Browse the history (click "History")
 - Don't use the same name as the previous episode
 - You can choose between a private and a public repository
-- Click "Publish repository"
+- Click "Publish repository" (this only publishes the current branch)
 - After you have pushed, visit the repository via the website
 
 <img src="{{ site.baseurl }}/img/creating-desktop/publish.png" width="600px" style="border:2px solid #000000;">
@@ -116,6 +116,7 @@ later.
 - Make a change to the CSV file, but do not commit yet
 - Observe the change you made in GitHub Desktop before committing
 - Create a new branch
+- "Bring my changes to ..." the new branch
 - Commit to the new branch
 - Publish the new branch to GitHub
 - Browse your branches and changes on GitHub
@@ -126,8 +127,9 @@ later.
 
 Now we show how to **pull** code from Github→local.
 
-- Edit the file via the GitHub web interface and commit there
+- Edit the file via the GitHub web interface and commit there to `master`
 - Switch to GitHub Desktop
+- Change current branch to `master`
 - Click "Fetch origin"
 - Click "Pull origin"
 
@@ -138,8 +140,8 @@ Now we show how to **pull** code from Github→local.
 <img src="{{ site.baseurl }}/img/creating-desktop/after-pull.png" width="600px" style="border:2px solid #000000;">
 
 What's the difference between **fetch** and **pull**?  Fetch gets the
-changes, but doesn't make them active.  Pull = fetch + make changes
-active in your current repository (does a **merge** which we will
+changes, but doesn't apply them locally.  Pull = fetch + apply changes
+locally in your current repository (does a **merge** which we will
 discuss later).
 
 ---
