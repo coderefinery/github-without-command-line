@@ -2,7 +2,7 @@
 layout: episode
 title: Creating repositories using GitHub Desktop
 teaching: 20
-exercises: 0
+exercises: 20
 questions:
   - Creating and pushing local repositories.
   - How to record (commit) changes.

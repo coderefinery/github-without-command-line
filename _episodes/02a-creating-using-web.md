@@ -1,8 +1,8 @@
 ---
 layout: episode
 title: Creating repositories using the web interface
-teaching: 20
-exercises: 0
+teaching: 15
+exercises: 15
 questions:
   - Creating repositories on GitHub.
   - How to record (commit) changes.
