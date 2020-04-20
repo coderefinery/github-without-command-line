@@ -4,7 +4,7 @@ title: Hosting websites/homepages on GitHub Pages
 teaching: 30
 exercises: 0
 questions:
-  - How to serve a website/homepage using GitHub.
+  - How to serve a website/homepage using GitHub
 objectives:
   - ...
 ---

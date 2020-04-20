@@ -4,10 +4,10 @@ title: Creating repositories using GitHub Desktop
 teaching: 20
 exercises: 20
 questions:
-  - Creating and pushing local repositories.
-  - How to record (commit) changes.
-  - Inspecting changes before they are committed.
-  - Browsing changes.
+  - Creating and pushing local repositories
+  - How to record (commit) changes
+  - Inspecting changes before they are committed
+  - Browsing changes
 objectives:
   - ...
 ---
