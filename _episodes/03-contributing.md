@@ -157,7 +157,7 @@ We can practice how a conflict looks and how to resolve it:
 
 > ## Discussion
 >
-> - Compare with Google Docs: can you get conflicts? What are the advantages and disadvantages?
+> - Compare with Google Docs: can you get conflicts there? What are the advantages and disadvantages?
 > - What can we do to avoid conflicts?
 {: .discussion}
 
