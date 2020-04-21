@@ -193,7 +193,7 @@ Options depending on the group:
 - Try to publish that branch (you may not have write permissions to the repository on GitHub)
 - If you don't have write permissions: "Fork this repository", then try to publish the branch to the fork
 - "Create Pull Request"
-- If you forgot to refer to the issue in the commit, you can [refer to the issue](https://help.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue) here
+- If you forgot to refer to the issue in the commit, you can [refer to the issue](https://help.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue) in the pull request
 
 Optional exercise:
 - Send a pull request with a typo/mistake in it and adjust the pull request with a subsequent commit. Discuss
