@@ -39,4 +39,4 @@ apart.
 ### Exercise repository for the "contributing" episode
 
 Generate an exercise repository from
-https://github.com/coderefinery/template-contributing-exercise.
+[https://github.com/coderefinery/template-contributing-exercise](https://github.com/coderefinery/template-contributing-exercise).
