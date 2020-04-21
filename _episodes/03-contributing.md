@@ -54,7 +54,7 @@ under GitHub.
 
 <img src="{{ site.baseurl }}/img/contributing/invite-collaborators.png" width="800px" style="border:2px solid #000000;">
 
-From here on everybody can push changes in the same way as we have done in a
+From here on the collaborators can push changes in the same way as we have done in a
 single-person repository in the previous episodes.
 
 > ## Discussion
@@ -87,14 +87,14 @@ for **code review**.
 - After we click "Propose file change" we are taken to this form:
 <img src="{{ site.baseurl }}/img/contributing/pull-request-form.png" width="400px" style="border:2px solid #000000;">
 
-- In there we check the **source and target branch**, check the **file changes**,
+- In there we verify the **source and target branch**, verify the **file changes**,
   can edit the **title** and **description** of the "pull request" (change proposal)
 - After we have submitted the "pull request", one of our collaborators can review it
 - We can discuss and ask for changes before merging the changes "Merge pull request"
 
 > ## Discussion
 >
-> - Ideally it should not be the same person submitting and reviewing a change
+> - Ideally submitter and reviewer should be two different persons
 > - You can modify an open "pull request" by committing new changes to the branch
 > - Review is not only to assure quality but also to enhance learning and **knowledge transfer** within the group
 {: .discussion}
@@ -102,7 +102,7 @@ for **code review**.
 ---
 
 To make sure that *all* changes of the `master` branch are reviewed and nobody
-can push commits to it directly, it can be useful to protect branches.
+can push commits to it directly, it can be useful to "protect" branches.
 
 - "Settings", then "Branches", then "Add rule":
 
@@ -130,12 +130,13 @@ sharing screen:
 - Edit the commit message and click green button "Propose file change"
 - This creates a **fork** of the repository (GitHub makes a copy of the original repository to your user space)
 - You can now still review the change before submitting it, green button "Create pull request"
+- Later you can remove the fork if you like
 
 ---
 
 ### Step 4: Resolving a conflict
 
-When **merging** two branches a conflict can arise when the same file **portion**
+**When merging** two branches a conflict can arise when the same file **portion**
 has been modified in two **different** ways on the two branches.
 
 We can practice how a conflict looks and how to resolve it:
@@ -168,7 +169,8 @@ We can practice how a conflict looks and how to resolve it:
 Submit a larger change using GitHub Desktop.  As an example our task will be to
 add a new file (in our case taco recipe) to the exercise repository.
 
-- We first open an issue and describe our idea. In the issue we can collect feedback.
+- We first open an issue via the web interface
+  and describe our idea. In the issue we can collect feedback.
 - We clone the exercise repository using GitHub Desktop.
 - Add the new file to the local repository.
 - Create a new branch.
@@ -176,7 +178,7 @@ add a new file (in our case taco recipe) to the exercise repository.
 - If you don't have write permissions: "Fork this repository", then try to publish the branch to the fork.
 - "Create Pull Request"
 
-(instructor shows how, later we add screenshots)
+(instructor shows how or a participant shares screen, later we add screenshots)
 
 Optional exercise:
 - Send a pull request with a typo/mistake in it and adjust the pull request with a subsequent commit. Discuss
