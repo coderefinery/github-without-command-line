@@ -9,7 +9,8 @@ questions:
 
 > ## Discussion: is depositing your data/code on GitHub enough?
 >
-> Consider the aspect of findability 5 or 10 years from now.
+> - Consider the aspect of findability 5 or 10 years from now.
+> - What could go wrong?
 {: .discussion}
 
 
