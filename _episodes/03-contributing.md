@@ -45,7 +45,8 @@ participants (see instructor guide for more details).
 
 Now we know how to share repositories and the first step to allow changes by
 others would be to add your group members or collaborators as "collaborators"
-under GitHub.
+under GitHub.  This allows them to change things directly (but we'll
+actually do it with review).
 
 - Click on "Settings" (top right), then "Manage access" (left), then "Invite a collaborator" (green button)
 - You can try this with one of the repositories which we created in the earlier episodes
@@ -64,7 +65,7 @@ single-person repository in the previous episodes.
 
 ### Step 2: Submit a small change via the web interface as collaborator
 
-In the last episodes we learned how to commit changes either via web
+In the last episodes we learned how to directly commit changes either via web
 or via the desktop and you need to be a collaborator (have write permissions)
 to be able to do that.
 
@@ -92,7 +93,8 @@ for **code review**.
 
 > ## Discussion
 >
-> - Ideally submitter and reviewer should be two different persons
+> - Ideally submitter and reviewer should be two different persons.
+>   When is this best.  When not?
 > - You can modify an open "pull request" by committing new changes to the branch
 > - Review is not only to assure quality but also to enhance learning and **knowledge transfer** within the group
 {: .discussion}
