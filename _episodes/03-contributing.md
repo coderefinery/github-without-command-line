@@ -178,7 +178,8 @@ add a new file (in our case taco recipe) to the exercise repository.
 - If you don't have write permissions: "Fork this repository", then try to publish the branch to the fork.
 - "Create Pull Request"
 
-(instructor shows how or a participant shares screen, later we add screenshots)
+(either participant shares screen or the instructor demonstrates some of the steps using a repository
+that the instructor does not have access to)
 
 Optional exercise:
 - Send a pull request with a typo/mistake in it and adjust the pull request with a subsequent commit. Discuss
