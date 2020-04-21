@@ -91,6 +91,10 @@ Or using GitHub Desktop:
 
 <img src="{{ site.baseurl }}/img/doi/zenodo-received.png" width="600px" style="border:2px solid #000000;">
 
+- After a while it turns to this:
+
+<img src="{{ site.baseurl }}/img/doi/zenodo-published.png" width="600px" style="border:2px solid #000000;">
+
 ---
 
 ### Step 4: Add a DOI badge to your repository
@@ -98,6 +102,10 @@ Or using GitHub Desktop:
 This is bonus but for visitors of your GiHub repository it can be nice to find a badge
 in your README that informs them about and links to the preserved dataset/code on Zenodo:
 
-(screenshot to be added)
+On Zenodo, click on the badge (last figure) which opens up:
 
-Try to add such a badge to your README for the exercise repository.
+<img src="{{ site.baseurl }}/img/doi/zenodo-badge.png" width="600px" style="border:2px solid #000000;">
+
+Try to add such a badge to your README for the exercise repository:
+
+<img src="{{ site.baseurl }}/img/doi/github-badge.png" width="800px" style="border:2px solid #000000;">
