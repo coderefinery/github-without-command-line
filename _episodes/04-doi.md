@@ -26,6 +26,11 @@ for your dataset or code:
 created by [OpenAIRE](https://www.openaire.eu/) and CERN.
 **Integration with GitHub**, allows researchers to upload files up to 50 GB.
 
+- [Step 1: Prepare an example repository](#step-1-prepare-an-example-repository)
+- [Step 2: Activate the repository on Zenodo (sandbox)](#step-2-activate-the-repository-on-zenodo-sandbox)
+- [Step 3: Create a "release" and get a DOI](#step-3-create-a-release-and-get-a-doi)
+- [Step 4: Add a DOI badge to your repository](#step-4-add-a-doi-badge-to-your-repository)
+
 > ## We will exercise in the Zenodo sandbox
 >
 > We will practice on [https://sandbox.zenodo.org/](https://sandbox.zenodo.org/)
