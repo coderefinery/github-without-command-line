@@ -169,6 +169,21 @@ We can practice how a conflict looks and how to resolve it:
 Submit a larger change using GitHub Desktop.  As an example our task will be to
 add a new file (in our case taco recipe) to the exercise repository.
 
+
+
+#### Note to instructors
+
+Options depending on the group:
+- A participant shares screen and we navigate as a group
+- Instructor demonstrates some of the steps using a different
+  repository that the instructor does not have access to (possibly confusing?)
+- Instructor gives administration of the exercise repo to a participant and removes themselves
+  as collaborator and then we either review by screen sharing from the new administrator or
+  we switch back
+
+
+#### Exercise
+
 - We first open an issue via the web interface
   and describe our idea. In the issue we can collect feedback
 - We clone the exercise repository using GitHub Desktop
@@ -179,9 +194,6 @@ add a new file (in our case taco recipe) to the exercise repository.
 - If you don't have write permissions: "Fork this repository", then try to publish the branch to the fork
 - "Create Pull Request"
 - If you forgot to refer to the issue in the commit, you can [refer to the issue](https://help.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue) here
-
-(either participant shares screen or the instructor demonstrates some of the steps using a repository
-that the instructor does not have access to)
 
 Optional exercise:
 - Send a pull request with a typo/mistake in it and adjust the pull request with a subsequent commit. Discuss
