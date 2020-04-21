@@ -8,8 +8,6 @@ questions:
   - How to record (commit) changes
   - Browsing changes
   - Repository insights and settings
-objectives:
-  - ...
 ---
 
 ## Creating repositories using the web interface

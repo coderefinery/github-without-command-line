@@ -7,8 +7,6 @@ questions:
   - How to submit small changes using pull requests
   - How to propose and submit larger changes
   - How to review and discuss changes
-objectives:
-  - ...
 ---
 
 ## Contributing to existing repositories

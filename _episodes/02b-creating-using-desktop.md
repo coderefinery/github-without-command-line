@@ -8,8 +8,6 @@ questions:
   - How to record (commit) changes
   - Inspecting changes before they are committed
   - Browsing changes
-objectives:
-  - ...
 ---
 
 ## Creating repositories using GitHub Desktop

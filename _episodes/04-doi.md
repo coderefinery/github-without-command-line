@@ -5,8 +5,6 @@ teaching: 10
 exercises: 20
 questions:
   - How to get DOIs for particular versions of your project
-objectives:
-  - ...
 ---
 
 > ## Discussion: is depositing your data/code on GitHub enough?

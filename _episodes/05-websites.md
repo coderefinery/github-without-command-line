@@ -5,8 +5,6 @@ teaching: 30
 exercises: 0
 questions:
   - How to serve a website/homepage using GitHub
-objectives:
-  - ...
 ---
 
 Exercise:
