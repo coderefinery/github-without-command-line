@@ -3,7 +3,7 @@ layout: default
 permalink: /guide/
 ---
 
-### What we will learn
+### Learning outcomes
 
 - Basics of Git/ version control
   - Commits
@@ -22,10 +22,10 @@ permalink: /guide/
     - Record (commit) changes
     - Browse changes
 - Contributing to existing repositories
+  - Adding collaborators
   - Creating a pull request
   - How to propose, review, and discuss changes
 - Sharing your own work
-  - How to put your existing work on GitHub
   - How to get DOIs for projects on GitHub
 - How to share websites/homepages using GitHub Pages
 
