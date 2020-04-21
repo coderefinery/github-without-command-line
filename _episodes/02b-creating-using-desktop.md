@@ -111,11 +111,11 @@ This is pretty much the normal work: edit a file, commit it.  But, in
 this case, we are going to commit it to a new branch.  Why?  We'll see
 later.
 
-- Make a change to the CSV file, but do not commit yet
+- Make a change to the CSV file directly on your computer, but do not commit yet
 - Observe the change you made in GitHub Desktop before committing
-- Create a new branch
+- Create a new branch on GitHub Desktop
 - "Bring my changes to ..." the new branch
-- Commit to the new branch
+- Commit to the new branch on GitHub Desktop
 - Publish the new branch to GitHub
 - Browse your branches and changes on GitHub
 
