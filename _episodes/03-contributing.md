@@ -177,9 +177,9 @@ Options depending on the group:
 - A participant shares screen and we navigate as a group
 - Instructor demonstrates some of the steps using a different
   repository that the instructor does not have access to (possibly confusing?)
-- Instructor gives administration of the exercise repo to a participant and removes themselves
-  as collaborator and then we either review by screen sharing from the new administrator or
-  we switch back
+- A participant shares screen and creates a repository, then instructor takes screen share and
+  we go through steps to contribute to that repository (without write permissions), then
+  screen share goes back to participant and we together review this change
 
 
 #### Exercise
