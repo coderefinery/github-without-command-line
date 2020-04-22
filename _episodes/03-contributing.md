@@ -206,6 +206,9 @@ Options depending on the group:
 > ## Summary
 >
 > - In this episode we learned how to propose changes and submit changes via "pull requests".
+> - If you track and collaborate on text files it can be useful to wrap lines. If the entire
+>   paragraph is one long line, if will be more difficult to see what changed,
+>   and you risk seeing more conflicts.
 > - Protecting the `master` branch and insisting on every change going
 >   through a pull request can be useful to get feedback on your changes
 >   and to improve knowledge transfer.
