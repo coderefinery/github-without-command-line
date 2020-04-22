@@ -70,7 +70,7 @@ or via the desktop and you need to be a collaborator (have write permissions)
 to be able to do that.
 
 In this exercise we will not change the `master` branch directly but
-we will submit a "pull request" (a change **proposal**) towards the `master` branch
+we will submit a "pull request" (a **change proposal**) towards the `master` branch
 for **code review**.
 
 **Exercise**: We will practice this by fixing a typo in an example text.
@@ -94,7 +94,7 @@ for **code review**.
 > ## Discussion
 >
 > - Ideally submitter and reviewer should be two different persons.
->   When is this best.  When not?
+>   When is this best? When not?
 > - You can modify an open "pull request" by committing new changes to the branch
 > - Review is not only to assure quality but also to enhance learning and **knowledge transfer** within the group
 {: .discussion}
@@ -112,7 +112,7 @@ can push commits to it directly, it can be useful to "protect" branches.
 >
 > - Protecting the `master` branch "forces" all changes to it to be reviewed first.
     **We recommend this for group repositories**.
-    Discuss the advantages of this.
+    Discuss the advantages/disadvantages of this.
 {: .discussion}
 
 ---
@@ -167,7 +167,7 @@ We can practice how a conflict looks and how to resolve it:
 ### Step 5: Contributing non-trivial changes
 
 Submit a larger change using GitHub Desktop.  As an example our task will be to
-add a new file (in our case taco recipe) to the exercise repository.
+add a new file (in our case a taco recipe) to the exercise repository.
 
 
 
@@ -175,11 +175,11 @@ add a new file (in our case taco recipe) to the exercise repository.
 
 Options depending on the group:
 - A participant shares screen and we navigate as a group
-- Instructor demonstrates some of the steps using a different
-  repository that the instructor does not have access to (possibly confusing?)
 - A participant shares screen and creates a repository, then instructor takes screen share and
   we go through steps to contribute to that repository (without write permissions), then
   screen share goes back to participant and we together review this change
+- Instructor demonstrates some of the steps using a different
+  repository that the instructor does not have access to (possibly confusing?)
 
 
 #### Exercise
@@ -195,7 +195,9 @@ Options depending on the group:
 - "Create Pull Request"
 - If you forgot to refer to the issue in the commit, you can [refer to the issue](https://help.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue) in the pull request
 
-Optional exercise:
+
+#### Bonus exercise
+
 - Send a pull request with a typo/mistake in it and adjust the pull request with a subsequent commit. Discuss
   how adjusting pull requests can be a useful mechanism.
 
