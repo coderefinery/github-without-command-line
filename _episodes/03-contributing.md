@@ -173,13 +173,9 @@ add a new file (in our case a taco recipe) to the exercise repository.
 
 #### Note to instructors
 
-Options depending on the group:
-- A participant shares screen and we navigate as a group
 - A participant shares screen and creates a repository, then instructor takes screen share and
   we go through steps to contribute to that repository (without write permissions), then
   screen share goes back to participant and we together review this change
-- Instructor demonstrates some of the steps using a different
-  repository that the instructor does not have access to (possibly confusing?)
 
 
 #### Exercise
