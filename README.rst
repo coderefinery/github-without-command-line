@@ -1,12 +1,11 @@
-Sphinx test lesson
-==================
+Sphinx-lesson template and demo
+===============================
 
-This is a Sphinx lesson template for a software-carpentry style
-lesson.  It is designed as a replacement for the Jekyll-based software
-templates (but we don't know if it will be used yet).
+This is a demo for the sphinx-lesson style, and also a template which
+can be used for creating new lessons.
 
 `View it on github pages
-<https://coderefinery.github.io/sphinx-lesson/>`__.
+<https://coderefinery.github.io/sphinx-lesson-template/>`__.
 
 Features
 --------

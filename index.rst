@@ -1,5 +1,5 @@
-Test sphinx lesson
-==================
+sphinx-lesson template
+======================
 
 In this lesson, we learn how to make a CodeRefinery lesson using
 sphinx.  It is designed to replace the Jekyll-based software carepntry
@@ -54,13 +54,16 @@ All that remains is some proper CSS
 Installation and usage
 ----------------------
 
-This is distributed as a normal Sphinx extension, so it is easy to
-use.  To use it, install ``sphinx_lesson`` via PyPI (note: it is not
-there yet, this may not be the name).
+This is a normal Sphinx project, with one extension,
+``sphinx_lesson``, which is installed as normal via pip (note: not yet
+on PyPI, will be later if there is update).
 
 Then, enable the extension in your Sphinx ``conf.py``.  This will both
 define our special directives, and load the other required extensions
-(``myst_nb``).  The ``myst_nb`` extension can be configured normally::
+(``myst_nb``).  The ``myst_nb`` extension, which can execute notebook
+files and code, can be configured `normally
+<https://myst-nb.readthedocs.io/en/latest/>`__.  Setting the
+extension::
 
   extensions = [
       'sphinx_lesson',
