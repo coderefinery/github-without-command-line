@@ -45,7 +45,7 @@ jobs:
         if: ${{ github.ref == 'refs/heads/master' }}
         run: |
           set -x
-          find _gh-pages/ ! -path '_gh-pages/branch*' -rm
+          find _gh-pages/ ! -mindepth 1 -path '_gh-pages/branch*' -delete
           rsync -a _build/dirhtml/ _gh-pages/
       - name: Copy new build (branch)
         if: ${{ github.ref != 'refs/heads/master' }}
