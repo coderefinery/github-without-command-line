@@ -20,6 +20,11 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+      - name: Debugging information
+        run: |
+          git branch
+          git branch -a
+          git remote -v
       - uses: ammaraskar/sphinx-problem-matcher@master
       - name: Build Sphinx docs
         run: |
