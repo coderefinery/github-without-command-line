@@ -35,8 +35,8 @@ All that remains is some proper CSS
 
    01_intro
    01_intro_md
-   02_rst_tests
-   03_md_tests
+   02_episode_rst
+   03_episode_md
    04_executing
    05_jupyter
 
