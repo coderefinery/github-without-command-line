@@ -6,19 +6,13 @@ sphinx.  It is designed to replace the Jekyll-based software carepntry
 templates.  The source is on `github
 <https://github.com/coderefinery/sphinx-test-lesson>`__.
 
+An expanded explination of *why* this lesson is useful can go here.
 
 .. prereq:: Required software
 
-   * prereq1
-   * prereq2
+   Here, you should list the software requirements
 
-   This has the css class 'prereq', and like all blocks is implemented
-   like::
-
-     .. prereq::
-
-	* prereq1
-	* prereq2
+   * [Jupyter](https://coderefinery.github.io/installation/jupyter/)
 
 
 The following directives are implemented:
@@ -40,6 +34,7 @@ All that remains is some proper CSS
    :caption: Episodes
 
    01_intro
+   01_intro_md
    02_rst_tests
    03_md_tests
    04_executing
