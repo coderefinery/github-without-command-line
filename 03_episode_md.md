@@ -1,38 +1,61 @@
-# Markdown example
+# Markdown episode example
 
-## Native markdown blocks
-
-This is a native challenge block, using myst_parser and sphinx directives
-
-```{challenge} This is a challenge
-
-This has css class `challenge`.
-
-What do you think will be the outcome if you
-stage a file and then edit it and stage it again, do this several times and
-at the end perform a commit? (think of focusing several scenes and pressing the
-shoot button only at the end)
+```{questions}
+* Question 1
+* Questin 2
 ```
 
-It is implemented as:
-
-```
-   ```{challenge} This is a challenge
-
-   content
-   >```
+```{objectives}
+* Objective bullet points
+* For the whole lesson
 ```
 
-TODO: how to have nested code fences - the `>` shouldn't be above but
-I can't make them nested?
+Introduction
+
+## Section
+
+*Italics*, **bold**, ``literal``.  [link to rst example](02_episode_rst).
 
 
-## markdown format from old lessons, that doesn't work with myst_parser
+Here we have some code:
 
-> ## Sample block in old markdown format, that doesn't work
->
-> What do you think will be the outcome if you
-> stage a file and then edit it and stage it again, do this several times and
-> at the end perform a commit? (think of focusing several scenes and pressing the
-> shoot button only at the end)
-{: .challenge}
+```console
+
+code
+code
+code
+```
+
+Here we have some console commands
+
+```
+
+$ command
+output
+$command
+```
+
+```{challenge}
+This is an exercise
+```
+
+```{challenge}  You can give a custom title
+This is an exercise
+```
+
+```{solution}
+This is a solution
+````
+
+
+## Wrap-up
+
+```{challenge}
+These are the final summative exercises to test your
+understanding.
+```
+
+```{keypoints}
+* Key point 1
+* Key point 2
+```
