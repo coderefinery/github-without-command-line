@@ -12,7 +12,7 @@ An expanded explination of *why* this lesson is useful can go here.
 
    Here, you should list the software requirements
 
-   * [Jupyter](https://coderefinery.github.io/installation/jupyter/)
+   * `Jupyter <https://coderefinery.github.io/installation/jupyter/>`__
 
 
 The following directives are implemented:
@@ -30,8 +30,8 @@ The following directives are implemented:
 All that remains is some proper CSS
 
 .. toctree::
-   :maxdepth: 2
    :caption: Episodes
+   :maxdepth: 1
 
    01_intro
    01_intro_md
@@ -42,6 +42,7 @@ All that remains is some proper CSS
 
 .. toctree::
    :caption: Other material
+   :maxdepth: 1
 
    cheatsheet
    guide
