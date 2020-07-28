@@ -5,11 +5,25 @@ permalink: /
 
 # Collaborating and sharing using GitHub without command line
 
-In this tutorial we will start out with a super brief introduction to Git and
-GitHub and exercise useful workflows within GitHub.
+This tutorial provides a brief but usable introduction to Git and
+GitHub and exercise useful workflows within GitHub.  Git is a version
+control system which allows files and data to be synchronized, an
+Github is a popular website that stores these repositories.
 
-We will avoid using the command line and instead practice Collaborating and
-sharing using graphical interfaces (web interface or GitHub Desktop).
+It avoids using the command line and instead practice collaborating and
+sharing using either the Github website or GitHub desktop
+application.  Why?  Because for many cases, it is enough.  Especially
+if you are contributing to existing non-code projects, this may be the
+fastest, easiest way to do it.  Git and Github provide collaboration
+tools to all kinds of projects, and there are all kinds of good ways
+to use it.
+
+This serves as an introduction to git.  After this lesson, you will
+both be able to use git, and feel much more confident taking a
+command-line course git course such as
+[CodeRefinery's git-intro
+course](https://coderefinery.github.io/git-intro/).  Check out our
+[other upcoming workshops](https://coderefinery.org/workshops/upcoming/).
 
 
 ### Similar workshops which serve as inspiration
