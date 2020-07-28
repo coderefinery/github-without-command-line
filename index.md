@@ -23,7 +23,7 @@ sharing using graphical interfaces (web interface or GitHub Desktop).
 >
 > ### Please prepare these before the workshop
 >
-> - Install the [Zoom client](https://zoom.us/download)
+> - Install the [Zoom client](https://zoom.us/download) ([our tips](https://coderefinery.github.io/installation/zoom/])
 > - Get a [GitHub account](https://github.com/join)
 > - Install GitHub Desktop:
 >   - [Windows and macOS](https://desktop.github.com/)
