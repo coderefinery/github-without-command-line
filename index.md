@@ -37,7 +37,7 @@ course](https://coderefinery.github.io/git-intro/).  Check out our
 >
 > ### Please prepare these before the workshop
 >
-> - Install the [Zoom client](https://zoom.us/download)
+> - Install the [Zoom client](https://zoom.us/download) ([our tips](https://coderefinery.github.io/installation/zoom/])
 > - Get a [GitHub account](https://github.com/join)
 > - Install GitHub Desktop:
 >   - [Windows and macOS](https://desktop.github.com/)
