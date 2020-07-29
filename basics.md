@@ -103,7 +103,12 @@ objectives:
 
 ### [Example](https://github.com/achael/eht-imaging/network)
 
-<img src="{{ site.baseurl }}/img/commits-and-branches.svg" width="800px">
+```{figure} /img/commits-and-branches.svg
+
+Network graph of all commits in the
+[EHT-imaging](https://github.com/achael/eht-imaging/network) repository.
+```
+
 
 ---
 
