@@ -17,9 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Sphinx-lesson template'
-copyright = '2020, CodeRefinery'
-author = 'CodeRefinery'
+project = 'GitHub without the command line'
+copyright = '2020, CodeRefinery contributors'
+author = 'CodeRefinery contributors'
 
 
 # -- General configuration ---------------------------------------------------
