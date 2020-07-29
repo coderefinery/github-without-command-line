@@ -33,12 +33,13 @@ All that remains is some proper CSS
    :caption: Episodes
    :maxdepth: 1
 
-   01_intro
-   01_intro_md
-   02_episode_rst
-   03_episode_md
-   04_executing
-   05_jupyter
+   basics
+   creating-using-web
+   creating-using-desktop
+   contributing
+   doi
+   websites
+
 
 .. toctree::
    :caption: Other material
