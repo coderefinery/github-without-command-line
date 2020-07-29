@@ -45,7 +45,7 @@ All that remains is some proper CSS
    :caption: Other material
    :maxdepth: 1
 
-   cheatsheet
+   quick-reference
    guide
 
 Installation and usage

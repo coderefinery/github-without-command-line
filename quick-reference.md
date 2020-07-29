@@ -1,7 +1,4 @@
----
-layout: default
-permalink: /reference/
----
+# Quick reference
 
 ## Glossary
 
