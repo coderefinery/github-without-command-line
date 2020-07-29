@@ -57,9 +57,7 @@ guide
 
 
 
-> ## Prerequisites
->
-> ### Please prepare these before the workshop
+> Please prepare these before the workshop:
 >
 > - Install the [Zoom client](https://zoom.us/download) ([our tips](https://coderefinery.github.io/installation/zoom/])
 > - Get a [GitHub account](https://github.com/join)
@@ -68,24 +66,26 @@ guide
 >   - [Linux](https://github.com/shiftkey/desktop/blob/linux/README.md)
 >
 >
-> ### Troubleshooting
+> Troubleshooting:
 >
 >   - GitHub Desktop not showing up on macOS launchpad:
 >     - You can find it in "Downloads"
 >
 >
-> ### Not required
+> Not required:
 >
 > - Previous knowledge of Git or GitHub
 > - Knowledge of the command line
 >
 >
-> ### Optional reading
+> Optional reading:
 >
 > - [Quickly get started with common tasks on GitHub](https://help.github.com/en/github/getting-started-with-github/quickstart)
 >
 >
-> ### Why [GitHub](https://github.com)?
+{: .prereq}
+
+> ## Why [GitHub](https://github.com)?
 >
 > We will do this exercise on [GitHub](https://github.com) but also
 > [GitLab](https://gitlab.com) and [Bitbucket](https://bitbucket.org) allow
@@ -99,4 +99,4 @@ guide
 >
 > We also encourage course participants to use our new [Nordic research software repository platform](https://source.coderefinery.org),
 > for more information see [https://coderefinery.org/repository/](https://coderefinery.org/repository/).
-{: .prereq}
+{: .admonition}

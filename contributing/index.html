@@ -100,28 +100,20 @@
 <li class="toctree-l2"><a class="reference internal" href="#note-to-instructors">Note to instructors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#recap-different-methods-to-download-a-repository">Recap: different methods to “download” a repository</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#step-1-learn-how-to-add-collaborators-to-your-repository">Step 1: Learn how to add collaborators to your repository</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#discussion">Discussion</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#step-2-submit-a-small-change-via-the-web-interface-as-collaborator">Step 2: Submit a small change via the web interface as collaborator</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#id1">Discussion</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#id2">Discussion</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#discussion">Discussion</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#step-3-submit-a-small-change-via-the-web-interface-as-external-contributor">Step 3: Submit a small change via the web interface as external contributor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#step-4-resolving-a-conflict">Step 4: Resolving a conflict</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="#id3">Discussion</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#step-5-contributing-non-trivial-changes">Step 5: Contributing non-trivial changes</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id4">Note to instructors</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id1">Note to instructors</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#exercise">Exercise</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#bonus-exercise">Bonus exercise</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#summary">Summary</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../doi/">Making your project citable</a></li>
@@ -213,6 +205,12 @@ and discuss the pros and cons.</p>
 <h2>Note to instructors<a class="headerlink" href="#note-to-instructors" title="Permalink to this headline">¶</a></h2>
 <p>The instructor will prepare an example repository and share the link with the
 participants (see instructor guide for more details).</p>
+<div class="admonition-discussion discussion admonition">
+<p class="admonition-title">Discussion</p>
+<ul class="simple">
+<li><p>Cloning copies not only the latest version but all snapshots and all branches and tags: entire history.</p></li>
+</ul>
+</div>
 </div>
 <hr class="docutils" />
 <div class="section" id="recap-different-methods-to-download-a-repository">
@@ -223,8 +221,6 @@ participants (see instructor guide for more details).</p>
 and if you are sure that you don’t need to browse the history of file changes.</p></li>
 <li><p><strong>Possibly better: you clone the repository</strong> (green button on the web or through GitHub Desktop or using command line) so that you
 can apply and track changes and possibly share them later.</p></li>
-<li><p>Cloning copies not only the latest version but all snapshots and all branches and tags: entire history.
-{: .discussion}</p></li>
 </ul>
 <div class="section" id="step-1-learn-how-to-add-collaborators-to-your-repository">
 <h3>Step 1: Learn how to add collaborators to your repository<a class="headerlink" href="#step-1-learn-how-to-add-collaborators-to-your-repository" title="Permalink to this headline">¶</a></h3>
@@ -239,15 +235,14 @@ actually do it with review).</p>
 <img src="{{ site.baseurl }}/img/contributing/invite-collaborators.png" width="800px" style="border:2px solid #000000;">
 <p>From here on the collaborators can push changes in the same way as we have done in a
 single-person repository in the previous episodes.</p>
+<div class="admonition-discussion discussion admonition">
+<p class="admonition-title">Discussion</p>
+<ul class="simple">
+<li><p>Discuss the advantages and possible disadvantages of this setup.</p></li>
+</ul>
 </div>
 </div>
 <hr class="docutils" />
-<div class="section" id="discussion">
-<h2>Discussion<a class="headerlink" href="#discussion" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>Discuss the advantages and possible disadvantages of this setup.
-{: .discussion}</p></li>
-</ul>
 <div class="section" id="step-2-submit-a-small-change-via-the-web-interface-as-collaborator">
 <h3>Step 2: Submit a small change via the web interface as collaborator<a class="headerlink" href="#step-2-submit-a-small-change-via-the-web-interface-as-collaborator" title="Permalink to this headline">¶</a></h3>
 <p>In the last episodes we learned how to directly commit changes either via web
@@ -273,6 +268,15 @@ can edit the <strong>title</strong> and <strong>description</strong> of the “p
 <li><p>After we have submitted the “pull request”, one of our collaborators can review it</p></li>
 <li><p>We can discuss and ask for changes before merging the changes “Merge pull request”</p></li>
 </ul>
+<div class="admonition-discussion discussion admonition">
+<p class="admonition-title">Discussion</p>
+<ul class="simple">
+<li><p>Ideally submitter and reviewer should be two different persons.
+When is this best? When not?</p></li>
+<li><p>You can modify an open “pull request” by committing new changes to the branch</p></li>
+<li><p>Review is not only to assure quality but also to enhance learning and <strong>knowledge transfer</strong> within the group</p></li>
+</ul>
+</div>
 <hr class="docutils" />
 <p>To make sure that <em>all</em> changes of the <code class="docutils literal notranslate"><span class="pre">master</span></code> branch are reviewed and nobody
 can push commits to it directly, it can be useful to “protect” branches.</p>
@@ -283,18 +287,8 @@ can push commits to it directly, it can be useful to “protect” branches.</p>
 </div>
 </div>
 <hr class="docutils" />
-<div class="section" id="id1">
-<h2>Discussion<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>Ideally submitter and reviewer should be two different persons.
-When is this best? When not?</p></li>
-<li><p>You can modify an open “pull request” by committing new changes to the branch</p></li>
-<li><p>Review is not only to assure quality but also to enhance learning and <strong>knowledge transfer</strong> within the group
-{: .discussion}</p></li>
-</ul>
-</div>
-<div class="section" id="id2">
-<h2>Discussion<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="discussion">
+<h2>Discussion<a class="headerlink" href="#discussion" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Protecting the <code class="docutils literal notranslate"><span class="pre">master</span></code> branch “forces” all changes to it to be reviewed first.
 <strong>We recommend this for group repositories</strong>.
@@ -339,22 +333,21 @@ branching from <code class="docutils literal notranslate"><span class="pre">mast
 <li><p>Choose the version that you wish to keep, remove conflict markers, “Mark as resolved” and commit the change</p></li>
 </ul>
 <img src="{{ site.baseurl }}/img/contributing/conflict-resolution.png" width="800px" style="border:2px solid #000000;">
+<div class="admonition-discussion discussion admonition">
+<p class="admonition-title">Discussion</p>
+<ul class="simple">
+<li><p>Compare with Google Docs: can you get conflicts there? What are the advantages and disadvantages?</p></li>
+<li><p>What can we do to avoid conflicts?</p></li>
+</ul>
 </div>
 </div>
 <hr class="docutils" />
-<div class="section" id="id3">
-<h2>Discussion<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>Compare with Google Docs: can you get conflicts there? What are the advantages and disadvantages?</p></li>
-<li><p>What can we do to avoid conflicts?
-{: .discussion}</p></li>
-</ul>
 <div class="section" id="step-5-contributing-non-trivial-changes">
 <h3>Step 5: Contributing non-trivial changes<a class="headerlink" href="#step-5-contributing-non-trivial-changes" title="Permalink to this headline">¶</a></h3>
 <p>Submit a larger change using GitHub Desktop.  As an example our task will be to
 add a new file (in our case a taco recipe) to the exercise repository.</p>
-<div class="section" id="id4">
-<h4>Note to instructors<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="id1">
+<h4>Note to instructors<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
 <ul class="simple">
 <li><p>A participant shares screen and creates a repository, then instructor takes screen share and
 we go through steps to contribute to that repository (without write permissions), then
@@ -382,12 +375,9 @@ and describe our idea. In the issue we can collect feedback</p></li>
 <li><p>Send a pull request with a typo/mistake in it and adjust the pull request with a subsequent commit. Discuss
 how adjusting pull requests can be a useful mechanism.</p></li>
 </ul>
-</div>
-</div>
-</div>
 <hr class="docutils" />
-<div class="section" id="summary">
-<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-summary discussion admonition">
+<p class="admonition-title">Summary</p>
 <ul class="simple">
 <li><p>In this episode we learned how to propose changes and submit changes via “pull requests”.</p></li>
 <li><p>If you track and collaborate on text files it can be useful to wrap lines. If the entire
@@ -400,9 +390,11 @@ and to improve knowledge transfer.</p></li>
 be useful to first discuss in an issue before submitting the changes.</p></li>
 <li><p>Note that you can mark pull requests as draft to collect feedback on unfinished work.</p></li>
 <li><p>Now that you know how to send improvements, we welcome
-improvements to <a class="reference external" href="https://github.com/coderefinery/github-without-command-line">this material</a> also.
-{: .discussion}</p></li>
+improvements to <a class="reference external" href="https://github.com/coderefinery/github-without-command-line">this material</a> also.</p></li>
 </ul>
+</div>
+</div>
+</div>
 </div>
 </div>
 
