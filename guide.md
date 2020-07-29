@@ -1,7 +1,4 @@
----
-layout: default
-permalink: /guide/
----
+# Instructor's guide
 
 ### Learning outcomes
 
