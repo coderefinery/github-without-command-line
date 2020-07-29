@@ -9,7 +9,7 @@ questions:
   - How to review and discuss changes
 ---
 
-## Contributing to existing repositories
+# Contributing to existing repositories
 
 In this session we will learn how to contribute to repositories which either
 belong to others or belong to a group that you are part of.

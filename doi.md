@@ -7,6 +7,8 @@ questions:
   - How to get DOIs for particular versions of your project
 ---
 
+# Making your project citable
+
 > ## Discussion: is depositing your data/code on GitHub enough?
 >
 > - Consider the aspect of findability 5 or 10 years from now.
@@ -14,7 +16,6 @@ questions:
 {: .discussion}
 
 
-## Making your project citable
 
 There are many services where you can share or archive your code and data:
 See for instance our

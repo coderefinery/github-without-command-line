@@ -13,6 +13,8 @@ objectives:
   - Understand the difference between Git and GitHub.
 ---
 
+# Basics and motivation
+
 > ## Goal of this tutorial
 >
 > - Get a grasp of Git and GitHub without the command line

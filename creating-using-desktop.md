@@ -10,7 +10,7 @@ questions:
   - Browsing changes
 ---
 
-## Creating repositories using GitHub Desktop
+# Creating repositories using GitHub Desktop
 
 We will practice creating a new repository using GitHub Desktop, committing
 changes to it, browsing the changes, creating branches, and more.

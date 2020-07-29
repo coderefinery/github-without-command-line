@@ -7,7 +7,7 @@ questions:
   - How to serve a website/homepage using GitHub
 ---
 
-## Hosting websites/homepages on GitHub Pages
+# Hosting websites/homepages on GitHub Pages
 
 You can host your personal homepage or group webpage
 or project website on GitHub using
