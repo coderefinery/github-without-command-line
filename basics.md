@@ -3,17 +3,23 @@ layout: episode
 title: Basics and motivation
 teaching: 20
 exercises: 0
-questions:
+---
+
+
+# Basics and motivation
+
+```{questions}
   - What is version control and why?
   - What are commits and branches?
   - What are forks and clones?
-objectives:
+```
+
+```{objectives}
   - Get a mental representation for commits and branches.
   - Understand the difference between forks and clones.
   - Understand the difference between Git and GitHub.
----
+```
 
-# Basics and motivation
 
 > ## Goal of this tutorial
 >
