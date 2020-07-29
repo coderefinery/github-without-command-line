@@ -25,6 +25,30 @@ command-line course git course such as
 course](https://coderefinery.github.io/git-intro/).  Check out our
 [other upcoming workshops](https://coderefinery.org/workshops/upcoming/).
 
+```{toctree}
+---
+caption: Episodes
+maxdepth: 1
+---
+
+basics
+creating-using-web
+creating-using-desktop
+contributing
+doi
+websites
+```
+
+```{toctree}
+---
+caption: Other material
+maxdepth: 1
+---
+
+quick-reference
+guide
+```
+
 
 ### Similar workshops which serve as inspiration
 
