@@ -1,3 +1,6 @@
+/_build
+.ipynb_checkpoints
+venv*
 _drafts/
 _site/
 .sass-cache
