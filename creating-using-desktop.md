@@ -30,12 +30,6 @@ learner shares their screen (video) and others can ask questions and give
 suggestions. In a larger group the instructor can demonstrate these and then
 participants can try on their own and then ask questions.
 
-- [Step 1: Create an example spreadsheet](#step-1-create-an-example-spreadsheet)
-- [Step 2: Initialize a repository with GitHub Desktop](#step-2-initialize-a-repository-with-github-desktop)
-- [Step 3: Commit the CSV data file](#step-3-commit-the-csv-data-file)
-- [Step 4: Publish the repository on GitHub](#step-4-publish-the-repository-on-github)
-- [Step 5: Create a branch, commit to it, and share it](#step-5-create-a-branch-commit-to-it-and-share-it)
-- [Step 6: Fetch and pull changes from the web](#step-6-fetch-and-pull-changes-from-the-web)
 
 ---
 
