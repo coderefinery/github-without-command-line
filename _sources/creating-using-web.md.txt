@@ -25,14 +25,6 @@ learner shares their screen (video) and others can ask questions and give
 suggestions. In a larger group the instructor can demonstrate these and then
 participants can try on their own and then ask questions.
 
-- [Step 1: Create a repository with a README and a license](#step-1-create-a-repository-with-a-readme-and-a-license)
-- [Step 2: Create a new file](#step-2-create-a-new-file)
-- [Step 3: Modify a file](#step-3-modify-a-file)
-- [Step 4: Create a new branch](#step-4-create-a-new-branch)
-- [Step 5: Repository insights and settings](#step-5-repository-insights-and-settings)
-- [Step 6: Adding a license to an existing repository](#step-6-adding-a-license-to-an-existing-repository)
-- [Discussion: How can we merge branches?](#discussion-how-can-we-merge-branches)
-
 ---
 
 ### Step 1: Create a repository with a README and a license

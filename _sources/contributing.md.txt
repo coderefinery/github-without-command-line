@@ -17,12 +17,6 @@ belong to others or belong to a group that you are part of.
 We will do this in a progression from a small trivial fix to a change proposal
 and discuss the pros and cons.
 
-- [Step 1: Learn how to add collaborators to your repository](#step-1-learn-how-to-add-collaborators-to-your-repository)
-- [Step 2: Submit a small change via the web interface as collaborator](#step-2-submit-a-small-change-via-the-web-interface-as-collaborator)
-- [Step 3: Submit a small change via the web interface as external contributor](#step-3-submit-a-small-change-via-the-web-interface-as-external-contributor)
-- [Step 4: Resolving a conflict](#step-4-resolving-a-conflict)
-- [Step 5: Contributing non-trivial changes](#step-5-contributing-non-trivial-changes)
-
 
 ### Note to instructors
 

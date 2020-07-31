@@ -194,13 +194,6 @@
 belong to others or belong to a group that you are part of.</p>
 <p>We will do this in a progression from a small trivial fix to a change proposal
 and discuss the pros and cons.</p>
-<ul class="simple">
-<li><p><a class="reference external" href="#step-1-learn-how-to-add-collaborators-to-your-repository">Step 1: Learn how to add collaborators to your repository</a></p></li>
-<li><p><a class="reference external" href="#step-2-submit-a-small-change-via-the-web-interface-as-collaborator">Step 2: Submit a small change via the web interface as collaborator</a></p></li>
-<li><p><a class="reference external" href="#step-3-submit-a-small-change-via-the-web-interface-as-external-contributor">Step 3: Submit a small change via the web interface as external contributor</a></p></li>
-<li><p><a class="reference external" href="#step-4-resolving-a-conflict">Step 4: Resolving a conflict</a></p></li>
-<li><p><a class="reference external" href="#step-5-contributing-non-trivial-changes">Step 5: Contributing non-trivial changes</a></p></li>
-</ul>
 <div class="section" id="note-to-instructors">
 <h2>Note to instructors<a class="headerlink" href="#note-to-instructors" title="Permalink to this headline">¶</a></h2>
 <p>The instructor will prepare an example repository and share the link with the
@@ -232,7 +225,9 @@ actually do it with review).</p>
 <li><p>Click on “Settings” (top right), then “Manage access” (left), then “Invite a collaborator” (green button)</p></li>
 <li><p>You can try this with one of the repositories which we created in the earlier episodes</p></li>
 </ul>
-<img src="{{ site.baseurl }}/img/contributing/invite-collaborators.png" width="800px" style="border:2px solid #000000;">
+<div class="figure align-default">
+<img alt="../_images/invite-collaborators.png" src="../_images/invite-collaborators.png" />
+</div>
 <p>From here on the collaborators can push changes in the same way as we have done in a
 single-person repository in the previous episodes.</p>
 <div class="admonition-discussion discussion admonition">
@@ -259,10 +254,16 @@ for <strong>code review</strong>.</p>
 <li><p>We do not commit directly to <code class="docutils literal notranslate"><span class="pre">master</span></code> but rather “Create a new branch for this commit and start a pull request.”</p></li>
 <li><p>We choose a meaningful branch name (it can be useful to prefix it with your name so that we know who this branch belongs to)</p></li>
 </ul>
-<img src="{{ site.baseurl }}/img/contributing/propose-file-change.png" width="800px" style="border:2px solid #000000;">
+<div class="figure align-default">
+<img alt="../_images/propose-file-change.png" src="../_images/propose-file-change.png" />
+</div>
 <ul class="simple">
-<li><p>After we click “Propose file change” we are taken to this form:
-<img src="{{ site.baseurl }}/img/contributing/pull-request-form.png" width="400px" style="border:2px solid #000000;"></p></li>
+<li><p>After we click “Propose file change” we are taken to this form:</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/pull-request-form.png" src="../_images/pull-request-form.png" />
+</div>
+<ul class="simple">
 <li><p>In there we verify the <strong>source and target branch</strong>, verify the <strong>file changes</strong>,
 can edit the <strong>title</strong> and <strong>description</strong> of the “pull request” (change proposal)</p></li>
 <li><p>After we have submitted the “pull request”, one of our collaborators can review it</p></li>
@@ -283,7 +284,9 @@ can push commits to it directly, it can be useful to “protect” branches.</p>
 <ul class="simple">
 <li><p>“Settings”, then “Branches”, then “Add rule”:</p></li>
 </ul>
-<img src="{{ site.baseurl }}/img/contributing/branch-protection.png" width="800px" style="border:2px solid #000000;">
+<div class="figure align-default">
+<img alt="../_images/branch-protection.png" src="../_images/branch-protection.png" />
+</div>
 </div>
 </div>
 <hr class="docutils" />
@@ -321,18 +324,26 @@ has been modified in two <strong>different</strong> ways on the two branches.</p
 <li><p>Two participants should send two “pull requests” (change proposals)
 branching from <code class="docutils literal notranslate"><span class="pre">master</span></code> changing the same line in two different ways</p></li>
 </ul>
-<img src="{{ site.baseurl }}/img/contributing/conflict-edit-1.png" width="400px" style="border:2px solid #000000;">
-<img src="{{ site.baseurl }}/img/contributing/conflict-edit-2.png" width="400px" style="border:2px solid #000000;">
+<div class="figure align-default">
+<img alt="../_images/conflict-edit-1.png" src="../_images/conflict-edit-1.png" />
+</div>
+<div class="figure align-default">
+<img alt="../_images/conflict-edit-2.png" src="../_images/conflict-edit-2.png" />
+</div>
 <ul class="simple">
 <li><p>We merge together one of the pull requests (this will work)</p></li>
 <li><p>Then we try to merge the other and we see a conflict:</p></li>
 </ul>
-<img src="{{ site.baseurl }}/img/contributing/conflict-pull-request.png" width="600px" style="border:2px solid #000000;">
+<div class="figure align-default">
+<img alt="../_images/conflict-pull-request.png" src="../_images/conflict-pull-request.png" />
+</div>
 <ul class="simple">
 <li><p>We try to resolve the conflict via web</p></li>
 <li><p>Choose the version that you wish to keep, remove conflict markers, “Mark as resolved” and commit the change</p></li>
 </ul>
-<img src="{{ site.baseurl }}/img/contributing/conflict-resolution.png" width="800px" style="border:2px solid #000000;">
+<div class="figure align-default">
+<img alt="../_images/conflict-resolution.png" src="../_images/conflict-resolution.png" />
+</div>
 <div class="admonition-discussion discussion admonition">
 <p class="admonition-title">Discussion</p>
 <ul class="simple">
