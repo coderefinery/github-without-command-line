@@ -5,33 +5,28 @@ teaching: 20
 exercises: 0
 ---
 
-
 # Basics and motivation
 
 ```{questions}
-  - What is version control and why?
-  - What are commits and branches?
-  - What are forks and clones?
+- What is version control and why?
+- What are commits and branches?
+- What are forks and clones?
 ```
 
 ```{objectives}
-  - Get a mental representation for commits and branches.
-  - Understand the difference between forks and clones.
-  - Understand the difference between Git and GitHub.
+- Get a mental representation for commits and branches.
+- Understand the difference between forks and clones.
+- Understand the difference between Git and GitHub.
 ```
 
-
-> ## Goal of this tutorial
->
-> - Get a grasp of Git and GitHub without the command line
->
-> ### What we will not cover
+> ## What we will not cover
 >
 > - Command line interface
 > - Cloning using SSH protocol and SSH keys
 > - Rebasing and squashing
 > - Many Git tricks which can be explored later
 {: .discussion}
+
 
 ## Version control
 
@@ -67,12 +62,16 @@ exercises: 0
 - Tool that can record and synchronize snapshots.
 - Not the only tool that can record snapshots (other popular tools are
 [Subversion](https://subversion.apache.org) and [Mercurial](https://www.mercurial-scm.org)).
-- Format that can be read by many different tools.
+- Not only a tool but also a format that can be read by many different tools.
 
 **GitHub**
 - Service that provides hosting for Git repositories with a nice web interface.
 - Not the only service that provides this (other popular services are
 [GitLab](https://about.gitlab.com/) and [Bitbucket](https://bitbucket.org)).
+
+**GitHub Desktop**
+- Graphical user interface to Git and GitHub which runs locally on your computer.
+- There are other tools that can do this, too (e.g. [Sourcetree](https://www.sourcetreeapp.com/)).
 
 ---
 
@@ -115,7 +114,6 @@ Network graph of all commits in the
 [EHT-imaging](https://github.com/achael/eht-imaging/network) repository.
 ```
 
-
 ---
 
 > ## Why using repositories?
@@ -127,4 +125,9 @@ Network graph of all commits in the
 > - We do not have to wait for others to send us "the latest version" over email.
 > - We do not have to merge parallel developments by hand.
 > - It is possible to serve websites directly from a repository.
+{: .discussion}
+
+> ## Discussion
+>
+> - How have you solved these in the past without version control?
 {: .discussion}
