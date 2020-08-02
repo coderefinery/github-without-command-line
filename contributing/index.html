@@ -98,20 +98,19 @@
 <li class="toctree-l1"><a class="reference internal" href="../creating-using-desktop/">Creating repositories using GitHub Desktop</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Contributing to existing repositories</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#note-to-instructors">Note to instructors</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#recap-different-methods-to-download-a-repository">Recap: different methods to “download” a repository</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#step-1-learn-how-to-add-collaborators-to-your-repository">Step 1: Learn how to add collaborators to your repository</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#step-2-submit-a-small-change-via-the-web-interface-as-collaborator">Step 2: Submit a small change via the web interface as collaborator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-1-learn-how-to-add-collaborators-to-your-repository">Step 1: Learn how to add collaborators to your repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-2-submit-a-small-change-via-the-web-interface-as-collaborator">Step 2: Submit a small change via the web interface as collaborator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#discussion">Discussion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-3-submit-a-small-change-via-the-web-interface-as-external-contributor">Step 3: Submit a small change via the web interface as external contributor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-4-resolving-a-conflict">Step 4: Resolving a conflict</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id1">Note to instructors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#exercise-demo-let-us-experience-a-conflict">Exercise/demo: let us experience a conflict</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#discussion">Discussion</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#step-3-submit-a-small-change-via-the-web-interface-as-external-contributor">Step 3: Submit a small change via the web interface as external contributor</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#step-4-resolving-a-conflict">Step 4: Resolving a conflict</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#step-5-contributing-non-trivial-changes">Step 5: Contributing non-trivial changes</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#id1">Note to instructors</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#exercise">Exercise</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#bonus-exercise">Bonus exercise</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="#step-5-contributing-non-trivial-changes">Step 5: Contributing non-trivial changes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">Note to instructors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#exercise">Exercise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bonus-exercise">Bonus exercise</a></li>
 </ul>
 </li>
 </ul>
@@ -198,25 +197,21 @@ and discuss the pros and cons.</p>
 <h2>Note to instructors<a class="headerlink" href="#note-to-instructors" title="Permalink to this headline">¶</a></h2>
 <p>The instructor will prepare an example repository and share the link with the
 participants (see instructor guide for more details).</p>
-<div class="admonition-discussion discussion admonition">
-<p class="admonition-title">Discussion</p>
-<ul class="simple">
-<li><p>Cloning copies not only the latest version but all snapshots and all branches and tags: entire history.</p></li>
-</ul>
-</div>
-</div>
-<hr class="docutils" />
-<div class="section" id="recap-different-methods-to-download-a-repository">
-<h2>Recap: different methods to “download” a repository<a class="headerlink" href="#recap-different-methods-to-download-a-repository" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-recap-different-methods-to-download-a-repository discussion admonition">
+<p class="admonition-title">Recap: different methods to “download” a repository</p>
 <ul class="simple">
 <li><p>There is no need to download each file one by one.</p></li>
 <li><p>You can either download the repository as ZIP file (green button “Clone or download”) if you do not plan to change files
 and if you are sure that you don’t need to browse the history of file changes.</p></li>
 <li><p><strong>Possibly better: you clone the repository</strong> (green button on the web or through GitHub Desktop or using command line) so that you
 can apply and track changes and possibly share them later.</p></li>
+<li><p>Cloning copies not only the latest version but all snapshots and all branches and tags: entire history.</p></li>
 </ul>
+</div>
+</div>
+<hr class="docutils" />
 <div class="section" id="step-1-learn-how-to-add-collaborators-to-your-repository">
-<h3>Step 1: Learn how to add collaborators to your repository<a class="headerlink" href="#step-1-learn-how-to-add-collaborators-to-your-repository" title="Permalink to this headline">¶</a></h3>
+<h2>Step 1: Learn how to add collaborators to your repository<a class="headerlink" href="#step-1-learn-how-to-add-collaborators-to-your-repository" title="Permalink to this headline">¶</a></h2>
 <p>Now we know how to share repositories and the first step to allow changes by
 others would be to add your group members or collaborators as “collaborators”
 under GitHub.  This allows them to change things directly (but we’ll
@@ -239,7 +234,7 @@ single-person repository in the previous episodes.</p>
 </div>
 <hr class="docutils" />
 <div class="section" id="step-2-submit-a-small-change-via-the-web-interface-as-collaborator">
-<h3>Step 2: Submit a small change via the web interface as collaborator<a class="headerlink" href="#step-2-submit-a-small-change-via-the-web-interface-as-collaborator" title="Permalink to this headline">¶</a></h3>
+<h2>Step 2: Submit a small change via the web interface as collaborator<a class="headerlink" href="#step-2-submit-a-small-change-via-the-web-interface-as-collaborator" title="Permalink to this headline">¶</a></h2>
 <p>In the last episodes we learned how to directly commit changes either via web
 or via the desktop and you need to be a collaborator (have write permissions)
 to be able to do that.</p>
@@ -288,7 +283,6 @@ can push commits to it directly, it can be useful to “protect” branches.</p>
 <img alt="../_images/branch-protection.png" src="../_images/branch-protection.png" />
 </div>
 </div>
-</div>
 <hr class="docutils" />
 <div class="section" id="discussion">
 <h2>Discussion<a class="headerlink" href="#discussion" title="Permalink to this headline">¶</a></h2>
@@ -298,8 +292,9 @@ can push commits to it directly, it can be useful to “protect” branches.</p>
 Discuss the advantages/disadvantages of this.
 {: .discussion}</p></li>
 </ul>
+</div>
 <div class="section" id="step-3-submit-a-small-change-via-the-web-interface-as-external-contributor">
-<h3>Step 3: Submit a small change via the web interface as external contributor<a class="headerlink" href="#step-3-submit-a-small-change-via-the-web-interface-as-external-contributor" title="Permalink to this headline">¶</a></h3>
+<h2>Step 3: Submit a small change via the web interface as external contributor<a class="headerlink" href="#step-3-submit-a-small-change-via-the-web-interface-as-external-contributor" title="Permalink to this headline">¶</a></h2>
 <p>Submitting a change proposal as external contributor (we assume you are not added
 as “collaborator” and thus have no write-permissions to a repository) looks very similar
 to submitting a “pull request” to a repository with a protected <code class="docutils literal notranslate"><span class="pre">master</span></code> branch.
@@ -316,7 +311,17 @@ sharing screen:</p>
 </div>
 <hr class="docutils" />
 <div class="section" id="step-4-resolving-a-conflict">
-<h3>Step 4: Resolving a conflict<a class="headerlink" href="#step-4-resolving-a-conflict" title="Permalink to this headline">¶</a></h3>
+<h2>Step 4: Resolving a conflict<a class="headerlink" href="#step-4-resolving-a-conflict" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>Note to instructors<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>“Non-talking instructor” prepares a conflicting commit during session (check
+what the first PR does).</p></li>
+<li><p>Conflict can be shown as demo.</p></li>
+</ul>
+</div>
+<div class="section" id="exercise-demo-let-us-experience-a-conflict">
+<h3>Exercise/demo: let us experience a conflict<a class="headerlink" href="#exercise-demo-let-us-experience-a-conflict" title="Permalink to this headline">¶</a></h3>
 <p><strong>When merging</strong> two branches a conflict can arise when the same file <strong>portion</strong>
 has been modified in two <strong>different</strong> ways on the two branches.</p>
 <p>We can practice how a conflict looks and how to resolve it:</p>
@@ -352,13 +357,14 @@ branching from <code class="docutils literal notranslate"><span class="pre">mast
 </ul>
 </div>
 </div>
+</div>
 <hr class="docutils" />
 <div class="section" id="step-5-contributing-non-trivial-changes">
-<h3>Step 5: Contributing non-trivial changes<a class="headerlink" href="#step-5-contributing-non-trivial-changes" title="Permalink to this headline">¶</a></h3>
+<h2>Step 5: Contributing non-trivial changes<a class="headerlink" href="#step-5-contributing-non-trivial-changes" title="Permalink to this headline">¶</a></h2>
 <p>Submit a larger change using GitHub Desktop.  As an example our task will be to
 add a new file (in our case a taco recipe) to the exercise repository.</p>
-<div class="section" id="id1">
-<h4>Note to instructors<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h4>
+<div class="section" id="id2">
+<h3>Note to instructors<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>A participant shares screen and creates a repository, then instructor takes screen share and
 we go through steps to contribute to that repository (without write permissions), then
@@ -366,7 +372,7 @@ screen share goes back to participant and we together review this change</p></li
 </ul>
 </div>
 <div class="section" id="exercise">
-<h4>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h4>
+<h3>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>We first open an issue via the web interface
 and describe our idea. In the issue we can collect feedback</p></li>
@@ -381,7 +387,7 @@ and describe our idea. In the issue we can collect feedback</p></li>
 </ul>
 </div>
 <div class="section" id="bonus-exercise">
-<h4>Bonus exercise<a class="headerlink" href="#bonus-exercise" title="Permalink to this headline">¶</a></h4>
+<h3>Bonus exercise<a class="headerlink" href="#bonus-exercise" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>Send a pull request with a typo/mistake in it and adjust the pull request with a subsequent commit. Discuss
 how adjusting pull requests can be a useful mechanism.</p></li>
@@ -403,7 +409,6 @@ be useful to first discuss in an issue before submitting the changes.</p></li>
 <li><p>Now that you know how to send improvements, we welcome
 improvements to <a class="reference external" href="https://github.com/coderefinery/github-without-command-line">this material</a> also.</p></li>
 </ul>
-</div>
 </div>
 </div>
 </div>
