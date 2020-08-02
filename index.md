@@ -6,21 +6,21 @@ permalink: /
 # Collaborating and sharing using GitHub without command line
 
 This tutorial provides a brief but usable introduction to Git and
-GitHub and exercise useful workflows within GitHub.  Git is a version
-control system which allows files and data to be synchronized, an
-Github is a popular website that stores these repositories.
+GitHub to exercise useful workflows within GitHub.  Git is a version
+control system which allows files and data to be synchronized.
+GitHub is a popular website that stores these repositories.
 
-It avoids using the command line and instead practice collaborating and
-sharing using either the Github website or GitHub desktop
+This tutorial avoids using the command line. Instead we will practice collaborating and
+sharing using either the GitHub website or GitHub desktop
 application.  Why?  Because for many cases, it is enough.  Especially
 if you are contributing to existing non-code projects, this may be the
-fastest, easiest way to do it.  Git and Github provide collaboration
+fastest, easiest way to do it.  Git and GitHub provide collaboration
 tools to all kinds of projects, and there are all kinds of good ways
 to use it.
 
-This serves as an introduction to git.  After this lesson, you will
-both be able to use git, and feel much more confident taking a
-command-line course git course such as
+This serves as an introduction to Git.  After this lesson, you will
+both be able to use Git, and feel much more confident taking a
+command-line course Git course such as
 [CodeRefinery's git-intro
 course](https://coderefinery.github.io/git-intro/).  Check out our
 [other upcoming workshops](https://coderefinery.org/workshops/upcoming/).
@@ -59,7 +59,7 @@ guide
 
 > Please prepare these before the workshop:
 >
-> - Install the [Zoom client](https://zoom.us/download) ([our tips](https://coderefinery.github.io/installation/zoom/])
+> - Install the [Zoom client](https://zoom.us/download) ([our tips](https://coderefinery.github.io/installation/zoom/]))
 > - Get a [GitHub account](https://github.com/join)
 > - Install GitHub Desktop:
 >   - [Windows and macOS](https://desktop.github.com/)
