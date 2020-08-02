@@ -69,6 +69,10 @@ exercises: 0
 - Not the only service that provides this (other popular services are
 [GitLab](https://about.gitlab.com/) and [Bitbucket](https://bitbucket.org)).
 
+**GitHub Desktop**
+- Graphical user interface to Git and GitHub which runs locally on your computer.
+- There are other tools that can do this, too (e.g. [Sourcetree](https://www.sourcetreeapp.com/)).
+
 ---
 
 ## Commits, branches, repositories, forks, clones
