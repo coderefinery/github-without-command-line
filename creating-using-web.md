@@ -12,8 +12,6 @@ questions:
 
 # Creating repositories using the web interface
 
-## Creating repositories using the web interface
-
 We will practice creating a new repository using the web interface, committing
 changes to it, browsing the changes, creating branches, and more.
 This is everything you need to do basic file management, though you'll
