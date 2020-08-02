@@ -23,6 +23,13 @@ learner shares their screen (video) and others can ask questions and give
 suggestions. In a larger group the instructor can demonstrate these and then
 participants can try on their own and then ask questions.
 
+
+### Note to instructors
+
+In this episode we are all in the main room and do these steps together as
+follow-along with pauses with time for questions and answers, no breakout rooms
+yet.
+
 ---
 
 ### Step 1: Create a repository with a README and a license
