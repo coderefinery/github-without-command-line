@@ -62,7 +62,7 @@ exercises: 0
 - Tool that can record and synchronize snapshots.
 - Not the only tool that can record snapshots (other popular tools are
 [Subversion](https://subversion.apache.org) and [Mercurial](https://www.mercurial-scm.org)).
-- Format that can be read by many different tools.
+- Not only a tool but also a format that can be read by many different tools.
 
 **GitHub**
 - Service that provides hosting for Git repositories with a nice web interface.
