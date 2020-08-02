@@ -5,33 +5,28 @@ teaching: 20
 exercises: 0
 ---
 
-
 # Basics and motivation
 
 ```{questions}
-  - What is version control and why?
-  - What are commits and branches?
-  - What are forks and clones?
+- What is version control and why?
+- What are commits and branches?
+- What are forks and clones?
 ```
 
 ```{objectives}
-  - Get a mental representation for commits and branches.
-  - Understand the difference between forks and clones.
-  - Understand the difference between Git and GitHub.
+- Get a mental representation for commits and branches.
+- Understand the difference between forks and clones.
+- Understand the difference between Git and GitHub.
 ```
 
-
-> ## Goal of this tutorial
->
-> - Get a grasp of Git and GitHub without the command line
->
-> ### What we will not cover
+> ## What we will not cover
 >
 > - Command line interface
 > - Cloning using SSH protocol and SSH keys
 > - Rebasing and squashing
 > - Many Git tricks which can be explored later
 {: .discussion}
+
 
 ## Version control
 
