@@ -114,7 +114,6 @@ Network graph of all commits in the
 [EHT-imaging](https://github.com/achael/eht-imaging/network) repository.
 ```
 
-
 ---
 
 > ## Why using repositories?
@@ -126,4 +125,9 @@ Network graph of all commits in the
 > - We do not have to wait for others to send us "the latest version" over email.
 > - We do not have to merge parallel developments by hand.
 > - It is possible to serve websites directly from a repository.
+{: .discussion}
+
+> ## Discussion
+>
+> - How have you solved these in the past without version control?
 {: .discussion}
