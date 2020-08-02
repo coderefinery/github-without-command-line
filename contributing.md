@@ -130,6 +130,15 @@ sharing screen:
 
 ### Step 4: Resolving a conflict
 
+### Note to instructors
+
+- "Non-talking instructor" prepares a conflicting commit during session (check
+  what the first PR does).
+- Conflict can be shown as demo.
+
+
+### Exercise/demo: let us experience a conflict
+
 **When merging** two branches a conflict can arise when the same file **portion**
 has been modified in two **different** ways on the two branches.
 
