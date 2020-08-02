@@ -75,9 +75,24 @@ And now we have a repository with a README and LICENSE and one commit:
 We can easily add new files from the web interface.
 
 Create a file, e.g. `guacamole.md` (the "md" ending signals that this is in Markdown format):
-<img src="{{ site.baseurl }}/img/creating-using-web/new-file-buttons.png" width="400px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-web/new-file-buttons.png" width="600px" style="border:2px solid #000000;">
 
-In the new file you can share your favorite cooking recipe (or something else):
+In the new file you can share your favorite cooking recipe (or something else).
+You can also copy-paste this as a starting point:
+```
+Ingredients:
+- 2 avocados
+- 1 lime
+- 2 tsp salt
+
+Instructions:
+- cut and mash avocados
+- chop onion
+- squeeze lime
+- add salt
+- and mix well
+```
+
 <img src="{{ site.baseurl }}/img/creating-using-web/new-file-editor.png" width="400px" style="border:2px solid #000000;">
 
 Then add a commit message and commit (save):
@@ -114,7 +129,6 @@ Once you have done that, browse your commits:
 <img src="{{ site.baseurl }}/img/creating-using-web/commits-browse.png" width="300px" style="border:2px solid #000000;">
 
 In my example I got:
-
 <img src="{{ site.baseurl }}/img/creating-using-web/commits-example.png" width="800px" style="border:2px solid #000000;">
 
 ---
@@ -128,15 +142,16 @@ will learn in the next episode.
 
 - Create a new branch:
   <img src="{{ site.baseurl }}/img/creating-using-web/create-branch.png" width="400px" style="border:2px solid #000000;">
-- Modify your recipe on the newly created branch.
-- Then switch back to the `master` branch and browse your recipe there.
+- Modify your recipe on the newly created branch. Make sure you commit to the new branch:
+  <img src="{{ site.baseurl }}/img/creating-using-web/commit-experiment-branch.png" width="400px" style="border:2px solid #000000;">
+- Then switch back to the `master` branch and browse your recipe there. Compare the file on both branches.
 
 ---
 
 ### Step 5: Repository insights and settings
 
 Github gives us many insights into our repository.  Nothing here is
-really specific to Github (everything can be done with regular git),
+really specific to Github (everything can be done with regular Git),
 but they make it especially easy to see.  The **network** lets you see
 how all commits and branches relate.
 
@@ -168,7 +183,7 @@ to an existing repository.
 
 We made a separate branch, separate from the main branch `master`.
 What happens when we decide we like that change, and want to take it
-into use?  We will soon see the magic of git.
+into use?  We will soon see the magic of Git.
 
 First browse to the overview of all branches:
 <img src="{{ site.baseurl }}/img/creating-using-web/branches-click.png" width="400px" style="border:2px solid #000000;">
