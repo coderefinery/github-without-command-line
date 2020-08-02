@@ -42,12 +42,12 @@ work.  The important questions are who is the *owner* and what is the
 Make sure that you are **logged into GitHub**.
 
 To create a repository we either click the green button "New" (top left corner):
-<img src="{{ site.baseurl }}/img/creating-web/new-top-left.png" width="400px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-web/new-top-left.png" width="400px" style="border:2px solid #000000;">
 
 ---
 
 Or if you see your profile page, there is a "+" menu (top right corner):
-<img src="{{ site.baseurl }}/img/creating-web/new-top-right.png" width="400px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-web/new-top-right.png" width="400px" style="border:2px solid #000000;">
 
 ---
 
@@ -60,13 +60,13 @@ We then land at the following form.  Please fill it out and set **Initialize
 this repository with a README** and choose a license.  If you don't find a
 suitable license, we will show later how you can add your own.
 
-<img src="{{ site.baseurl }}/img/creating-web/form.png" width="600px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-web/form.png" width="600px" style="border:2px solid #000000;">
 
 ---
 
 And now we have a repository with a README and LICENSE and one commit:
 
-<img src="{{ site.baseurl }}/img/creating-web/created.png" width="600px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-web/created.png" width="600px" style="border:2px solid #000000;">
 
 ---
 
@@ -75,14 +75,14 @@ And now we have a repository with a README and LICENSE and one commit:
 We can easily add new files from the web interface.
 
 Create a file, e.g. `guacamole.md` (the "md" ending signals that this is in Markdown format):
-<img src="{{ site.baseurl }}/img/creating-web/new-file-buttons.png" width="400px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-web/new-file-buttons.png" width="400px" style="border:2px solid #000000;">
 
 In the new file you can share your favorite cooking recipe (or something else):
-<img src="{{ site.baseurl }}/img/creating-web/new-file-editor.png" width="400px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-web/new-file-editor.png" width="400px" style="border:2px solid #000000;">
 
 Then add a commit message and commit (save):
 
-<img src="{{ site.baseurl }}/img/creating-web/new-file-commit.png" width="600px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-web/new-file-commit.png" width="600px" style="border:2px solid #000000;">
 
 > ## Discussion: Good commit messages
 >
@@ -108,14 +108,14 @@ Now improve the recipe by adding an ingredient or an instruction step:
 - Click the "pen" icon on top right ("edit this file").
 
 Make an improvement, write a commit message, commit:
-<img src="{{ site.baseurl }}/img/creating-web/edit-file-preview.png" width="400px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-web/edit-file-preview.png" width="400px" style="border:2px solid #000000;">
 
 Once you have done that, browse your commits:
-<img src="{{ site.baseurl }}/img/creating-web/commits-browse.png" width="300px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-web/commits-browse.png" width="300px" style="border:2px solid #000000;">
 
 In my example I got:
 
-<img src="{{ site.baseurl }}/img/creating-web/commits-example.png" width="800px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-web/commits-example.png" width="800px" style="border:2px solid #000000;">
 
 ---
 
@@ -127,7 +127,7 @@ get in the way of each other.  It also allows collaboration, as we
 will learn in the next episode.
 
 - Create a new branch:
-  <img src="{{ site.baseurl }}/img/creating-web/create-branch.png" width="400px" style="border:2px solid #000000;">
+  <img src="{{ site.baseurl }}/img/creating-using-web/create-branch.png" width="400px" style="border:2px solid #000000;">
 - Modify your recipe on the newly created branch.
 - Then switch back to the `master` branch and browse your recipe there.
 
@@ -145,7 +145,7 @@ Have a look at the network, hover over the dots in the graph
 your branches and commits, and it never hurts to come back here and
 check:
 
-<img src="{{ site.baseurl }}/img/creating-web/network.png" width="800px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-web/network.png" width="800px" style="border:2px solid #000000;">
 
 ---
 
@@ -160,7 +160,7 @@ to an existing repository.
 - Once you have chosen, click on the license name, and you can enter your GitHub repository URL (top right)
   which will open a pull request (change request) to the repository:
 
-<img src="{{ site.baseurl }}/img/creating-web/choosealicense.png" width="800px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-web/choosealicense.png" width="800px" style="border:2px solid #000000;">
 
 ---
 
@@ -171,11 +171,11 @@ What happens when we decide we like that change, and want to take it
 into use?  We will soon see the magic of git.
 
 First browse to the overview of all branches:
-<img src="{{ site.baseurl }}/img/creating-web/branches-click.png" width="400px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-web/branches-click.png" width="400px" style="border:2px solid #000000;">
 
 Now to initiate a merge, click on "New pull request":
 
-<img src="{{ site.baseurl }}/img/creating-web/branches-overview.png" width="800px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-web/branches-overview.png" width="800px" style="border:2px solid #000000;">
 
 We will return to "pull requests" when we later discuss how to contribute
 changes.
