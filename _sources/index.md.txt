@@ -50,7 +50,7 @@ guide
 ```
 
 
-### Similar workshops which serve as inspiration
+## Similar workshops which serve as inspiration
 
 - [https://github.com/lexnederbragt/github_collab_workshop](https://github.com/lexnederbragt/github_collab_workshop)
 - [https://github.com/arockenberger/github_collab_workshop](https://github.com/arockenberger/github_collab_workshop)

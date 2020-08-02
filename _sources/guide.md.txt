@@ -1,6 +1,6 @@
 # Instructor's guide
 
-### Learning outcomes
+## Learning outcomes
 
 - Basics of Git/ version control
   - Commits
@@ -27,13 +27,13 @@
 - How to share websites/homepages using GitHub Pages
 
 
-### Timing
+## Timing
 
 First iteration of this workshop is given as 2 x (almost) 2 hours, one week
 apart.
 
 
-### Exercise repository for the "contributing" episode
+## Exercise repository for the "contributing" episode
 
 Generate an exercise repository from
 [https://github.com/coderefinery/template-contributing-exercise](https://github.com/coderefinery/template-contributing-exercise).
