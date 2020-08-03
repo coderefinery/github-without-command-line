@@ -20,6 +20,9 @@
 project = 'GitHub without the command line'
 copyright = '2020, CodeRefinery contributors'
 author = 'CodeRefinery contributors'
+github_user = 'coderefinery'
+github_repo_name = ''  # auto-detected from dirname if blank
+github_version = 'master/'
 
 
 # -- General configuration ---------------------------------------------------
@@ -73,3 +76,13 @@ html_theme = 'sphinx_rtd_theme'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 # html_static_path = ['_static']
+
+# HTML context:
+from os.path import dirname, realpath, basename
+html_context = {'display_github': True,
+                'github_user': github_user,
+                # Auto-detect directory name.  This can break, but
+                # useful as a default.
+                'github_repo': github_repo_name or basename(dirname(realpath(__file__))),
+                'github_version': github_version,
+               }
