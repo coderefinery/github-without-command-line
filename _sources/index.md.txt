@@ -25,10 +25,13 @@ command-line course Git course such as
 course](https://coderefinery.github.io/git-intro/).  Check out our
 [other upcoming workshops](https://coderefinery.org/workshops/upcoming/).
 
+## Episodes
+
 ```{toctree}
 ---
 caption: Episodes
 maxdepth: 1
+hidden:
 ---
 
 basics
@@ -38,6 +41,16 @@ contributing
 doi
 websites
 ```
+
+```{csv-table}
+20 min , {doc}`basics`
+30 min , {doc}`creating-using-web`
+40 min , {doc}`creating-using-desktop`
+60 min , {doc}`contributing`
+30 min , {doc}`doi`
+30 min , {doc}`websites`
+```
+
 
 ```{toctree}
 ---
