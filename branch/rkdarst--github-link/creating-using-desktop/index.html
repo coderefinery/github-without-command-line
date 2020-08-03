@@ -1,0 +1,381 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Creating repositories using GitHub Desktop &mdash; GitHub without the command line  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/mystnb.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/sphinx_lesson.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/jupyter-sphinx.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/togglebutton.js"></script>
+        <script src="../_static/mystnb.js"></script>
+        <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Contributing to existing repositories" href="../contributing/" />
+    <link rel="prev" title="Creating repositories using the web interface" href="../creating-using-web/" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../" class="icon icon-home" alt="Documentation Home"> GitHub without the command line
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Episodes</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basics/">Basics and motivation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../creating-using-web/">Creating repositories using the web interface</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Creating repositories using GitHub Desktop</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#step-1-create-an-example-spreadsheet">Step 1: Create an example spreadsheet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-2-initialize-a-repository-with-github-desktop">Step 2: Initialize a repository with GitHub Desktop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-3-commit-the-csv-data-file">Step 3: Commit the CSV data file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-4-publish-the-repository-on-github">Step 4: Publish the repository on GitHub</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-5-create-a-branch-commit-to-it-and-share-it">Step 5: Create a branch, commit to it, and share it</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-6-fetch-and-pull-changes-from-the-web">Step 6: Fetch and pull changes from the web</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing/">Contributing to existing repositories</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../doi/">Making your project citable</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../websites/">Hosting websites/homepages on GitHub Pages</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Other material</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../quick-reference/">Quick reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor’s guide</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">GitHub without the command line</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Creating repositories using GitHub Desktop</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/coderefinery/github-without-command-line/blob/master/creating-using-desktop.md" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="creating-repositories-using-github-desktop">
+<h1>Creating repositories using GitHub Desktop<a class="headerlink" href="#creating-repositories-using-github-desktop" title="Permalink to this headline">¶</a></h1>
+<p>We will practice creating a new repository using GitHub Desktop, committing
+changes to it, browsing the changes, creating branches, and more.
+This is practically the same as the previous episode, but we introduce
+some new concepts:</p>
+<ul class="simple">
+<li><p>There is now two copies of your repository: that on your computer,
+and that on Github.</p></li>
+<li><p>We introduce the concepts of <strong>pull</strong> and <strong>fetch</strong> to move code
+Github→local, and <strong>push</strong> to move code local→Github.</p></li>
+<li><p><strong>Github Desktop</strong> is a application that lets you manage files with
+git. It is <em>not</em> the only way to use git, but it is easy and
+integrated, so it’s a nice thing to teach.</p></li>
+</ul>
+<p>In small groups it can be useful to do this side by side (in-person) or one
+learner shares their screen (video) and others can ask questions and give
+suggestions. In a larger group the instructor can demonstrate these and then
+participants can try on their own and then ask questions.</p>
+<hr class="docutils" />
+<div class="section" id="step-1-create-an-example-spreadsheet">
+<h2>Step 1: Create an example spreadsheet<a class="headerlink" href="#step-1-create-an-example-spreadsheet" title="Permalink to this headline">¶</a></h2>
+<p>In this exercise, we will share a data file in CSV (comma-separated
+values) format and see how Github nicely displays it.  First, step, we
+need to make some CSV file.</p>
+<p>Either create a new CSV file:</p>
+<ul class="simple">
+<li><p>Create a spreadsheet with Excel/LibreOffice or similar, containing some fantasy data</p></li>
+<li><p>Export the spreadsheet to CSV format</p></li>
+</ul>
+<p>You can also share an existing one.</p>
+<p>If you don’t feel like creating a new CSV file, you can download an example:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/coderefinery/github-without-command-line/blob/gh-pages/data/academy-award-female.csv">https://github.com/coderefinery/github-without-command-line/blob/gh-pages/data/academy-award-female.csv</a></p></li>
+<li><p>Click on “Raw”, then right-click and “Save as…”</p></li>
+</ul>
+<p>Make sure the file is actually in CSV format, not Excel/spreadsheet
+format.  That will work with git, but all you can do is download it.</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="step-2-initialize-a-repository-with-github-desktop">
+<h2>Step 2: Initialize a repository with GitHub Desktop<a class="headerlink" href="#step-2-initialize-a-repository-with-github-desktop" title="Permalink to this headline">¶</a></h2>
+<p>First, we make a new local repository.  At this stage, github.com
+doesn’t know anything about it.</p>
+<ul class="simple">
+<li><p>Start GitHub Desktop</p></li>
+<li><p>Click on “+ Create a New Repository on your hard drive…”</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/before-create.png" src="../_images/before-create.png" />
+</div>
+<div class="figure align-default">
+<img alt="../_images/creating.png" src="../_images/creating.png" />
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="step-3-commit-the-csv-data-file">
+<h2>Step 3: Commit the CSV data file<a class="headerlink" href="#step-3-commit-the-csv-data-file" title="Permalink to this headline">¶</a></h2>
+<p>Now, we add the CSV to git.  First, we put it in the git directory,
+then tell git to save it.</p>
+<ul class="simple">
+<li><p>Copy your (own or downloaded) CSV file to the repository folder</p></li>
+<li><p>Note how GitHub desktop changed and shows you the changes</p></li>
+<li><p>Make a commit</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/diff-before-commit.png" src="../_images/diff-before-commit.png" />
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="step-4-publish-the-repository-on-github">
+<h2>Step 4: Publish the repository on GitHub<a class="headerlink" href="#step-4-publish-the-repository-on-github" title="Permalink to this headline">¶</a></h2>
+<p>This is the step where we actually upload it to Github.  Github
+Desktop lets us create a new repository on github.com without using
+the web browser.  In this step, we also <strong>push</strong> the changes to the
+<strong>remote</strong> repository, though it happens without us seeing all the
+middle steps.</p>
+<ul class="simple">
+<li><p>Browse the history (click “History”)</p></li>
+<li><p>Don’t use the same name as the previous episode</p></li>
+<li><p>You can choose between a private and a public repository</p></li>
+<li><p>Click “Publish repository” (this only publishes the current branch)</p></li>
+<li><p>After you have pushed, visit the repository via the website</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/publish.png" src="../_images/publish.png" />
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="step-5-create-a-branch-commit-to-it-and-share-it">
+<h2>Step 5: Create a branch, commit to it, and share it<a class="headerlink" href="#step-5-create-a-branch-commit-to-it-and-share-it" title="Permalink to this headline">¶</a></h2>
+<p>This is pretty much the normal work: edit a file, commit it.  But, in
+this case, we are going to commit it to a new branch.  Why?  We’ll see
+later.</p>
+<ul class="simple">
+<li><p>Make a change to the CSV file directly on your computer, but do not commit yet</p></li>
+<li><p>Observe the change you made in GitHub Desktop before committing</p></li>
+<li><p>Create a new branch on GitHub Desktop</p></li>
+<li><p>“Bring my changes to …” the new branch</p></li>
+<li><p>Commit to the new branch on GitHub Desktop</p></li>
+<li><p>Publish the new branch to GitHub</p></li>
+<li><p>Browse your branches and changes on GitHub</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="step-6-fetch-and-pull-changes-from-the-web">
+<h2>Step 6: Fetch and pull changes from the web<a class="headerlink" href="#step-6-fetch-and-pull-changes-from-the-web" title="Permalink to this headline">¶</a></h2>
+<p>Now we show how to <strong>pull</strong> code from Github→local.</p>
+<ul class="simple">
+<li><p>Edit the file via the GitHub web interface and commit there to <code class="docutils literal notranslate"><span class="pre">master</span></code></p></li>
+<li><p>Switch to GitHub Desktop</p></li>
+<li><p>Change current branch to <code class="docutils literal notranslate"><span class="pre">master</span></code></p></li>
+<li><p>Click “Fetch origin”</p></li>
+<li><p>Click “Pull origin”</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/pull-origin.png" src="../_images/pull-origin.png" />
+</div>
+<ul class="simple">
+<li><p>Browse the “History” in GitHub Desktop</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/after-pull.png" src="../_images/after-pull.png" />
+</div>
+<p>What’s the difference between <strong>fetch</strong> and <strong>pull</strong>?  Fetch gets the
+changes, but doesn’t apply them locally.  Pull = fetch + apply changes
+locally in your current repository (does a <strong>merge</strong> which we will
+discuss later).</p>
+<hr class="docutils" />
+<div class="admonition-summary discussion admonition">
+<p class="admonition-title">Summary</p>
+<p>With Github Desktop, we can do everything we can on the web, but it’s
+more natural.  The most important concepts are that of <strong>remotes</strong>
+(links between repositories), <strong>pushing</strong>, and <strong>pulling</strong>.</p>
+<p>We don’t cover it in this workshop, but you can eventually do all of
+these things from the command line, for example <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">commit</span> <span class="pre">some_file.csv</span></code>.  Once you are doing many things, this can be faster.
+Still, there’s almost always a place for applications like the GitHub Desktop
+and other graphical user interfaces to
+make things smoother.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../contributing/" class="btn btn-neutral float-right" title="Contributing to existing repositories" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../creating-using-web/" class="btn btn-neutral float-left" title="Creating repositories using the web interface" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, CodeRefinery contributors
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
