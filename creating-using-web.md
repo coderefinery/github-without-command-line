@@ -24,7 +24,7 @@ suggestions. In a larger group the instructor can demonstrate these and then
 participants can try on their own and then ask questions.
 
 
-### Note to instructors
+## Note to instructors
 
 In this episode we are all in the main room and do these steps together as
 follow-along with pauses with time for questions and answers, no breakout rooms
@@ -32,7 +32,7 @@ yet.
 
 ---
 
-### Step 1: Create a repository with a README and a license
+## Step 1: Create a repository with a README and a license
 
 You start off by creating a repository from the web.  In fact, we
 usually end up doing this from the web, no matter how you do your daily
@@ -70,7 +70,7 @@ And now we have a repository with a README and LICENSE and one commit:
 
 ---
 
-### Step 2: Create a new file
+## Step 2: Create a new file
 
 We can easily add new files from the web interface.
 
@@ -114,7 +114,7 @@ Then add a commit message and commit (save):
 
 ---
 
-### Step 3: Modify a file
+## Step 3: Modify a file
 
 We can also easily modify files from the web.
 
@@ -133,7 +133,7 @@ In my example I got:
 
 ---
 
-### Step 4: Create a new branch
+## Step 4: Create a new branch
 
 A **branch** is a separate line of development. They are useful when
 you have multiple things going on at once and you don't want them to
@@ -148,7 +148,7 @@ will learn in the next episode.
 
 ---
 
-### Step 5: Repository insights and settings
+## Step 5: Repository insights and settings
 
 Github gives us many insights into our repository.  Nothing here is
 really specific to Github (everything can be done with regular Git),
@@ -179,7 +179,7 @@ to an existing repository.
 
 ---
 
-### Discussion: How can we merge branches?
+## Discussion: How can we merge branches?
 
 We made a separate branch, separate from the main branch `master`.
 What happens when we decide we like that change, and want to take it

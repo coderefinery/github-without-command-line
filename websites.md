@@ -26,7 +26,7 @@ This is how all
 material is hosted.
 
 
-### Exercise
+## Exercise
 
 - Deploy own website reusing a template
 - Make a change to the website after it has been deployed for the first time
