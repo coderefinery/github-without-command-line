@@ -1,0 +1,358 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Making your project citable &mdash; GitHub without the command line  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/mystnb.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/sphinx_lesson.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/jupyter-sphinx.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/togglebutton.js"></script>
+        <script src="../_static/mystnb.js"></script>
+        <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Hosting websites/homepages on GitHub Pages" href="../websites/" />
+    <link rel="prev" title="Contributing to existing repositories using pull requests" href="../contributing/" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../" class="icon icon-home" alt="Documentation Home"> GitHub without the command line
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Episodes</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basics/">Basics and motivation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../creating-using-web/">Creating repositories using the web interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../creating-using-desktop/">Creating repositories using GitHub Desktop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing/">Contributing to existing repositories using pull requests</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Making your project citable</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#step-1-prepare-an-example-repository">Step 1: Prepare an example repository</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-2-activate-the-repository-on-zenodo-sandbox">Step 2: Activate the repository on Zenodo (sandbox)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-3-create-a-release-and-get-a-doi">Step 3: Create a “release” and get a DOI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-4-add-a-doi-badge-to-your-repository">Step 4: Add a DOI badge to your repository</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../websites/">Hosting websites/homepages on GitHub Pages</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Other material</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../quick-reference/">Quick reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor’s guide</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">GitHub without the command line</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Making your project citable</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/coderefinery/github-without-command-line/blob/master/doi.md" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="making-your-project-citable">
+<h1>Making your project citable<a class="headerlink" href="#making-your-project-citable" title="Permalink to this headline">¶</a></h1>
+<div class="admonition-discussion-is-depositing-your-data-code-on-github-enough discussion admonition">
+<p class="admonition-title">Discussion: is depositing your data/code on GitHub enough?</p>
+<ul class="simple">
+<li><p>Consider the aspect of findability 5 or 10 years from now.</p></li>
+<li><p>What could go wrong?</p></li>
+</ul>
+</div>
+<p>There are many services where you can share or archive your code and data:
+See for instance our
+<a class="reference external" href="https://coderefinery.github.io/reproducible-research/03-sharing/#services-for-sharing-and-collaborating-on-research-data">lesson on reproducible research</a>.</p>
+<p>In this present lesson we will discuss one of the many options to get a <strong>digital object identifier (DOI)</strong>
+for your dataset or code:
+<a class="reference external" href="https://zenodo.org/">Zenodo</a>, A general-purpose open access repository
+created by <a class="reference external" href="https://www.openaire.eu/">OpenAIRE</a> and CERN.
+<strong>Integration with GitHub</strong>, allows researchers to upload files up to 50 GB.</p>
+<div class="admonition-we-will-exercise-in-the-zenodo-sandbox discussion admonition">
+<p class="admonition-title">We will exercise in the Zenodo sandbox</p>
+<p>We will practice on <a class="reference external" href="https://sandbox.zenodo.org/">https://sandbox.zenodo.org/</a>
+and not on the “real” <a class="reference external" href="https://zenodo.org/">https://zenodo.org/</a>
+to make sure we do not create “real” DOIs which we cannot remove.</p>
+<p>The sandbox service is useful to calibrate your setup until you are happy with the result
+and then you can go for the real service. Once a dataset is uploaded to the “real” service,
+it cannot be easily removed or modified again (and this is good, otherwise DOIs would not make much sense).</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="step-1-prepare-an-example-repository">
+<h2>Step 1: Prepare an example repository<a class="headerlink" href="#step-1-prepare-an-example-repository" title="Permalink to this headline">¶</a></h2>
+<p>Through web:</p>
+<ul class="simple">
+<li><p>Create a new repository on GitHub</p></li>
+<li><p>Upload some example data into it</p></li>
+</ul>
+<p>Or using GitHub Desktop:</p>
+<ul class="simple">
+<li><p>Create a new repository</p></li>
+<li><p>Commit some example data</p></li>
+<li><p>Publish your example repository to GitHub</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/example-repo.png" class="with-border" src="../_images/example-repo.png" />
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="step-2-activate-the-repository-on-zenodo-sandbox">
+<h2>Step 2: Activate the repository on Zenodo (sandbox)<a class="headerlink" href="#step-2-activate-the-repository-on-zenodo-sandbox" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-we-will-exercise-in-the-zenodo-sandbox discussion admonition">
+<p class="admonition-title">We will exercise in the Zenodo sandbox</p>
+<p>We will practice on <a class="reference external" href="https://sandbox.zenodo.org/">https://sandbox.zenodo.org/</a>
+and not on the “real” <a class="reference external" href="https://zenodo.org/">https://zenodo.org/</a>
+to make sure we do not create “real” DOIs which we cannot remove.</p>
+</div>
+<ul class="simple">
+<li><p>Visit <a class="reference external" href="https://sandbox.zenodo.org/account/settings/github/">https://sandbox.zenodo.org/account/settings/github/</a>:</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/zenodo.png" class="with-border" src="../_images/zenodo.png" />
+</div>
+<ul class="simple">
+<li><p>Select the repository you wish to preserve:</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/switch.png" class="with-border" src="../_images/switch.png" />
+</div>
+<ul class="simple">
+<li><p>If it is not there, you may need to “Sync now …”:</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/sync-now.png" class="with-border" src="../_images/sync-now.png" />
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="step-3-create-a-release-and-get-a-doi">
+<h2>Step 3: Create a “release” and get a DOI<a class="headerlink" href="#step-3-create-a-release-and-get-a-doi" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Go back to the webpage of your GitHub repository</p></li>
+<li><p>Click on “releases”:</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/releases.png" class="with-border" src="../_images/releases.png" />
+</div>
+<ul class="simple">
+<li><p>Fill out the form and click on “Publish release”:</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/publish-release.png" class="with-border" src="../_images/publish-release.png" />
+</div>
+<ul class="simple">
+<li><p>Finally reload <a class="reference external" href="https://sandbox.zenodo.org/account/settings/github/">https://sandbox.zenodo.org/account/settings/github/</a></p></li>
+<li><p>It can take few minutes for the project to be deposited:</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/zenodo-received.png" class="with-border" src="../_images/zenodo-received.png" />
+</div>
+<ul class="simple">
+<li><p>After a while it turns to this:</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/zenodo-published.png" class="with-border" src="../_images/zenodo-published.png" />
+</div>
+</div>
+<hr class="docutils" />
+<div class="section" id="step-4-add-a-doi-badge-to-your-repository">
+<h2>Step 4: Add a DOI badge to your repository<a class="headerlink" href="#step-4-add-a-doi-badge-to-your-repository" title="Permalink to this headline">¶</a></h2>
+<p>This is bonus but for visitors of your GiHub repository it can be nice to find a badge
+in your README that informs them about and links to the preserved dataset/code on Zenodo.</p>
+<ul class="simple">
+<li><p>On Zenodo, click on the badge (last figure) which opens up:</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/zenodo-badge.png" class="with-border" src="../_images/zenodo-badge.png" />
+</div>
+<ul class="simple">
+<li><p>Try to add such a badge to your README for the exercise repository:</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/github-badge.png" class="with-border" src="../_images/github-badge.png" />
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../websites/" class="btn btn-neutral float-right" title="Hosting websites/homepages on GitHub Pages" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../contributing/" class="btn btn-neutral float-left" title="Contributing to existing repositories using pull requests" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, CodeRefinery contributors
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
