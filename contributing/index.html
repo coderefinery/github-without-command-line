@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Contributing to existing repositories &mdash; GitHub without the command line  documentation</title>
+  <title>Contributing to existing repositories using pull requests &mdash; GitHub without the command line  documentation</title>
   
 
   
@@ -96,11 +96,10 @@
 <li class="toctree-l1"><a class="reference internal" href="../basics/">Basics and motivation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../creating-using-web/">Creating repositories using the web interface</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../creating-using-desktop/">Creating repositories using GitHub Desktop</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Contributing to existing repositories</a><ul>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Contributing to existing repositories using pull requests</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#note-to-instructors">Note to instructors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#step-1-learn-how-to-add-collaborators-to-your-repository">Step 1: Learn how to add collaborators to your repository</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#step-2-submit-a-small-change-via-the-web-interface-as-collaborator">Step 2: Submit a small change via the web interface as collaborator</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#discussion">Discussion</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#step-3-submit-a-small-change-via-the-web-interface-as-external-contributor">Step 3: Submit a small change via the web interface as external contributor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#step-4-resolving-a-conflict">Step 4: Resolving a conflict</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id1">Note to instructors</a></li>
@@ -168,7 +167,7 @@
     
       <li><a href="../" class="icon icon-home"></a> &raquo;</li>
         
-      <li>Contributing to existing repositories</li>
+      <li>Contributing to existing repositories using pull requests</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -189,10 +188,11 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="contributing-to-existing-repositories">
-<h1>Contributing to existing repositories<a class="headerlink" href="#contributing-to-existing-repositories" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="contributing-to-existing-repositories-using-pull-requests">
+<h1>Contributing to existing repositories using pull requests<a class="headerlink" href="#contributing-to-existing-repositories-using-pull-requests" title="Permalink to this headline">¶</a></h1>
 <p>In this session we will learn how to contribute to repositories which either
-belong to others or belong to a group that you are part of.</p>
+belong to a group that you are part of or
+belong to others.</p>
 <p>We will do this in a progression from a small trivial fix to a change proposal
 and discuss the pros and cons.</p>
 <div class="section" id="note-to-instructors">
@@ -219,8 +219,9 @@ others would be to add your group members or collaborators as “collaborators�
 under GitHub.  This allows them to change things directly (but we’ll
 actually do it with review).</p>
 <ul class="simple">
-<li><p>Click on “Settings” (top right), then “Manage access” (left), then “Invite a collaborator” (green button)</p></li>
-<li><p>You can try this with one of the repositories which we created in the earlier episodes</p></li>
+<li><p>Instructor adds one or two learners who volunteer to later contribute a change via screen sharing.</p></li>
+<li><p>You can try this with one of the repositories which we created in the earlier episodes.</p></li>
+<li><p>Click on “Settings” (top right), then “Manage access” (left), then “Invite a collaborator” (green button).</p></li>
 </ul>
 <div class="figure align-default">
 <img alt="../_images/invite-collaborators.png" class="with-border" src="../_images/invite-collaborators.png" />
@@ -243,11 +244,11 @@ to be able to do that.</p>
 <p>In this exercise we will not change the <code class="docutils literal notranslate"><span class="pre">master</span></code> branch directly but
 we will submit a “pull request” (a <strong>change proposal</strong>) towards the <code class="docutils literal notranslate"><span class="pre">master</span></code> branch
 for <strong>code review</strong>.</p>
-<p><strong>Exercise</strong>: We will practice this by fixing a typo in an example text.</p>
+<p><strong>Exercise</strong>: We will practice this by suggesting a change in a recipe book:</p>
 <ul class="simple">
 <li><p>Instructor shares an example repository and adds a volunteer learner as collaborator</p></li>
-<li><p>Learner shares screen and edits an example file via web (click on the edit pen)</p></li>
-<li><p>We find a typo and correct it</p></li>
+<li><p>Learner shares screen and edits <code class="docutils literal notranslate"><span class="pre">recipes.txt</span></code> via web (click on the edit pen)</p></li>
+<li><p>We modify or extend one recipe from the example repository together by guiding the volunteer learner</p></li>
 <li><p>We do not commit directly to <code class="docutils literal notranslate"><span class="pre">master</span></code> but rather “Create a new branch for this commit and start a pull request.”</p></li>
 <li><p>We choose a meaningful branch name (it can be useful to prefix it with your name so that we know who this branch belongs to)</p></li>
 </ul>
@@ -284,17 +285,16 @@ can push commits to it directly, it can be useful to “protect” branches.</p>
 <div class="figure align-default">
 <img alt="../_images/branch-protection.png" class="with-border" src="../_images/branch-protection.png" />
 </div>
-</div>
-<hr class="docutils" />
-<div class="section" id="discussion">
-<h2>Discussion<a class="headerlink" href="#discussion" title="Permalink to this headline">¶</a></h2>
+<div class="admonition-discussion discussion admonition">
+<p class="admonition-title">Discussion</p>
 <ul class="simple">
 <li><p>Protecting the <code class="docutils literal notranslate"><span class="pre">master</span></code> branch “forces” all changes to it to be reviewed first.
 <strong>We recommend this for group repositories</strong>.
-Discuss the advantages/disadvantages of this.
-{: .discussion}</p></li>
+Discuss the advantages/disadvantages of this.</p></li>
 </ul>
 </div>
+</div>
+<hr class="docutils" />
 <div class="section" id="step-3-submit-a-small-change-via-the-web-interface-as-external-contributor">
 <h2>Step 3: Submit a small change via the web interface as external contributor<a class="headerlink" href="#step-3-submit-a-small-change-via-the-web-interface-as-external-contributor" title="Permalink to this headline">¶</a></h2>
 <p>Submitting a change proposal as external contributor (we assume you are not added
