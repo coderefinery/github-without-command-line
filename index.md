@@ -71,31 +71,22 @@ guide
 
 
 > Please prepare these before the workshop:
->
 > - Install the [Zoom client](https://zoom.us/download) ([our tips](https://coderefinery.github.io/installation/zoom/]))
 > - Get a [GitHub account](https://github.com/join)
 > - Install GitHub Desktop:
 >   - [Windows and macOS](https://desktop.github.com/)
 >   - [Linux](https://github.com/shiftkey/desktop/blob/linux/README.md)
 >
->
 > Troubleshooting:
->
 >   - GitHub Desktop not showing up on macOS launchpad:
 >     - You can find it in "Downloads"
 >
->
 > Not required:
->
 > - Previous knowledge of Git or GitHub
 > - Knowledge of the command line
 >
->
 > Optional reading:
->
 > - [Quickly get started with common tasks on GitHub](https://help.github.com/en/github/getting-started-with-github/quickstart)
->
->
 {: .prereq}
 
 > ## Why [GitHub](https://github.com)?
