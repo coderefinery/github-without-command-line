@@ -1,0 +1,340 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Collaborating and sharing using GitHub without command line &mdash; GitHub without the command line  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/togglebutton.css" type="text/css" />
+  <link rel="stylesheet" href="_static/mystnb.css" type="text/css" />
+  <link rel="stylesheet" href="_static/sphinx_lesson.css" type="text/css" />
+  <link rel="stylesheet" href="_static/jupyter-sphinx.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="#" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/togglebutton.js"></script>
+        <script src="_static/mystnb.js"></script>
+        <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+        <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex/" />
+    <link rel="search" title="Search" href="search/" />
+    <link rel="next" title="Basics and motivation" href="basics/" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home" alt="Documentation Home"> GitHub without the command line
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Episodes</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="basics/">Basics and motivation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="creating-using-web/">Creating repositories using the web interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="creating-using-desktop/">Creating repositories using GitHub Desktop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing/">Contributing to existing repositories</a></li>
+<li class="toctree-l1"><a class="reference internal" href="doi/">Making your project citable</a></li>
+<li class="toctree-l1"><a class="reference internal" href="websites/">Hosting websites/homepages on GitHub Pages</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Other material</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="quick-reference/">Quick reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guide/">Instructor’s guide</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">GitHub without the command line</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Collaborating and sharing using GitHub without command line</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/coderefinery/github-without-command-line/blob/master/index.md" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="collaborating-and-sharing-using-github-without-command-line">
+<h1>Collaborating and sharing using GitHub without command line<a class="headerlink" href="#collaborating-and-sharing-using-github-without-command-line" title="Permalink to this headline">¶</a></h1>
+<p>This tutorial provides a brief but usable introduction to Git and
+GitHub to exercise useful workflows within GitHub.  Git is a version
+control system which allows files and data to be synchronized.
+GitHub is a popular website that stores these repositories.</p>
+<p>This tutorial avoids using the command line. Instead we will practice collaborating and
+sharing using either the GitHub website or GitHub desktop
+application.  Why?  Because for many cases, it is enough.  Especially
+if you are contributing to existing non-code projects, this may be the
+fastest, easiest way to do it.  Git and GitHub provide collaboration
+tools to all kinds of projects, and there are all kinds of good ways
+to use it.</p>
+<p>This serves as an introduction to Git.  After this lesson, you will
+both be able to use Git, and feel much more confident taking a
+command-line course Git course such as
+<a class="reference external" href="https://coderefinery.github.io/git-intro/">CodeRefinery’s git-intro
+course</a>.  Check out our
+<a class="reference external" href="https://coderefinery.org/workshops/upcoming/">other upcoming workshops</a>.</p>
+<div class="section" id="episodes">
+<h2>Episodes<a class="headerlink" href="#episodes" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+</div>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>20 min</p></td>
+<td><p><a class="reference internal" href="basics/"><span class="doc">Basics and motivation</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>30 min</p></td>
+<td><p><a class="reference internal" href="creating-using-web/"><span class="doc">Creating repositories using the web interface</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>40 min</p></td>
+<td><p><a class="reference internal" href="creating-using-desktop/"><span class="doc">Creating repositories using GitHub Desktop</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>60 min</p></td>
+<td><p><a class="reference internal" href="contributing/"><span class="doc">Contributing to existing repositories</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>30 min</p></td>
+<td><p><a class="reference internal" href="doi/"><span class="doc">Making your project citable</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>30 min</p></td>
+<td><p><a class="reference internal" href="websites/"><span class="doc">Hosting websites/homepages on GitHub Pages</span></a></p></td>
+</tr>
+</tbody>
+</table>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Other material</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="quick-reference/">Quick reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guide/">Instructor’s guide</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="similar-workshops-which-serve-as-inspiration">
+<h2>Similar workshops which serve as inspiration<a class="headerlink" href="#similar-workshops-which-serve-as-inspiration" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://github.com/lexnederbragt/github_collab_workshop">https://github.com/lexnederbragt/github_collab_workshop</a></p></li>
+<li><p><a class="reference external" href="https://github.com/arockenberger/github_collab_workshop">https://github.com/arockenberger/github_collab_workshop</a></p></li>
+</ul>
+<div class="admonition-prerequisites prereq admonition">
+<p class="admonition-title">Prerequisites</p>
+<p>Please prepare these before the workshop:</p>
+<ul class="simple">
+<li><p>Install the <a class="reference external" href="https://zoom.us/download">Zoom client</a> (<a class="reference external" href="https://coderefinery.github.io/installation/zoom/%5D">our tips</a>)</p></li>
+<li><p>Get a <a class="reference external" href="https://github.com/join">GitHub account</a>
+(<a class="reference external" href="https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/deleting-your-user-account">here</a>
+are instructions on how to remove it later if you do not wish to keep it)</p></li>
+<li><p>Install GitHub Desktop:</p>
+<ul>
+<li><p><a class="reference external" href="https://desktop.github.com/">Windows and macOS</a></p></li>
+<li><p><a class="reference external" href="https://github.com/shiftkey/desktop/blob/linux/README.md">Linux</a></p></li>
+</ul>
+</li>
+</ul>
+<p>Troubleshooting:</p>
+<ul class="simple">
+<li><p>GitHub Desktop not showing up on macOS launchpad:</p>
+<ul>
+<li><p>You can find it in “Downloads”</p></li>
+</ul>
+</li>
+</ul>
+<p>Not required:</p>
+<ul class="simple">
+<li><p>Previous knowledge of Git or GitHub</p></li>
+<li><p>Knowledge of the command line</p></li>
+</ul>
+<p>Optional reading:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://help.github.com/en/github/getting-started-with-github/quickstart">Quickly get started with common tasks on GitHub</a></p></li>
+</ul>
+</div>
+<div class="admonition-why-github-https-github-com admonition">
+<p class="admonition-title">Why <a class="reference external" href="https://github.com">GitHub</a>?</p>
+<p>We will do this exercise on <a class="reference external" href="https://github.com">GitHub</a> but also
+<a class="reference external" href="https://gitlab.com">GitLab</a> and <a class="reference external" href="https://bitbucket.org">Bitbucket</a> allow
+similar workflows and basically everything that we will discuss is transferable. With
+this material and these exercises we do not endorse the company
+<a class="reference external" href="https://github.com">GitHub</a>. We have chosen to demonstrate a number of
+concepts using examples with <a class="reference external" href="https://github.com">GitHub</a> because it is
+currently the most popular web platform for hosting Git repositories and the chance is high
+that you will interact with <a class="reference external" href="https://github.com">GitHub</a>-based repositories even if you
+choose to host your Git repository on another platform.</p>
+<p>We also encourage course participants to use our new <a class="reference external" href="https://source.coderefinery.org">Nordic research software repository platform</a>,
+for more information see <a class="reference external" href="https://coderefinery.org/repository/">https://coderefinery.org/repository/</a>.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="basics/" class="btn btn-neutral float-right" title="Basics and motivation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, CodeRefinery contributors
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
