@@ -179,7 +179,9 @@ to an existing repository.
 
 ---
 
-## Discussion: How can we merge branches?
+## Optional step: How can we merge branches?
+
+This is an optional step which the instructor may demonstrate and discuss:
 
 We made a separate branch, separate from the main branch `master`.
 What happens when we decide we like that change, and want to take it
@@ -188,12 +190,12 @@ into use?  We will soon see the magic of Git.
 First browse to the overview of all branches:
 <img src="{{ site.baseurl }}/img/creating-using-web/branches-click.png" width="400px" style="border:2px solid #000000;">
 
-Now to initiate a merge, click on "New pull request":
-
+Now to initiate a merge (request), click on "New pull request":
 <img src="{{ site.baseurl }}/img/creating-using-web/branches-overview.png" width="800px" style="border:2px solid #000000;">
 
-We will return to "pull requests" when we later discuss how to contribute
-changes.
+Once a "pull request" (think of it as a change proposal) is open, it can be
+reviewed and merged. We will return to "pull requests" when we later discuss
+how to contribute changes.
 
 ---
 
