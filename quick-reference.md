@@ -23,6 +23,7 @@
 - **forking:** Taking a copy of a repository (which is typically not yours) - your
   copy (fork) stays on GitHub and you can make changes to your copy
   and eventually send them back.
+- **pull request:** Change proposal or merge proposal.
 - **GitHub pages**: A free hosting service for simple static
   webpages: [link](https://pages.github.com/).
 
