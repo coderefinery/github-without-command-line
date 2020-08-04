@@ -28,6 +28,13 @@
   webpages: [link](https://pages.github.com/).
 
 
+## Accessing list of branches and commits
+
+<img src="{{ site.baseurl }}/img/quick-reference/overview.png" width="600px" style="border:2px solid #000000;">
+
+For network view, click on "Settings", then "Network".
+
+
 ## Other references
 
 This is a no-command-line course, so there is not too much here.  The
