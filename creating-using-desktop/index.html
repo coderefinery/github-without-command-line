@@ -186,13 +186,15 @@ changes to it, browsing the changes, creating branches, and more.
 This is practically the same as the previous episode, but we introduce
 some new concepts:</p>
 <ul class="simple">
-<li><p>There is now two copies of your repository: that on your computer,
+<li><p>There are now two copies of your repository: that on your computer,
 and that on Github.</p></li>
 <li><p>We introduce the concepts of <strong>pull</strong> and <strong>fetch</strong> to move code
-Github→local, and <strong>push</strong> to move code local→Github.</p></li>
-<li><p><strong>Github Desktop</strong> is a application that lets you manage files with
-git. It is <em>not</em> the only way to use git, but it is easy and
+GitHub→local, and <strong>push</strong> to move code local→GitHub.</p></li>
+<li><p><strong>GitHub Desktop</strong> is a application that lets you manage files with
+Git. It is <em>not</em> the only way to use Git, but it is easy and
 integrated, so it’s a nice thing to teach.</p></li>
+<li><p>One can share existing projects also using the web interface, so GitHub Desktop
+is <em>not</em> the only way to make an existing project available on GitHub.</p></li>
 </ul>
 <p>In small groups it can be useful to do this side by side (in-person) or one
 learner shares their screen (video) and others can ask questions and give
@@ -202,27 +204,26 @@ participants can try on their own and then ask questions.</p>
 <div class="section" id="step-1-create-an-example-spreadsheet">
 <h2>Step 1: Create an example spreadsheet<a class="headerlink" href="#step-1-create-an-example-spreadsheet" title="Permalink to this headline">¶</a></h2>
 <p>In this exercise, we will share a data file in CSV (comma-separated
-values) format and see how Github nicely displays it.  First, step, we
+values) format and see how GitHub nicely displays it. First, we
 need to make some CSV file.</p>
 <p>Either create a new CSV file:</p>
 <ul class="simple">
 <li><p>Create a spreadsheet with Excel/LibreOffice or similar, containing some fantasy data</p></li>
 <li><p>Export the spreadsheet to CSV format</p></li>
 </ul>
-<p>You can also share an existing one.</p>
-<p>If you don’t feel like creating a new CSV file, you can download an example:</p>
+<p>If you don’t feel like creating a new CSV file, you can download an example
+<a class="reference external" href="https://raw.githubusercontent.com/coderefinery/github-without-command-line/master/data/academy-award-female.csv">here</a>:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://github.com/coderefinery/github-without-command-line/blob/gh-pages/data/academy-award-female.csv">https://github.com/coderefinery/github-without-command-line/blob/gh-pages/data/academy-award-female.csv</a></p></li>
-<li><p>Click on “Raw”, then right-click and “Save as…”</p></li>
+<li><p>Right-click and “Save as…”</p></li>
 </ul>
 <p>Make sure the file is actually in CSV format, not Excel/spreadsheet
-format.  That will work with git, but all you can do is download it.</p>
+format.</p>
 </div>
 <hr class="docutils" />
 <div class="section" id="step-2-initialize-a-repository-with-github-desktop">
 <h2>Step 2: Initialize a repository with GitHub Desktop<a class="headerlink" href="#step-2-initialize-a-repository-with-github-desktop" title="Permalink to this headline">¶</a></h2>
-<p>First, we make a new local repository.  At this stage, github.com
-doesn’t know anything about it.</p>
+<p>First, we make a new local repository. At this stage, the repository
+will only exist on our computer, not yet on GitHub.</p>
 <ul class="simple">
 <li><p>Start GitHub Desktop</p></li>
 <li><p>Click on “+ Create a New Repository on your hard drive…”</p></li>
@@ -271,13 +272,18 @@ middle steps.</p>
 <div class="section" id="step-5-create-a-branch-commit-to-it-and-share-it">
 <h2>Step 5: Create a branch, commit to it, and share it<a class="headerlink" href="#step-5-create-a-branch-commit-to-it-and-share-it" title="Permalink to this headline">¶</a></h2>
 <p>This is pretty much the normal work: edit a file, commit it.  But, in
-this case, we are going to commit it to a new branch.  Why?  We’ll see
+this case, we are going to <strong>commit it to a new branch</strong>.  Why?  We’ll see
 later.</p>
 <ul class="simple">
 <li><p>Make a change to the CSV file directly on your computer, but do not commit yet</p></li>
 <li><p>Observe the change you made in GitHub Desktop before committing</p></li>
 <li><p>Create a new branch on GitHub Desktop</p></li>
-<li><p>“Bring my changes to …” the new branch</p></li>
+<li><p>“Bring my changes to …” the new branch:</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/switch-branch.png" class="with-border" src="../_images/switch-branch.png" />
+</div>
+<ul class="simple">
 <li><p>Commit to the new branch on GitHub Desktop</p></li>
 <li><p>Publish the new branch to GitHub</p></li>
 <li><p>Browse your branches and changes on GitHub</p></li>
@@ -286,19 +292,30 @@ later.</p>
 <hr class="docutils" />
 <div class="section" id="step-6-fetch-and-pull-changes-from-the-web">
 <h2>Step 6: Fetch and pull changes from the web<a class="headerlink" href="#step-6-fetch-and-pull-changes-from-the-web" title="Permalink to this headline">¶</a></h2>
-<p>Now we show how to <strong>pull</strong> code from Github→local.</p>
+<p>Now we show how to <strong>fetch</strong> or <strong>pull</strong> code from Github→local.</p>
 <ul class="simple">
 <li><p>Edit the file via the GitHub web interface and commit there to <code class="docutils literal notranslate"><span class="pre">master</span></code></p></li>
 <li><p>Switch to GitHub Desktop</p></li>
 <li><p>Change current branch to <code class="docutils literal notranslate"><span class="pre">master</span></code></p></li>
 <li><p>Click “Fetch origin”</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/fetch-origin.png" class="with-border" src="../_images/fetch-origin.png" />
+</div>
+<ul class="simple">
+<li><p>Before continuing compare the histories on your computer and the network on GitHub and discuss what fetch did:</p></li>
+</ul>
+<div class="figure align-default">
+<img alt="../_images/network.png" class="with-border" src="../_images/network.png" />
+</div>
+<ul class="simple">
 <li><p>Click “Pull origin”</p></li>
 </ul>
 <div class="figure align-default">
 <img alt="../_images/pull-origin.png" class="with-border" src="../_images/pull-origin.png" />
 </div>
 <ul class="simple">
-<li><p>Browse the “History” in GitHub Desktop</p></li>
+<li><p>After pulling browse the “History” in GitHub Desktop</p></li>
 </ul>
 <div class="figure align-default">
 <img alt="../_images/after-pull.png" class="with-border" src="../_images/after-pull.png" />
