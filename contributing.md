@@ -9,10 +9,11 @@ questions:
   - How to review and discuss changes
 ---
 
-# Contributing to existing repositories
+# Contributing to existing repositories using pull requests
 
 In this session we will learn how to contribute to repositories which either
-belong to others or belong to a group that you are part of.
+belong to a group that you are part of or
+belong to others.
 
 We will do this in a progression from a small trivial fix to a change proposal
 and discuss the pros and cons.
@@ -42,8 +43,9 @@ others would be to add your group members or collaborators as "collaborators"
 under GitHub.  This allows them to change things directly (but we'll
 actually do it with review).
 
-- Click on "Settings" (top right), then "Manage access" (left), then "Invite a collaborator" (green button)
-- You can try this with one of the repositories which we created in the earlier episodes
+- Instructor adds one or two learners who volunteer to later contribute a change via screen sharing.
+- You can try this with one of the repositories which we created in the earlier episodes.
+- Click on "Settings" (top right), then "Manage access" (left), then "Invite a collaborator" (green button).
 
 <img src="{{ site.baseurl }}/img/contributing/invite-collaborators.png" width="800px" style="border:2px solid #000000;">
 
@@ -67,11 +69,11 @@ In this exercise we will not change the `master` branch directly but
 we will submit a "pull request" (a **change proposal**) towards the `master` branch
 for **code review**.
 
-**Exercise**: We will practice this by fixing a typo in an example text.
+**Exercise**: We will practice this by suggesting a change in a recipe book:
 
 - Instructor shares an example repository and adds a volunteer learner as collaborator
-- Learner shares screen and edits an example file via web (click on the edit pen)
-- We find a typo and correct it
+- Learner shares screen and edits `recipes.txt` via web (click on the edit pen)
+- We modify or extend one recipe from the example repository together by guiding the volunteer learner
 - We do not commit directly to `master` but rather "Create a new branch for this commit and start a pull request."
 - We choose a meaningful branch name (it can be useful to prefix it with your name so that we know who this branch belongs to)
 
@@ -105,8 +107,8 @@ can push commits to it directly, it can be useful to "protect" branches.
 > ## Discussion
 >
 > - Protecting the `master` branch "forces" all changes to it to be reviewed first.
-    **We recommend this for group repositories**.
-    Discuss the advantages/disadvantages of this.
+>   **We recommend this for group repositories**.
+>   Discuss the advantages/disadvantages of this.
 {: .discussion}
 
 ---
