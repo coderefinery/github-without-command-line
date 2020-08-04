@@ -62,9 +62,9 @@ doesn't know anything about it.
 - Start GitHub Desktop
 - Click on "+ Create a New Repository on your hard drive..."
 
-<img src="{{ site.baseurl }}/img/creating-desktop/before-create.png" width="600px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-desktop/before-create.png" width="600px" style="border:2px solid #000000;">
 
-<img src="{{ site.baseurl }}/img/creating-desktop/creating.png" width="600px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-desktop/creating.png" width="600px" style="border:2px solid #000000;">
 
 ---
 
@@ -77,7 +77,7 @@ then tell git to save it.
 - Note how GitHub desktop changed and shows you the changes
 - Make a commit
 
-<img src="{{ site.baseurl }}/img/creating-desktop/diff-before-commit.png" width="600px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-desktop/diff-before-commit.png" width="600px" style="border:2px solid #000000;">
 
 ---
 
@@ -95,7 +95,7 @@ middle steps.
 - Click "Publish repository" (this only publishes the current branch)
 - After you have pushed, visit the repository via the website
 
-<img src="{{ site.baseurl }}/img/creating-desktop/publish.png" width="600px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-desktop/publish.png" width="600px" style="border:2px solid #000000;">
 
 ---
 
@@ -125,11 +125,11 @@ Now we show how to **pull** code from Github→local.
 - Click "Fetch origin"
 - Click "Pull origin"
 
-<img src="{{ site.baseurl }}/img/creating-desktop/pull-origin.png" width="600px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-desktop/pull-origin.png" width="600px" style="border:2px solid #000000;">
 
 - Browse the "History" in GitHub Desktop
 
-<img src="{{ site.baseurl }}/img/creating-desktop/after-pull.png" width="600px" style="border:2px solid #000000;">
+<img src="{{ site.baseurl }}/img/creating-using-desktop/after-pull.png" width="600px" style="border:2px solid #000000;">
 
 What's the difference between **fetch** and **pull**?  Fetch gets the
 changes, but doesn't apply them locally.  Pull = fetch + apply changes
