@@ -115,6 +115,17 @@ repository.  This is the progression of the repository (with the
 **commit message** over time).
 ```
 
+```{figure} /img/basics/commits-and-branches.svg
+---
+class: with-border
+---
+
+Network graph of all commits in the
+[EHT-imaging](https://github.com/achael/eht-imaging/network)
+repository.  This shows the relationship between different **forks**
+of people who are contributing and sharing code.
+```
+
 
 ### Interesting repositories to explore these concepts
 
@@ -135,19 +146,6 @@ repository.  This is the progression of the repository (with the
 - CSV exports of the Getty Provenance Index
   - Data: [https://github.com/thegetty/provenance-index-csv](https://github.com/thegetty/provenance-index-csv)
 
-
-### [Example](https://github.com/achael/eht-imaging/network)
-
-```{figure} /img/commits-and-branches.svg
----
-class: with-border
----
-
-Network graph of all commits in the
-[EHT-imaging](https://github.com/achael/eht-imaging/network)
-repository.  This shows the relationship between different **forks**
-of people who are contributing and sharing code.
-```
 
 ---
 
