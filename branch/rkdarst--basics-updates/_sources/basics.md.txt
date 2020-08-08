@@ -41,7 +41,7 @@ exercises: 0
 class: with-border
 ---
 
-Snapshots (**commits**) in the [EHT-imaging](https://github.com/achael/eht-imaging/network) repository.
+Snapshots (**commits**) in the [EHT-imaging](https://github.com/achael/eht-imaging) repository.
 ```
 
 
@@ -99,7 +99,7 @@ class: with-border
 ---
 
 GitHub file view of the
-[EHT-imaging](https://github.com/achael/eht-imaging/network)
+[EHT-imaging](https://github.com/achael/eht-imaging)
 repository.  This is the version of all files at a single point in
 time.
 ```
@@ -110,7 +110,7 @@ class: with-border
 ---
 
 Github history view of the
-[EHT-imaging](https://github.com/achael/eht-imaging/network)
+[EHT-imaging](https://github.com/achael/eht-imaging)
 repository.  This is the progression of the repository (with the
 **commit message** over time).
 ```
