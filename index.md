@@ -25,11 +25,11 @@ command-line course Git course such as
 course](https://coderefinery.github.io/git-intro/).  Check out our
 [other upcoming workshops](https://coderefinery.org/workshops/upcoming/).
 
-## Episodes
+## The lesson
 
 ```{toctree}
 ---
-caption: Episodes
+caption: The lesson
 maxdepth: 1
 hidden:
 ---
@@ -57,7 +57,7 @@ widths: auto
 
 ```{toctree}
 ---
-caption: Other material
+caption: Reference
 maxdepth: 1
 ---
 
@@ -66,7 +66,9 @@ guide
 ```
 
 
-## Similar workshops which serve as inspiration
+## See also
+
+These similar workshops which serve as inspiration
 
 - [https://github.com/lexnederbragt/github_collab_workshop](https://github.com/lexnederbragt/github_collab_workshop)
 - [https://github.com/arockenberger/github_collab_workshop](https://github.com/arockenberger/github_collab_workshop)
