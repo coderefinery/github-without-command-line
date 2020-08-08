@@ -25,6 +25,23 @@ command-line course Git course such as
 course](https://coderefinery.github.io/git-intro/).  Check out our
 [other upcoming workshops](https://coderefinery.org/workshops/upcoming/).
 
+> ## Why [GitHub](https://github.com)?
+>
+> We will do this exercise on [GitHub](https://github.com) but also
+> [GitLab](https://gitlab.com) and [Bitbucket](https://bitbucket.org) allow
+> similar workflows and basically everything that we will discuss is transferable. With
+> this material and these exercises we do not endorse the company
+> [GitHub](https://github.com). We have chosen to demonstrate a number of
+> concepts using examples with [GitHub](https://github.com) because it is
+> currently the most popular web platform for hosting Git repositories and the chance is high
+> that you will interact with [GitHub](https://github.com)-based repositories even if you
+> choose to host your Git repository on another platform.
+>
+> We also encourage course participants to use our new [Nordic research software repository platform](https://source.coderefinery.org),
+> for more information see [https://coderefinery.org/repository/](https://coderefinery.org/repository/).
+{: .admonition}
+
+
 ## The lesson
 
 ```{toctree}
@@ -66,6 +83,7 @@ guide
 ```
 
 
+## Preparations
 
 > Please prepare these before the workshop:
 > - Install the [Zoom client](https://zoom.us/download) ([our tips](https://coderefinery.github.io/installation/zoom/]))
@@ -88,21 +106,6 @@ guide
 > - [Quickly get started with common tasks on GitHub](https://help.github.com/en/github/getting-started-with-github/quickstart)
 {: .prereq}
 
-> ## Why [GitHub](https://github.com)?
->
-> We will do this exercise on [GitHub](https://github.com) but also
-> [GitLab](https://gitlab.com) and [Bitbucket](https://bitbucket.org) allow
-> similar workflows and basically everything that we will discuss is transferable. With
-> this material and these exercises we do not endorse the company
-> [GitHub](https://github.com). We have chosen to demonstrate a number of
-> concepts using examples with [GitHub](https://github.com) because it is
-> currently the most popular web platform for hosting Git repositories and the chance is high
-> that you will interact with [GitHub](https://github.com)-based repositories even if you
-> choose to host your Git repository on another platform.
->
-> We also encourage course participants to use our new [Nordic research software repository platform](https://source.coderefinery.org),
-> for more information see [https://coderefinery.org/repository/](https://coderefinery.org/repository/).
-{: .admonition}
 
 ## See also
 
