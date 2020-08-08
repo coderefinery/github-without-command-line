@@ -7,10 +7,11 @@ permalink: /
 
 This tutorial provides a brief but usable introduction to Git and
 GitHub to exercise useful workflows within GitHub.  Git is a version
-control system which allows files and data to be synchronized.
+control system which allows files and data to be tracked synchronized,
+which allows collaboration and reproducible.
 GitHub is a popular website that stores these repositories.
 
-This tutorial avoids using the command line. Instead we will practice collaborating and
+This tutorial avoids using the command line. Instead, we will practice collaborating and
 sharing using either the GitHub website or GitHub desktop
 application.  Why?  Because for many cases, it is enough.  Especially
 if you are contributing to existing non-code projects, this may be the
@@ -25,7 +26,7 @@ command-line course Git course such as
 course](https://coderefinery.github.io/git-intro/).  Check out our
 [other upcoming workshops](https://coderefinery.org/workshops/upcoming/).
 
-> ## Why [GitHub](https://github.com)?
+> ## Why GitHub
 >
 > We will do this exercise on [GitHub](https://github.com) but also
 > [GitLab](https://gitlab.com) and [Bitbucket](https://bitbucket.org) allow
@@ -85,26 +86,34 @@ guide
 
 ## Preparations
 
+Not required:
+- Previous knowledge of Git or GitHub
+- Knowledge of the command line
+
 > Please prepare these before the workshop:
-> - Install the [Zoom client](https://zoom.us/download) ([our tips](https://coderefinery.github.io/installation/zoom/]))
+> - Install the [Zoom client](https://zoom.us/download) ([our
+>   tips](https://coderefinery.github.io/installation/zoom/))
 > - Get a [GitHub account](https://github.com/join)
 >   ([here](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/deleting-your-user-account)
 >   are instructions on how to remove it later if you do not wish to keep it)
 > - Install GitHub Desktop:
 >   - [Windows and macOS](https://desktop.github.com/)
 >   - [Linux](https://github.com/shiftkey/desktop/blob/linux/README.md)
+> - Read the following quick guides on attending workshops:
+>   - Read our tips on [in
+>   person](https://coderefinery.github.io/manuals/how-to-attend-inperson/)
+>   or [online](https://coderefinery.github.io/manuals/how-to-attend-online/) workshops
+>   - [Zoom signals we use](https://coderefinery.github.io/manuals/zoom-mechanics/)
+>   - [How we use HackMD](https://coderefinery.github.io/manuals/hackmd-mechanics/)
 >
 > Troubleshooting:
 >   - GitHub Desktop not showing up on macOS launchpad:
 >     - You can find it in "Downloads"
 >
-> Not required:
-> - Previous knowledge of Git or GitHub
-> - Knowledge of the command line
->
-> Optional reading:
-> - [Quickly get started with common tasks on GitHub](https://help.github.com/en/github/getting-started-with-github/quickstart)
 {: .prereq}
+
+Optional reading:
+- [Quickly get started with common tasks on GitHub](https://help.github.com/en/github/getting-started-with-github/quickstart)
 
 
 ## See also
