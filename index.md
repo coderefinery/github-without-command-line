@@ -66,13 +66,6 @@ guide
 ```
 
 
-## See also
-
-These similar workshops which serve as inspiration
-
-- [https://github.com/lexnederbragt/github_collab_workshop](https://github.com/lexnederbragt/github_collab_workshop)
-- [https://github.com/arockenberger/github_collab_workshop](https://github.com/arockenberger/github_collab_workshop)
-
 
 > Please prepare these before the workshop:
 > - Install the [Zoom client](https://zoom.us/download) ([our tips](https://coderefinery.github.io/installation/zoom/]))
@@ -110,3 +103,10 @@ These similar workshops which serve as inspiration
 > We also encourage course participants to use our new [Nordic research software repository platform](https://source.coderefinery.org),
 > for more information see [https://coderefinery.org/repository/](https://coderefinery.org/repository/).
 {: .admonition}
+
+## See also
+
+These similar workshops which serve as inspiration
+
+- [https://github.com/lexnederbragt/github_collab_workshop](https://github.com/lexnederbragt/github_collab_workshop)
+- [https://github.com/arockenberger/github_collab_workshop](https://github.com/arockenberger/github_collab_workshop)
