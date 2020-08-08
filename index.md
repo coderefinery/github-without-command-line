@@ -43,6 +43,9 @@ websites
 ```
 
 ```{csv-table}
+---
+widths: auto
+---
 20 min , {doc}`basics`
 30 min , {doc}`creating-using-web`
 40 min , {doc}`creating-using-desktop`
