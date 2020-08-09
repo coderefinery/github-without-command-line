@@ -145,7 +145,9 @@ of people who are contributing and sharing code.
   - Website: [https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html)
 - CSV exports of the Getty Provenance Index
   - Data: [https://github.com/thegetty/provenance-index-csv](https://github.com/thegetty/provenance-index-csv)
-
+- Entire books are written using Git/GitHub:
+  - <https://github.com/rust-lang/book>
+  - <https://github.com/ropensci/dev_guide>
 
 ---
 
