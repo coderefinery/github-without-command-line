@@ -98,7 +98,12 @@
 <li class="toctree-l1"><a class="reference internal" href="../creating-using-desktop/">Creating repositories using GitHub Desktop</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../contributing/">Contributing to existing repositories using pull requests</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">How to organize a group’s work</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#step-x-contributing-non-trivial-changes">Step X: Contributing non-trivial changes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#github-organizations">GitHub organizations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#organizational-permissions">Organizational permissions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#github-or-gitlab">GitHub or GitLab?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#direct-commits-or-pull-requests">Direct commits or pull requests?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#small-vs-large-changes">Small vs. large changes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#optional-exercise-contributing-larger-changes">Optional exercise contributing larger changes</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#note-to-instructors">Note to instructors</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#exercise">Exercise</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#bonus-exercise">Bonus exercise</a></li>
@@ -183,10 +188,63 @@
   <div class="section" id="how-to-organize-a-group-s-work">
 <h1>How to organize a group’s work<a class="headerlink" href="#how-to-organize-a-group-s-work" title="Permalink to this headline">¶</a></h1>
 <hr class="docutils" />
-<div class="section" id="step-x-contributing-non-trivial-changes">
-<h2>Step X: Contributing non-trivial changes<a class="headerlink" href="#step-x-contributing-non-trivial-changes" title="Permalink to this headline">¶</a></h2>
-<p>Submit a larger change using GitHub Desktop.  As an example our task will be to
-add a new file (in our case a taco recipe) to the exercise repository.</p>
+<div class="section" id="github-organizations">
+<h2>GitHub organizations<a class="headerlink" href="#github-organizations" title="Permalink to this headline">¶</a></h2>
+<p>Should I start a repository under my account or open a new organization?</p>
+<ul class="simple">
+<li><p>Single-person projects often start under own account.</p></li>
+<li><p>If is no problem to move a project from own namespace to an organization later.</p></li>
+<li><p>When starting a larger project with several people, possibly several affiliations, an organization may be a better start.</p></li>
+<li><p>If this is a GitHub pages project, then it will matter for the URL:
+<code class="docutils literal notranslate"><span class="pre">myuser.github.io/myproject/</span></code> vs. <code class="docutils literal notranslate"><span class="pre">ourorg.github.io/ourproject/</span></code>.</p></li>
+</ul>
+<p>Should I add everybody as collaborator?</p>
+<ul class="simple">
+<li><p>If you are a handful of project collaborators it probably makes sense to add everybody as collaborators.</p></li>
+<li><p>But one does not have to be a <em>collaborator</em> to contribute (anybody can send contributions to public projects).</p></li>
+<li><p>External contributors don’t have to be added.</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="organizational-permissions">
+<h2>Organizational permissions<a class="headerlink" href="#organizational-permissions" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Organizations have <strong>owners</strong> and <strong>members</strong>.</p></li>
+<li><p>Owners can add more members and delete repositories.</p></li>
+<li><p>Members can also be organized into teams.</p></li>
+<li><p>We recommend to write-protect the default branch and protect it against force-pushes and accidental deletions.</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="github-or-gitlab">
+<h2>GitHub or GitLab?<a class="headerlink" href="#github-or-gitlab" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>GitHub: probably better integrations (with services like Zenodo), probably more visibility (more users).</p></li>
+<li><p>GitLab: more features, you can also self-host, more advanced continuous integration.</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="direct-commits-or-pull-requests">
+<h2>Direct commits or pull requests?<a class="headerlink" href="#direct-commits-or-pull-requests" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>For single-person projects: direct pushes.</p></li>
+<li><p>If you have somebody who can help you with code review: use pull requests.</p></li>
+<li><p>For projects with 2 or more persons: agree on applying all changes via pull requests
+and create a new branch for every change.</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="small-vs-large-changes">
+<h2>Small vs. large changes<a class="headerlink" href="#small-vs-large-changes" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>For larger changes first open an issue and describe your idea and collect feedback.</p></li>
+<li><p>Alternative: if you already have a larger change half-finished but you are unsure whether you are on the right
+track, open a <strong>draft pull request</strong>. These are meant to share unfinished drafts and collect suggestions.</p></li>
+</ul>
+</div>
+<hr class="docutils" />
+<div class="section" id="optional-exercise-contributing-larger-changes">
+<h2>Optional exercise contributing larger changes<a class="headerlink" href="#optional-exercise-contributing-larger-changes" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="note-to-instructors">
 <h3>Note to instructors<a class="headerlink" href="#note-to-instructors" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
