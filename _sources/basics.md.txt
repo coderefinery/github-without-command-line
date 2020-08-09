@@ -130,22 +130,27 @@ of people who are contributing and sharing code.
 ### Interesting repositories to explore these concepts
 
 - Event Horizon Telescope imaging software
-  - Repository: [https://github.com/achael/eht-imaging](https://github.com/achael/eht-imaging)
-  - Commits, branches, forks: [https://github.com/achael/eht-imaging/network](https://github.com/achael/eht-imaging/network)
+  - Repository: <https://github.com/achael/eht-imaging>
+  - Commits, branches, forks: <https://github.com/achael/eht-imaging/network>
 - [Activity inequality study](http://activityinequality.stanford.edu/)
   - Contains data and code necessary to create figures from their article.
-  - Data: [https://github.com/timalthoff/activityinequality/tree/master/data](https://github.com/timalthoff/activityinequality/tree/master/data)
+  - Data: <https://github.com/timalthoff/activityinequality/tree/master/data>
 - FiveThirtyEight story [Why We’re Sharing 3 Million Russian Troll Tweets](https://fivethirtyeight.com/features/why-were-sharing-3-million-russian-troll-tweets/)
   - Contains data and readme file, no code.
-  - Data: [https://github.com/fivethirtyeight/russian-troll-tweets](https://github.com/fivethirtyeight/russian-troll-tweets)
+  - Data: <https://github.com/fivethirtyeight/russian-troll-tweets>
 - The NY Times Coronavirus (Covid-19) Data in the United States
   - Contains data, readme, license, but no code.  As of 2020.april,
     being updated every day.
-  - Data: [https://github.com/nytimes/covid-19-data](https://github.com/nytimes/covid-19-data)
-  - Website: [https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html)
+  - Data: <https://github.com/nytimes/covid-19-data>
+  - Website: <https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html>
 - CSV exports of the Getty Provenance Index
-  - Data: [https://github.com/thegetty/provenance-index-csv](https://github.com/thegetty/provenance-index-csv)
-
+  - Data: <https://github.com/thegetty/provenance-index-csv>
+- Entire books are written using Git/GitHub:
+  - <https://github.com/rust-lang/book>
+  - <https://github.com/ropensci/dev_guide>
+  - <https://github.com/alan-turing-institute/the-turing-way>
+- Papers under open review:
+  - <https://github.com/openjournals/joss-reviews/issues>
 
 ---
 
@@ -157,6 +162,9 @@ of people who are contributing and sharing code.
 > - Several people can work on the same project at the same time (using branches).
 > - We do not have to wait for others to send us "the latest version" over email.
 > - We do not have to merge parallel developments by hand.
+> - Group-based access model where shared access is the default, instead of
+>   everything fundamentally owned by individuals who manage sharing as-needed:
+>   with Git you can easily have collaboration be the default.
 > - It is possible to serve websites directly from a repository.
 {: .discussion}
 
