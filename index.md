@@ -56,6 +56,7 @@ basics
 creating-using-web
 creating-using-desktop
 contributing
+group-work
 doi
 websites
 ```
@@ -68,6 +69,7 @@ widths: auto
 30 min , {doc}`creating-using-web`
 40 min , {doc}`creating-using-desktop`
 60 min , {doc}`contributing`
+30 min , {doc}`group-work`
 30 min , {doc}`doi`
 30 min , {doc}`websites`
 ```
