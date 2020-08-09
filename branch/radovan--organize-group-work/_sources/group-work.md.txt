@@ -45,6 +45,7 @@ Should I add everybody as collaborator?
 
 - GitHub: probably better integrations (with services like Zenodo), probably more visibility (more users).
 - GitLab: more features, you can also self-host, more advanced continuous integration.
+- Your own university's GitLab: most control, local support, but limited visibility and you might lose access when you move on.
 
 ---
 
