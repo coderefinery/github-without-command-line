@@ -14,7 +14,13 @@ questions:
 
 # How to organize a group's work
 
----
+> ## Discussion
+>
+> Do you want to work together? What are the benefits? How much of our
+> individual work is caused by not having a way to collaborate? If we could
+> collaborate, would it improve the quality of our work. Do we want to?"
+{: .discussion}
+
 
 ## GitHub organizations
 
@@ -55,6 +61,8 @@ Should I add everybody as collaborator?
 - If you have somebody who can help you with code review: use pull requests.
 - For projects with 2 or more persons: agree on applying all changes via pull requests
   and create a new branch for every change.
+- Do you ever review what others do? Would it improve your work if you did?
+  Would it overall save time?
 
 ---
 
