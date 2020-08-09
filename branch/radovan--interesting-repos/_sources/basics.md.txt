@@ -130,21 +130,21 @@ of people who are contributing and sharing code.
 ### Interesting repositories to explore these concepts
 
 - Event Horizon Telescope imaging software
-  - Repository: [https://github.com/achael/eht-imaging](https://github.com/achael/eht-imaging)
-  - Commits, branches, forks: [https://github.com/achael/eht-imaging/network](https://github.com/achael/eht-imaging/network)
+  - Repository: <https://github.com/achael/eht-imaging>
+  - Commits, branches, forks: <https://github.com/achael/eht-imaging/network>
 - [Activity inequality study](http://activityinequality.stanford.edu/)
   - Contains data and code necessary to create figures from their article.
-  - Data: [https://github.com/timalthoff/activityinequality/tree/master/data](https://github.com/timalthoff/activityinequality/tree/master/data)
+  - Data: <https://github.com/timalthoff/activityinequality/tree/master/data>
 - FiveThirtyEight story [Why We’re Sharing 3 Million Russian Troll Tweets](https://fivethirtyeight.com/features/why-were-sharing-3-million-russian-troll-tweets/)
   - Contains data and readme file, no code.
-  - Data: [https://github.com/fivethirtyeight/russian-troll-tweets](https://github.com/fivethirtyeight/russian-troll-tweets)
+  - Data: <https://github.com/fivethirtyeight/russian-troll-tweets>
 - The NY Times Coronavirus (Covid-19) Data in the United States
   - Contains data, readme, license, but no code.  As of 2020.april,
     being updated every day.
-  - Data: [https://github.com/nytimes/covid-19-data](https://github.com/nytimes/covid-19-data)
-  - Website: [https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html](https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html)
+  - Data: <https://github.com/nytimes/covid-19-data>
+  - Website: <https://www.nytimes.com/interactive/2020/us/coronavirus-us-cases.html>
 - CSV exports of the Getty Provenance Index
-  - Data: [https://github.com/thegetty/provenance-index-csv](https://github.com/thegetty/provenance-index-csv)
+  - Data: <https://github.com/thegetty/provenance-index-csv>
 - Entire books are written using Git/GitHub:
   - <https://github.com/rust-lang/book>
   - <https://github.com/ropensci/dev_guide>
