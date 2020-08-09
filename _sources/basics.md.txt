@@ -36,6 +36,14 @@ exercises: 0
 - You can think of version control like regularly taking a photo of your work
   (movie sets take regular polaroids to be able to recreate a scene the next day).
 
+```{figure} /img/basics/commits-snapshots.png
+---
+class: with-border
+---
+
+Snapshots (**commits**) in the [EHT-imaging](https://github.com/achael/eht-imaging) repository.
+```
+
 
 ### What we typically like to snapshot
 
@@ -85,6 +93,39 @@ exercises: 0
 - **forking**: Taking a copy of a repository (which is typically not yours) - your
   copy (fork) stays on GitHub and you can make changes to your copy.
 
+```{figure} /img/basics/file-view.png
+---
+class: with-border
+---
+
+GitHub file view of the
+[EHT-imaging](https://github.com/achael/eht-imaging)
+repository.  This is the version of all files at a single point in
+time.
+```
+
+```{figure} /img/basics/history-demo.png
+---
+class: with-border
+---
+
+Github history view of the
+[EHT-imaging](https://github.com/achael/eht-imaging)
+repository.  This is the progression of the repository (with the
+**commit message** over time).
+```
+
+```{figure} /img/basics/commits-and-branches.svg
+---
+class: with-border
+---
+
+Network graph of all commits in the
+[EHT-imaging](https://github.com/achael/eht-imaging/network)
+repository.  This shows the relationship between different **forks**
+of people who are contributing and sharing code.
+```
+
 
 ### Interesting repositories to explore these concepts
 
@@ -105,14 +146,6 @@ exercises: 0
 - CSV exports of the Getty Provenance Index
   - Data: [https://github.com/thegetty/provenance-index-csv](https://github.com/thegetty/provenance-index-csv)
 
-
-### [Example](https://github.com/achael/eht-imaging/network)
-
-```{figure} /img/commits-and-branches.svg
-
-Network graph of all commits in the
-[EHT-imaging](https://github.com/achael/eht-imaging/network) repository.
-```
 
 ---
 
