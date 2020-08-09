@@ -157,6 +157,9 @@ of people who are contributing and sharing code.
 > - Several people can work on the same project at the same time (using branches).
 > - We do not have to wait for others to send us "the latest version" over email.
 > - We do not have to merge parallel developments by hand.
+> - Group-based access model where shared access is the default, instead of
+>   everything fundamentally owned by individuals who manage sharing as-needed:
+>   with Git you can easily have collaboration be the default.
 > - It is possible to serve websites directly from a repository.
 {: .discussion}
 
