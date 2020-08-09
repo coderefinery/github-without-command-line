@@ -148,6 +148,8 @@ of people who are contributing and sharing code.
 - Entire books are written using Git/GitHub:
   - <https://github.com/rust-lang/book>
   - <https://github.com/ropensci/dev_guide>
+- Papers under open review:
+  - <https://github.com/openjournals/joss-reviews/issues>
 
 ---
 
