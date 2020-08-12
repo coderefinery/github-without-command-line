@@ -8,10 +8,10 @@ permalink: /
 This tutorial provides a brief but hands-on introduction to Git and
 GitHub to exercise useful workflows within GitHub.  Git is a version
 control system which allows files and data to be tracked synchronized,
-which allows collaboration and reproducible.
+which allows collaboration and reproducibility.
 GitHub is a popular website that stores these repositories.
 
-This tutorial avoids using the command line. Instead, we will practice collaborating and
+**This tutorial avoids using the command line**. Instead, we will practice collaborating and
 sharing using either the GitHub website or GitHub desktop
 application.  Why?  Because for many cases, it is enough.  Especially
 if you are contributing to existing non-code projects, this may be the
