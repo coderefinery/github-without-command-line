@@ -5,7 +5,7 @@ permalink: /
 
 # Collaborating and sharing using GitHub without command line
 
-This tutorial provides a brief but usable introduction to Git and
+This tutorial provides a brief but hands-on introduction to Git and
 GitHub to exercise useful workflows within GitHub.  Git is a version
 control system which allows files and data to be tracked synchronized,
 which allows collaboration and reproducible.
