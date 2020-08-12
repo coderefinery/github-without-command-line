@@ -26,7 +26,7 @@ questions:
 
 Should I start a repository under my account or open a new organization?
 - Single-person projects often start under own account.
-- If is no problem to move a project from own namespace to an organization later.
+- It is no problem to move a project from own namespace to an organization later.
 - When starting a larger project with several people, possibly several affiliations, an organization may be a better start.
 - If this is a GitHub pages project, then it will matter for the URL:
   `myuser.github.io/myproject/` vs. `ourorg.github.io/ourproject/`.
@@ -41,7 +41,7 @@ Should I add everybody as collaborator?
 ## Organizational permissions
 
 - Organizations have **owners** and **members**.
-- Owners can add more members and delete repositories.
+- Owners can add more than members and delete repositories.
 - Members can also be organized into teams.
 - We recommend to write-protect the default branch and protect it against force-pushes and accidental deletions.
 
