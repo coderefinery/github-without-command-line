@@ -41,7 +41,7 @@ Should I add everybody as collaborator?
 ## Organizational permissions
 
 - Organizations have **owners** and **members**.
-- Owners can add more than members and delete repositories.
+- Owners can add additional members and delete repositories.
 - Members can also be organized into teams.
 - We recommend to write-protect the default branch and protect it against force-pushes and accidental deletions.
 
