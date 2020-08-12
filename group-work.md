@@ -18,7 +18,7 @@ questions:
 >
 > Do you want to work together? What are the benefits? How much of our
 > individual work is caused by not having a way to collaborate? If we could
-> collaborate, would it improve the quality of our work. Do we want to?"
+> collaborate, would it improve the quality of our work? Do we want to?"
 {: .discussion}
 
 
