@@ -21,8 +21,11 @@ and discuss the pros and cons.
 
 ## Note to instructors
 
-The instructor will prepare an example repository and share the link with the
-participants (see instructor guide for more details).
+- The instructor will prepare an example repository and share the link with the
+  participants (see instructor guide for more details).
+- This is a good example text: <https://www.gutenberg.org/ebooks/24542>
+- When showing how to add a collaborator, also show how to unwatch a repo.
+
 
 > ## Recap: different methods to "download" a repository
 >
