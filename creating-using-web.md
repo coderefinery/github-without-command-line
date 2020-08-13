@@ -24,11 +24,12 @@ suggestions. In a larger group the instructor can demonstrate these and then
 participants can try on their own and then ask questions.
 
 
-## Note to instructors
 
+```{instructor-note}
 In this episode we are all in the main room and do these steps together as
 follow-along with pauses with time for questions and answers, no breakout rooms
 yet.
+```
 
 ---
 
