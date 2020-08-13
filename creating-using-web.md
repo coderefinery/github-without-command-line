@@ -164,7 +164,7 @@ check:
 
 ---
 
-### Step 6: Adding a license to an existing repository
+## Step 6: Adding a license to an existing repository
 
 This is an optional step to show how we can add a license
 to an existing repository.
