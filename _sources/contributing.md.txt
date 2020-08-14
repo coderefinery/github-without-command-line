@@ -18,15 +18,6 @@ belong to others.
 We will do this in a progression from a small trivial fix to a change proposal
 and discuss the pros and cons.
 
-
-## Note to instructors
-
-- The instructor will prepare an example repository and share the link with the
-  participants (see instructor guide for more details).
-- This is a good example text: <https://www.gutenberg.org/ebooks/24542>
-- When showing how to add a collaborator, also show how to unwatch a repo.
-
-
 > ## Recap: different methods to "download" a repository
 >
 > - There is no need to download each file one by one.
@@ -36,6 +27,14 @@ and discuss the pros and cons.
 >   can apply and track changes and possibly share them later.
 > - Cloning copies not only the latest version but all snapshots and all branches and tags: entire history.
 {: .discussion}
+
+```{instructor-note}
+- The instructor will prepare an example repository and share the link with the
+  participants (see instructor guide for more details).
+- This is a good example text: <https://www.gutenberg.org/ebooks/24542>
+- When showing how to add a collaborator, also show how to unwatch a repo.
+```
+
 
 ---
 
@@ -135,12 +134,11 @@ sharing screen:
 
 ## Step 4: Resolving a conflict
 
-### Note to instructors
-
+```{instructor-note}
 - "Non-talking instructor" prepares a conflicting commit during session (check
   what the first PR does).
 - Conflict can be shown as demo.
-
+```
 
 ### Exercise/demo: let us experience a conflict
 
