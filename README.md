@@ -1,5 +1,3 @@
-
-
 # Collaborating and sharing using GitHub without command line
 
 

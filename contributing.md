@@ -1,14 +1,3 @@
----
-layout: episode
-title: Contributing to existing repositories
-teaching: 20
-exercises: 40
-questions:
-  - How to submit small changes using pull requests
-  - How to propose and submit larger changes
-  - How to review and discuss changes
----
-
 # Contributing to existing repositories using pull requests
 
 In this session we will learn how to contribute to repositories which either

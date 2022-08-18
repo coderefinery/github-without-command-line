@@ -1,12 +1,3 @@
----
-layout: episode
-title: Making your project citable
-teaching: 10
-exercises: 20
-questions:
-  - How to get DOIs for particular versions of your project
----
-
 # Making your project citable
 
 > ## Discussion: is depositing your data/code on GitHub enough?

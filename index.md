@@ -1,8 +1,3 @@
----
-layout: lesson
-permalink: /
----
-
 # Collaborating and sharing using GitHub without command line
 
 This tutorial provides a brief but hands-on introduction to Git and

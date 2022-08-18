@@ -1,10 +1,3 @@
----
-layout: episode
-title: Basics and motivation
-teaching: 20
-exercises: 0
----
-
 # Basics and motivation
 
 ```{questions}
