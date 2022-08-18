@@ -1,9 +1,11 @@
 # Collaborating and sharing using GitHub without command line
 
+Licensed under [CC-BY](LICENSE).
 
-## Credit and license
+Currently the best way to give credit is to list your derivative work here:
+https://coderefinery.org/lessons/reusing/
 
-- https://coderefinery.github.io/github-without-command-line/license/
+But we are working on making these lessons citable: https://coderefinery.org/blog/2021/11/21/towards-citable-lessons/
 
 
 ## Similar workshops which serve as inspiration
