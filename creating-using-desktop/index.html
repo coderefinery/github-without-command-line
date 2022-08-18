@@ -1,77 +1,48 @@
-
-
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Creating repositories using GitHub Desktop &mdash; GitHub without the command line  documentation</title>
-  
-
-  
-  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
-  <link rel="stylesheet" href="../_static/mystnb.css" type="text/css" />
-  <link rel="stylesheet" href="../_static/sphinx_lesson.css" type="text/css" />
-  <link rel="stylesheet" href="../_static/jupyter-sphinx.css" type="text/css" />
-
-  
-  
-  
-  
-
-  
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/mystnb.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx_lesson.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
   
-    
-      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
         <script src="../_static/jquery.js"></script>
         <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../_static/doctools.js"></script>
-        <script src="../_static/language_data.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+        <script src="../_static/minipres.js"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
         <script src="../_static/togglebutton.js"></script>
-        <script src="../_static/mystnb.js"></script>
-        <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
-        <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
-    
-    <script type="text/javascript" src="../_static/js/theme.js"></script>
-
-    
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex/" />
     <link rel="search" title="Search" href="../search/" />
     <link rel="next" title="Contributing to existing repositories using pull requests" href="../contributing/" />
     <link rel="prev" title="Creating repositories using the web interface" href="../creating-using-web/" /> 
 </head>
 
-<body class="wy-body-for-nav">
-
-   
+<body class="wy-body-for-nav"> 
   <div class="wy-grid-for-nav">
-    
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-          
-
-          
-            <a href="../" class="icon icon-home" alt="Documentation Home"> GitHub without the command line
-          
-
-          
+            <a href="../" class="icon icon-home"> GitHub without the command line
           </a>
-
-          
-            
-            
-          
-
-          
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -79,19 +50,8 @@
     <input type="hidden" name="area" value="default" />
   </form>
 </div>
-
-          
-        </div>
-
-        
-        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-          
-            
-            
-              
-            
-            
-              <p class="caption"><span class="caption-text">The lesson</span></p>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">The lesson</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../basics/">Basics and motivation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../creating-using-web/">Creating repositories using the web interface</a></li>
@@ -109,79 +69,38 @@
 <li class="toctree-l1"><a class="reference internal" href="../doi/">Making your project citable</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../websites/">Hosting websites/homepages on GitHub Pages</a></li>
 </ul>
-<p class="caption"><span class="caption-text">Reference</span></p>
+<p class="caption" role="heading"><span class="caption-text">Reference</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../quick-reference/">Quick reference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor’s guide</a></li>
 </ul>
 
-            
-          
         </div>
-        
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" aria-label="top navigation">
-        
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="../">GitHub without the command line</a>
-        
       </nav>
 
-
       <div class="wy-nav-content">
-        
         <div class="rst-content">
-        
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div role="navigation" aria-label="breadcrumbs navigation">
-
+          <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-    
       <li><a href="../" class="icon icon-home"></a> &raquo;</li>
-        
       <li>Creating repositories using GitHub Desktop</li>
-    
-    
       <li class="wy-breadcrumbs-aside">
-        
-            
-            
               <a href="https://github.com/coderefinery/github-without-command-line/blob/master/creating-using-desktop.md" class="fa fa-github"> Edit on GitHub</a>
-            
-          
-        
       </li>
-    
   </ul>
-
-  
   <hr/>
 </div>
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
-            
-  <div class="section" id="creating-repositories-using-github-desktop">
-<h1>Creating repositories using GitHub Desktop<a class="headerlink" href="#creating-repositories-using-github-desktop" title="Permalink to this headline">¶</a></h1>
+             
+  <section id="creating-repositories-using-github-desktop">
+<h1>Creating repositories using GitHub Desktop<a class="headerlink" href="#creating-repositories-using-github-desktop" title="Permalink to this heading"></a></h1>
 <p>We will practice creating a new repository using GitHub Desktop, committing
 changes to it, browsing the changes, creating branches, and more.
 This is practically the same as the previous episode, but we introduce
@@ -202,8 +121,8 @@ learner shares their screen (video) and others can ask questions and give
 suggestions. In a larger group the instructor can demonstrate these and then
 participants can try on their own and then ask questions.</p>
 <hr class="docutils" />
-<div class="section" id="step-1-create-an-example-spreadsheet">
-<h2>Step 1: Create an example spreadsheet<a class="headerlink" href="#step-1-create-an-example-spreadsheet" title="Permalink to this headline">¶</a></h2>
+<section id="step-1-create-an-example-spreadsheet">
+<h2>Step 1: Create an example spreadsheet<a class="headerlink" href="#step-1-create-an-example-spreadsheet" title="Permalink to this heading"></a></h2>
 <p>In this exercise, we will share a data file in CSV (comma-separated
 values) format and see how GitHub nicely displays it. First, we
 need to make some CSV file.</p>
@@ -219,26 +138,26 @@ need to make some CSV file.</p>
 </ul>
 <p>Make sure the file is actually in CSV format, not Excel/spreadsheet
 format.</p>
-</div>
+</section>
 <hr class="docutils" />
-<div class="section" id="step-2-initialize-a-repository-with-github-desktop">
-<h2>Step 2: Initialize a repository with GitHub Desktop<a class="headerlink" href="#step-2-initialize-a-repository-with-github-desktop" title="Permalink to this headline">¶</a></h2>
+<section id="step-2-initialize-a-repository-with-github-desktop">
+<h2>Step 2: Initialize a repository with GitHub Desktop<a class="headerlink" href="#step-2-initialize-a-repository-with-github-desktop" title="Permalink to this heading"></a></h2>
 <p>First, we make a new local repository. At this stage, the repository
 will only exist on our computer, not yet on GitHub.</p>
 <ul class="simple">
 <li><p>Start GitHub Desktop</p></li>
 <li><p>Click on “+ Create a New Repository on your hard drive…”</p></li>
 </ul>
-<div class="figure align-default">
+<figure class="align-default">
 <img alt="../_images/before-create.png" class="with-border" src="../_images/before-create.png" />
-</div>
-<div class="figure align-default">
+</figure>
+<figure class="align-default">
 <img alt="../_images/creating.png" class="with-border" src="../_images/creating.png" />
-</div>
-</div>
+</figure>
+</section>
 <hr class="docutils" />
-<div class="section" id="step-3-commit-the-csv-data-file">
-<h2>Step 3: Commit the CSV data file<a class="headerlink" href="#step-3-commit-the-csv-data-file" title="Permalink to this headline">¶</a></h2>
+<section id="step-3-commit-the-csv-data-file">
+<h2>Step 3: Commit the CSV data file<a class="headerlink" href="#step-3-commit-the-csv-data-file" title="Permalink to this heading"></a></h2>
 <p>Now, we add the CSV to git.  First, we put it in the git directory,
 then tell git to save it.</p>
 <ul class="simple">
@@ -246,13 +165,13 @@ then tell git to save it.</p>
 <li><p>Note how GitHub desktop changed and shows you the changes</p></li>
 <li><p>Make a commit</p></li>
 </ul>
-<div class="figure align-default">
+<figure class="align-default">
 <img alt="../_images/diff-before-commit.png" class="with-border" src="../_images/diff-before-commit.png" />
-</div>
-</div>
+</figure>
+</section>
 <hr class="docutils" />
-<div class="section" id="step-4-publish-the-repository-on-github">
-<h2>Step 4: Publish the repository on GitHub<a class="headerlink" href="#step-4-publish-the-repository-on-github" title="Permalink to this headline">¶</a></h2>
+<section id="step-4-publish-the-repository-on-github">
+<h2>Step 4: Publish the repository on GitHub<a class="headerlink" href="#step-4-publish-the-repository-on-github" title="Permalink to this heading"></a></h2>
 <p>This is the step where we actually upload it to Github.  Github
 Desktop lets us create a new repository on github.com without using
 the web browser.  In this step, we also <strong>push</strong> the changes to the
@@ -265,13 +184,13 @@ middle steps.</p>
 <li><p>Click “Publish repository” (this only publishes the current branch)</p></li>
 <li><p>After you have pushed, visit the repository via the website</p></li>
 </ul>
-<div class="figure align-default">
+<figure class="align-default">
 <img alt="../_images/publish.png" class="with-border" src="../_images/publish.png" />
-</div>
-</div>
+</figure>
+</section>
 <hr class="docutils" />
-<div class="section" id="step-5-create-a-branch-commit-to-it-and-share-it">
-<h2>Step 5: Create a branch, commit to it, and share it<a class="headerlink" href="#step-5-create-a-branch-commit-to-it-and-share-it" title="Permalink to this headline">¶</a></h2>
+<section id="step-5-create-a-branch-commit-to-it-and-share-it">
+<h2>Step 5: Create a branch, commit to it, and share it<a class="headerlink" href="#step-5-create-a-branch-commit-to-it-and-share-it" title="Permalink to this heading"></a></h2>
 <p>This is pretty much the normal work: edit a file, commit it.  But, in
 this case, we are going to <strong>commit it to a new branch</strong>.  Why?  We’ll see
 later.</p>
@@ -281,18 +200,18 @@ later.</p>
 <li><p>Create a new branch on GitHub Desktop</p></li>
 <li><p>“Bring my changes to …” the new branch:</p></li>
 </ul>
-<div class="figure align-default">
+<figure class="align-default">
 <img alt="../_images/switch-branch.png" class="with-border" src="../_images/switch-branch.png" />
-</div>
+</figure>
 <ul class="simple">
 <li><p>Commit to the new branch on GitHub Desktop</p></li>
 <li><p>Publish the new branch to GitHub</p></li>
 <li><p>Browse your branches and changes on GitHub</p></li>
 </ul>
-</div>
+</section>
 <hr class="docutils" />
-<div class="section" id="step-6-fetch-and-pull-changes-from-the-web">
-<h2>Step 6: Fetch and pull changes from the web<a class="headerlink" href="#step-6-fetch-and-pull-changes-from-the-web" title="Permalink to this headline">¶</a></h2>
+<section id="step-6-fetch-and-pull-changes-from-the-web">
+<h2>Step 6: Fetch and pull changes from the web<a class="headerlink" href="#step-6-fetch-and-pull-changes-from-the-web" title="Permalink to this heading"></a></h2>
 <p>Now we show how to <strong>fetch</strong> or <strong>pull</strong> code from Github→local.</p>
 <ul class="simple">
 <li><p>Edit the file via the GitHub web interface and commit there to <code class="docutils literal notranslate"><span class="pre">master</span></code></p></li>
@@ -300,33 +219,33 @@ later.</p>
 <li><p>Change current branch to <code class="docutils literal notranslate"><span class="pre">master</span></code></p></li>
 <li><p>Click “Fetch origin”</p></li>
 </ul>
-<div class="figure align-default">
+<figure class="align-default">
 <img alt="../_images/fetch-origin.png" class="with-border" src="../_images/fetch-origin.png" />
-</div>
+</figure>
 <ul class="simple">
 <li><p>Before continuing compare the histories on your computer and the network on GitHub and discuss what fetch did:</p></li>
 </ul>
-<div class="figure align-default">
+<figure class="align-default">
 <img alt="../_images/network.png" class="with-border" src="../_images/network.png" />
-</div>
+</figure>
 <ul class="simple">
 <li><p>Click “Pull origin”</p></li>
 </ul>
-<div class="figure align-default">
+<figure class="align-default">
 <img alt="../_images/pull-origin.png" class="with-border" src="../_images/pull-origin.png" />
-</div>
+</figure>
 <ul class="simple">
 <li><p>After pulling browse the “History” in GitHub Desktop</p></li>
 </ul>
-<div class="figure align-default">
+<figure class="align-default">
 <img alt="../_images/after-pull.png" class="with-border" src="../_images/after-pull.png" />
-</div>
+</figure>
 <p>What’s the difference between <strong>fetch</strong> and <strong>pull</strong>?  Fetch gets the
 changes, but doesn’t apply them locally.  Pull = fetch + apply changes
 locally in your current repository (does a <strong>merge</strong> which we will
 discuss later).</p>
 <hr class="docutils" />
-<div class="admonition-summary discussion admonition">
+<div class="admonition-summary discussion attention admonition" id="discussion-0">
 <p class="admonition-title">Summary</p>
 <p>With Github Desktop, we can do everything we can on the web, but it’s
 more natural.  The most important concepts are that of <strong>remotes</strong>
@@ -337,63 +256,38 @@ Still, there’s almost always a place for applications like the GitHub Desktop
 and other graphical user interfaces to
 make things smoother.</p>
 </div>
-</div>
-</div>
+</section>
+</section>
 
 
            </div>
-           
           </div>
-          <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="../contributing/" class="btn btn-neutral float-right" title="Contributing to existing repositories using pull requests" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="../creating-using-web/" class="btn btn-neutral float-left" title="Creating repositories using the web interface" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../creating-using-web/" class="btn btn-neutral float-left" title="Creating repositories using the web interface" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../contributing/" class="btn btn-neutral float-right" title="Contributing to existing repositories using pull requests" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
-  
 
   <hr/>
 
   <div role="contentinfo">
-    <p>
-        
-        &copy; Copyright 2020, CodeRefinery contributors
-
-    </p>
+    <p>&#169; Copyright 2020, CodeRefinery contributors.</p>
   </div>
-    
-    
-    
-    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
-    
-    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
-    
-    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
 
 </footer>
-
         </div>
       </div>
-
     </section>
-
   </div>
-  
-
-  <script type="text/javascript">
+  <script>
       jQuery(function () {
           SphinxRtdTheme.Navigation.enable(true);
       });
-  </script>
-
-  
-  
-    
-   
+  </script> 
 
 </body>
 </html>

@@ -1,15 +1,3 @@
----
-layout: episode
-title: Creating repositories using GitHub Desktop
-teaching: 20
-exercises: 20
-questions:
-  - Creating and pushing local repositories
-  - How to record (commit) changes
-  - Inspecting changes before they are committed
-  - Browsing changes
----
-
 # Creating repositories using GitHub Desktop
 
 We will practice creating a new repository using GitHub Desktop, committing
