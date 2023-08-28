@@ -147,7 +147,7 @@ of people who are contributing and sharing code.
 
 ---
 
-> ## Why using repositories?
+> ## Why use repositories? Think of your usecases for the following:
 >
 > - All changes are recorded.
 > - We do not have to send changes via email.
@@ -161,7 +161,7 @@ of people who are contributing and sharing code.
 > - It is possible to serve websites directly from a repository.
 {: .discussion}
 
-> ## Discussion
+> ## Discussion: workflows without version control
 >
 > - How have you solved these in the past without version control?
 {: .discussion}
