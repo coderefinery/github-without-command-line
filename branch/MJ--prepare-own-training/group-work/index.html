@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to organize a group’s work &mdash; GitHub without the command line  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx_lesson.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+        <script src="../_static/minipres.js"></script>
+        <script>let toggleHintShow = 'Click to show';</script>
+        <script>let toggleHintHide = 'Click to hide';</script>
+        <script>let toggleOpenOnPrint = 'true';</script>
+        <script src="../_static/togglebutton.js"></script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex/" />
+    <link rel="search" title="Search" href="../search/" />
+    <link rel="next" title="Making your project citable" href="../doi/" />
+    <link rel="prev" title="Contributing to existing repositories using pull requests" href="../contributing/" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../" class="icon icon-home">
+            GitHub without the command line
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">The lesson</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basics/">Basics and motivation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../creating-using-web/">Creating repositories using the web interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../creating-using-desktop/">Creating repositories using GitHub Desktop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing/">Contributing to existing repositories using pull requests</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">How to organize a group’s work</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#github-organizations">GitHub organizations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#organizational-permissions">Organizational permissions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#github-or-gitlab">GitHub or GitLab?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#direct-commits-or-pull-requests">Direct commits or pull requests?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#small-vs-large-changes">Small vs. large changes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#optional-exercise-contributing-larger-changes">Optional exercise contributing larger changes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#exercise">Exercise</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bonus-exercise">Bonus exercise</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../doi/">Making your project citable</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../websites/">Hosting websites/homepages on GitHub Pages</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Reference</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../quick-reference/">Quick reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guide/">Instructor’s guide</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../">GitHub without the command line</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">How to organize a group’s work</li>
+      <li class="wy-breadcrumbs-aside">
+              <a href="https://github.com/coderefinery/github-without-command-line/blob/master/group-work.md" class="fa fa-github"> Edit on GitHub</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="how-to-organize-a-group-s-work">
+<h1>How to organize a group’s work<a class="headerlink" href="#how-to-organize-a-group-s-work" title="Permalink to this heading"></a></h1>
+<div class="admonition-discussion discussion important admonition" id="discussion-0">
+<p class="admonition-title">Discussion</p>
+<p>Do you want to work together? What are the benefits? How much of our
+individual work is caused by not having a way to collaborate? If we could
+collaborate, would it improve the quality of our work? Do we want to?”</p>
+</div>
+<section id="github-organizations">
+<h2>GitHub organizations<a class="headerlink" href="#github-organizations" title="Permalink to this heading"></a></h2>
+<p>Should I start a repository under my account or open a new organization?</p>
+<ul class="simple">
+<li><p>Single-person projects often start under own account.</p></li>
+<li><p>It is no problem to move a project from own namespace to an organization later.</p></li>
+<li><p>When starting a larger project with several people, possibly several affiliations, an organization may be a better start.</p></li>
+<li><p>If this is a GitHub pages project, then it will matter for the URL:
+<code class="docutils literal notranslate"><span class="pre">myuser.github.io/myproject/</span></code> vs. <code class="docutils literal notranslate"><span class="pre">ourorg.github.io/ourproject/</span></code>.</p></li>
+</ul>
+<p>Should I add everybody as collaborator?</p>
+<ul class="simple">
+<li><p>If you are a handful of project collaborators it probably makes sense to add everybody as collaborators.</p></li>
+<li><p>But one does not have to be a <em>collaborator</em> to contribute (anybody can send contributions to public projects).</p></li>
+<li><p>External contributors don’t have to be added.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="organizational-permissions">
+<h2>Organizational permissions<a class="headerlink" href="#organizational-permissions" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>Organizations have <strong>owners</strong> and <strong>members</strong>.</p></li>
+<li><p>Owners can add additional members and delete repositories.</p></li>
+<li><p>Members can also be organized into teams.</p></li>
+<li><p>We recommend to write-protect the default branch and protect it against force-pushes and accidental deletions.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="github-or-gitlab">
+<h2>GitHub or GitLab?<a class="headerlink" href="#github-or-gitlab" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>GitHub: probably better integrations (with services like Zenodo), probably more visibility (more users).</p></li>
+<li><p>GitLab: more features, you can also self-host, more advanced continuous integration.</p></li>
+<li><p>Your own university’s GitLab: most control, local support, but limited visibility and you might lose access when you move on.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="direct-commits-or-pull-requests">
+<h2>Direct commits or pull requests?<a class="headerlink" href="#direct-commits-or-pull-requests" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>For single-person projects: direct pushes.</p></li>
+<li><p>If you have somebody who can help you with code review: use pull requests.</p></li>
+<li><p>For projects with 2 or more persons: agree on applying all changes via pull requests
+and create a new branch for every change.</p></li>
+<li><p>Do you ever review what others do? Would it improve your work if you did?
+Would it overall save time?</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="small-vs-large-changes">
+<h2>Small vs. large changes<a class="headerlink" href="#small-vs-large-changes" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>For larger changes first open an issue and describe your idea and collect feedback.</p></li>
+<li><p>Alternative: if you already have a larger change half-finished but you are unsure whether you are on the right
+track, open a <strong>draft pull request</strong>. These are meant to share unfinished drafts and collect suggestions.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="optional-exercise-contributing-larger-changes">
+<h2>Optional exercise contributing larger changes<a class="headerlink" href="#optional-exercise-contributing-larger-changes" title="Permalink to this heading"></a></h2>
+<div class="admonition-instructor-note instructor-note admonition" id="instructor-note-0">
+<p class="admonition-title">Instructor note</p>
+<ul class="simple">
+<li><p>A participant shares screen and creates a repository, then instructor takes screen share and
+we go through steps to contribute to that repository (without write permissions), then
+screen share goes back to participant and we together review this change</p></li>
+</ul>
+</div>
+<section id="exercise">
+<h3>Exercise<a class="headerlink" href="#exercise" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>We first open an issue via the web interface
+and describe our idea. In the issue we can collect feedback</p></li>
+<li><p>We clone the exercise repository using GitHub Desktop</p></li>
+<li><p>Create a new branch</p></li>
+<li><p>Add the new file to the local repository</p></li>
+<li><p>Commit and refer to the issue (e.g. here closing issue number 12: “this is the commit message, closes #12”)</p></li>
+<li><p>Try to publish that branch (you may not have write permissions to the repository on GitHub)</p></li>
+<li><p>If you don’t have write permissions: “Fork this repository”, then try to publish the branch to the fork</p></li>
+<li><p>“Create Pull Request”</p></li>
+<li><p>If you forgot to refer to the issue in the commit, you can <a class="reference external" href="https://help.github.com/en/github/managing-your-work-on-github/linking-a-pull-request-to-an-issue">refer to the issue</a> in the pull request</p></li>
+</ul>
+</section>
+<section id="bonus-exercise">
+<h3>Bonus exercise<a class="headerlink" href="#bonus-exercise" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p>Send a pull request with a typo/mistake in it and adjust the pull request with a subsequent commit. Discuss
+how adjusting pull requests can be a useful mechanism.</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../contributing/" class="btn btn-neutral float-left" title="Contributing to existing repositories using pull requests" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../doi/" class="btn btn-neutral float-right" title="Making your project citable" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020, CodeRefinery contributors.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
