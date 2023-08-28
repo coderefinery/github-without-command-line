@@ -38,7 +38,7 @@ Snapshots (**commits**) in the [EHT-imaging](https://github.com/achael/eht-imagi
 ```
 
 
-### What we typically like to snapshot
+### What we typically like to version control (or "snapshot")?
 
 - Software (this is how it started but Git/GitHub can track a lot more)
 - Scripts
