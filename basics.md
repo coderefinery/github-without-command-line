@@ -23,6 +23,17 @@
 
 ## Version control
 
+### Why version control?
+
+Version control is the answer to these questions:
+- "It broke ... hopefully I have a working version somewhere?"
+- "Can you please send me the latest version?"
+- "Where is the latest version?"
+- "Which version are you using?"
+- "Which version have the authors used in the paper I am trying to reproduce?"
+- "Found a bug! Since when was it there?"
+- "I am sure it used to work. When did it change?"
+
 ### What are version control tools?
 
 - Version control is a tool that can **record snapshots of a project**.
@@ -50,6 +61,11 @@ Snapshots (**commits**) in the [EHT-imaging](https://github.com/achael/eht-imagi
 
 
 ### Why are snapshots valuable? Reproducibility!
+
+```{figure} img/research_comic_phd.gif
+:alt: Research comic
+:width: 100%
+```
 
 - We can always go back if we make a mistake.
 - We can test new ideas without editing the working version
