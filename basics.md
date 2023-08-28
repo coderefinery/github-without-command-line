@@ -52,8 +52,9 @@ Snapshots (**commits**) in the [EHT-imaging](https://github.com/achael/eht-imagi
 ### Why are snapshots valuable? Reproducibility!
 
 - We can always go back if we make a mistake.
-- We have the means to refer to a well-defined version of a project when sharing, collaborating, and publishing.
+- We can test new ideas without editing the working version
 - If we discover a problem, we can find out when it was introduced.
+- We have the means to refer to a well-defined version of a project when sharing, collaborating, and publishing.
 
 ---
 
