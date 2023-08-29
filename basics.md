@@ -62,7 +62,7 @@ Snapshots (**commits**) in the [EHT-imaging](https://github.com/achael/eht-imagi
 
 ### Why are snapshots valuable? Reproducibility!
 
-```{figure} img/research_comic_phd.gif
+```{figure} img/basics/research_comic_phd.gif
 :alt: Research comic
 :width: 100%
 ```
