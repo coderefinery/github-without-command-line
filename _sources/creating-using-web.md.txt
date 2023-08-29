@@ -156,7 +156,7 @@ how to contribute changes.
 
 ---
 
-## Step 6: Repository insights and settings
+## Step 6 (Optional): Repository insights and settings
 _This is an optional step which the instructor may demonstrate and discuss._
 
 Github gives us many insights into our repository.  Nothing here is
@@ -173,7 +173,7 @@ check:
 
 ---
 
-## Step 7: Adding a license to an existing repository
+## Step 7 (Optional): Adding a license to an existing repository
 _This is an optional step which the instructor may demonstrate and discuss._
 
 How to add a license to an existing repository:
