@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Creating repositories using the web interface &mdash; GitHub without the command line  documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/mystnb.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" type="text/css" />
       <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
       <link rel="stylesheet" href="../_static/sphinx_lesson.css" type="text/css" />
       <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -21,6 +21,7 @@
         <script src="../_static/underscore.js"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
         <script src="../_static/clipboard.min.js"></script>
         <script src="../_static/copybutton.js"></script>
         <script src="../_static/minipres.js"></script>
@@ -28,7 +29,7 @@
         <script>let toggleHintHide = 'Click to hide';</script>
         <script>let toggleOpenOnPrint = 'true';</script>
         <script src="../_static/togglebutton.js"></script>
-        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex/" />
     <link rel="search" title="Search" href="../search/" />
@@ -41,11 +42,15 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="../" class="icon icon-home"> GitHub without the command line
+
+          
+          
+          <a href="../" class="icon icon-home">
+            GitHub without the command line
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -59,9 +64,9 @@
 <li class="toctree-l2"><a class="reference internal" href="#step-2-create-a-new-file">Step 2: Create a new file</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#step-3-modify-a-file">Step 3: Modify a file</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#step-4-create-a-new-branch">Step 4: Create a new branch</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#step-5-repository-insights-and-settings">Step 5: Repository insights and settings</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#step-6-adding-a-license-to-an-existing-repository">Step 6: Adding a license to an existing repository</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#optional-step-how-can-we-merge-branches">Optional step: How can we merge branches?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-5-how-can-we-merge-branches">Step 5: How can we merge branches?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-6-repository-insights-and-settings">Step 6: Repository insights and settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#step-7-adding-a-license-to-an-existing-repository">Step 7: Adding a license to an existing repository</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../creating-using-desktop/">Creating repositories using GitHub Desktop</a></li>
@@ -89,8 +94,8 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../" class="icon icon-home"></a> &raquo;</li>
-      <li>Creating repositories using the web interface</li>
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Creating repositories using the web interface</li>
       <li class="wy-breadcrumbs-aside">
               <a href="https://github.com/coderefinery/github-without-command-line/blob/master/creating-using-web.md" class="fa fa-github"> Edit on GitHub</a>
       </li>
@@ -180,7 +185,7 @@ You can also copy-paste this as a starting point:</p>
 <figure class="align-default">
 <img alt="../_images/new-file-commit.png" class="with-border" src="../_images/new-file-commit.png" />
 </figure>
-<div class="admonition-discussion-good-commit-messages discussion attention admonition" id="discussion-0">
+<div class="admonition-discussion-good-commit-messages discussion important admonition" id="discussion-0">
 <p class="admonition-title">Discussion: Good commit messages</p>
 <ul class="simple">
 <li><p>What has changed is more useful than which file has changed</p></li>
@@ -241,40 +246,9 @@ will learn in the next episode.</p>
 </ul>
 </section>
 <hr class="docutils" />
-<section id="step-5-repository-insights-and-settings">
-<h2>Step 5: Repository insights and settings<a class="headerlink" href="#step-5-repository-insights-and-settings" title="Permalink to this heading"></a></h2>
-<p>Github gives us many insights into our repository.  Nothing here is
-really specific to Github (everything can be done with regular Git),
-but they make it especially easy to see.  The <strong>network</strong> lets you see
-how all commits and branches relate.</p>
-<p>Have a look at the network, hover over the dots in the graph
-(commits).  The network view is the best way to get an overview of
-your branches and commits, and it never hurts to come back here and
-check:</p>
-<figure class="align-default">
-<img alt="../_images/network1.png" class="with-border" src="../_images/network1.png" />
-</figure>
-</section>
-<hr class="docutils" />
-<section id="step-6-adding-a-license-to-an-existing-repository">
-<h2>Step 6: Adding a license to an existing repository<a class="headerlink" href="#step-6-adding-a-license-to-an-existing-repository" title="Permalink to this heading"></a></h2>
-<p>This is an optional step to show how we can add a license
-to an existing repository.</p>
-<ul class="simple">
-<li><p>Visit <a class="reference external" href="https://choosealicense.com/">https://choosealicense.com/</a> and let it guide you.</p></li>
-<li><p>If you don’t find a suitable license,
-choose among <a class="reference external" href="https://choosealicense.com/appendix/">https://choosealicense.com/appendix/</a>.</p></li>
-<li><p>Once you have chosen, click on the license name, and you can enter your GitHub repository URL (top right)
-which will open a pull request (change request) to the repository:</p></li>
-</ul>
-<figure class="align-default">
-<img alt="../_images/choosealicense.png" class="with-border" src="../_images/choosealicense.png" />
-</figure>
-</section>
-<hr class="docutils" />
-<section id="optional-step-how-can-we-merge-branches">
-<h2>Optional step: How can we merge branches?<a class="headerlink" href="#optional-step-how-can-we-merge-branches" title="Permalink to this heading"></a></h2>
-<p>This is an optional step which the instructor may demonstrate and discuss:</p>
+<section id="step-5-how-can-we-merge-branches">
+<h2>Step 5: How can we merge branches?<a class="headerlink" href="#step-5-how-can-we-merge-branches" title="Permalink to this heading"></a></h2>
+<p><em>This is an optional step which the instructor may demonstrate and discuss.</em></p>
 <p>We made a separate branch, separate from the main branch <code class="docutils literal notranslate"><span class="pre">master</span></code>.
 What happens when we decide we like that change, and want to take it
 into use?  We will soon see the magic of Git.</p>
@@ -289,8 +263,40 @@ into use?  We will soon see the magic of Git.</p>
 <p>Once a “pull request” (think of it as a change proposal) is open, it can be
 reviewed and merged. We will return to “pull requests” when we later discuss
 how to contribute changes.</p>
+</section>
 <hr class="docutils" />
-<div class="admonition-summary discussion attention admonition" id="discussion-1">
+<section id="step-6-repository-insights-and-settings">
+<h2>Step 6: Repository insights and settings<a class="headerlink" href="#step-6-repository-insights-and-settings" title="Permalink to this heading"></a></h2>
+<p><em>This is an optional step which the instructor may demonstrate and discuss.</em></p>
+<p>Github gives us many insights into our repository.  Nothing here is
+really specific to Github (everything can be done with regular Git),
+but they make it especially easy to see.  The <strong>network</strong> lets you see
+how all commits and branches relate.</p>
+<p>Have a look at the network, hover over the dots in the graph
+(commits).  The network view is the best way to get an overview of
+your branches and commits, and it never hurts to come back here and
+check:</p>
+<figure class="align-default">
+<img alt="../_images/network1.png" class="with-border" src="../_images/network1.png" />
+</figure>
+</section>
+<hr class="docutils" />
+<section id="step-7-adding-a-license-to-an-existing-repository">
+<h2>Step 7: Adding a license to an existing repository<a class="headerlink" href="#step-7-adding-a-license-to-an-existing-repository" title="Permalink to this heading"></a></h2>
+<p><em>This is an optional step which the instructor may demonstrate and discuss.</em></p>
+<p>How to add a license to an existing repository:</p>
+<ul class="simple">
+<li><p>Visit <a class="reference external" href="https://choosealicense.com/">https://choosealicense.com/</a> and let it guide you.</p></li>
+<li><p>If you don’t find a suitable license,
+choose among <a class="reference external" href="https://choosealicense.com/appendix/">https://choosealicense.com/appendix/</a>.</p></li>
+<li><p>Once you have chosen, click on the license name, and you can enter your GitHub repository URL (top right)
+which will open a pull request (change request) to the repository:</p></li>
+</ul>
+<figure class="align-default">
+<img alt="../_images/choosealicense.png" class="with-border" src="../_images/choosealicense.png" />
+</figure>
+<hr class="docutils" />
+<div class="admonition-summary discussion important admonition" id="discussion-1">
 <p class="admonition-title">Summary</p>
 <p>In this episode, we saw how we could do basic file management from the
 web.  It’s not the best for making lots of new content, but it’s

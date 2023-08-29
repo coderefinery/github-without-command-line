@@ -137,7 +137,27 @@ will learn in the next episode.
 
 ---
 
-## Step 5: Repository insights and settings
+## Step 5: How can we merge branches?
+_This is an optional step which the instructor may demonstrate and discuss._
+
+We made a separate branch, separate from the main branch `master`.
+What happens when we decide we like that change, and want to take it
+into use?  We will soon see the magic of Git.
+
+First browse to the overview of all branches:
+<img src="{{ site.baseurl }}/img/creating-using-web/branches-click.png" width="400px" style="border:2px solid #000000;">
+
+Now to initiate a merge (request), click on "New pull request":
+<img src="{{ site.baseurl }}/img/creating-using-web/branches-overview.png" width="800px" style="border:2px solid #000000;">
+
+Once a "pull request" (think of it as a change proposal) is open, it can be
+reviewed and merged. We will return to "pull requests" when we later discuss
+how to contribute changes.
+
+---
+
+## Step 6: Repository insights and settings
+_This is an optional step which the instructor may demonstrate and discuss._
 
 Github gives us many insights into our repository.  Nothing here is
 really specific to Github (everything can be done with regular Git),
@@ -153,10 +173,10 @@ check:
 
 ---
 
-## Step 6: Adding a license to an existing repository
+## Step 7: Adding a license to an existing repository
+_This is an optional step which the instructor may demonstrate and discuss._
 
-This is an optional step to show how we can add a license
-to an existing repository.
+How to add a license to an existing repository:
 
 - Visit [https://choosealicense.com/](https://choosealicense.com/) and let it guide you.
 - If you don't find a suitable license,
@@ -165,26 +185,6 @@ to an existing repository.
   which will open a pull request (change request) to the repository:
 
 <img src="{{ site.baseurl }}/img/creating-using-web/choosealicense.png" width="800px" style="border:2px solid #000000;">
-
----
-
-## Optional step: How can we merge branches?
-
-This is an optional step which the instructor may demonstrate and discuss:
-
-We made a separate branch, separate from the main branch `master`.
-What happens when we decide we like that change, and want to take it
-into use?  We will soon see the magic of Git.
-
-First browse to the overview of all branches:
-<img src="{{ site.baseurl }}/img/creating-using-web/branches-click.png" width="400px" style="border:2px solid #000000;">
-
-Now to initiate a merge (request), click on "New pull request":
-<img src="{{ site.baseurl }}/img/creating-using-web/branches-overview.png" width="800px" style="border:2px solid #000000;">
-
-Once a "pull request" (think of it as a change proposal) is open, it can be
-reviewed and merged. We will return to "pull requests" when we later discuss
-how to contribute changes.
 
 ---
 

@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Contributing to existing repositories using pull requests &mdash; GitHub without the command line  documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/mystnb.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" type="text/css" />
       <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
       <link rel="stylesheet" href="../_static/sphinx_lesson.css" type="text/css" />
       <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -21,6 +21,7 @@
         <script src="../_static/underscore.js"></script>
         <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
         <script src="../_static/clipboard.min.js"></script>
         <script src="../_static/copybutton.js"></script>
         <script src="../_static/minipres.js"></script>
@@ -28,7 +29,7 @@
         <script>let toggleHintHide = 'Click to hide';</script>
         <script>let toggleOpenOnPrint = 'true';</script>
         <script src="../_static/togglebutton.js"></script>
-        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+        <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex/" />
     <link rel="search" title="Search" href="../search/" />
@@ -41,11 +42,15 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="../" class="icon icon-home"> GitHub without the command line
+
+          
+          
+          <a href="../" class="icon icon-home">
+            GitHub without the command line
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search/" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -89,8 +94,8 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="../" class="icon icon-home"></a> &raquo;</li>
-      <li>Contributing to existing repositories using pull requests</li>
+      <li><a href="../" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Contributing to existing repositories using pull requests</li>
       <li class="wy-breadcrumbs-aside">
               <a href="https://github.com/coderefinery/github-without-command-line/blob/master/contributing.md" class="fa fa-github"> Edit on GitHub</a>
       </li>
@@ -107,7 +112,7 @@ belong to a group that you are part of or
 belong to others.</p>
 <p>We will do this in a progression from a small trivial fix to a change proposal
 and discuss the pros and cons.</p>
-<div class="admonition-recap-different-methods-to-download-a-repository discussion attention admonition" id="discussion-0">
+<div class="admonition-recap-different-methods-to-download-a-repository discussion important admonition" id="discussion-0">
 <p class="admonition-title">Recap: different methods to “download” a repository</p>
 <ul class="simple">
 <li><p>There is no need to download each file one by one.</p></li>
@@ -144,7 +149,7 @@ actually do it with review).</p>
 </figure>
 <p>From here on the collaborators can push changes in the same way as we have done in a
 single-person repository in the previous episodes.</p>
-<div class="admonition-discussion discussion attention admonition" id="discussion-1">
+<div class="admonition-discussion discussion important admonition" id="discussion-1">
 <p class="admonition-title">Discussion</p>
 <ul class="simple">
 <li><p>Discuss the advantages and possible disadvantages of this setup.</p></li>
@@ -183,7 +188,7 @@ can edit the <strong>title</strong> and <strong>description</strong> of the “p
 <li><p>After we have submitted the “pull request”, one of our collaborators can review it</p></li>
 <li><p>We can discuss and ask for changes before merging the changes “Merge pull request”</p></li>
 </ul>
-<div class="admonition-discussion discussion attention admonition" id="discussion-2">
+<div class="admonition-discussion discussion important admonition" id="discussion-2">
 <p class="admonition-title">Discussion</p>
 <ul class="simple">
 <li><p>Ideally submitter and reviewer should be two different persons.
@@ -201,7 +206,7 @@ can push commits to it directly, it can be useful to “protect” branches.</p>
 <figure class="align-default">
 <img alt="../_images/branch-protection.png" class="with-border" src="../_images/branch-protection.png" />
 </figure>
-<div class="admonition-discussion discussion attention admonition" id="discussion-3">
+<div class="admonition-discussion discussion important admonition" id="discussion-3">
 <p class="admonition-title">Discussion</p>
 <ul class="simple">
 <li><p>Protecting the <code class="docutils literal notranslate"><span class="pre">master</span></code> branch “forces” all changes to it to be reviewed first.
@@ -267,7 +272,7 @@ branching from <code class="docutils literal notranslate"><span class="pre">mast
 <figure class="align-default">
 <img alt="../_images/conflict-resolution.png" class="with-border" src="../_images/conflict-resolution.png" />
 </figure>
-<div class="admonition-discussion discussion attention admonition" id="discussion-4">
+<div class="admonition-discussion discussion important admonition" id="discussion-4">
 <p class="admonition-title">Discussion</p>
 <ul class="simple">
 <li><p>Compare with Google Docs: can you get conflicts there? What are the advantages and disadvantages?</p></li>
@@ -275,7 +280,7 @@ branching from <code class="docutils literal notranslate"><span class="pre">mast
 </ul>
 </div>
 <hr class="docutils" />
-<div class="admonition-summary discussion attention admonition" id="discussion-5">
+<div class="admonition-summary discussion important admonition" id="discussion-5">
 <p class="admonition-title">Summary</p>
 <ul class="simple">
 <li><p>In this episode we learned how to propose changes and submit changes via “pull requests”.</p></li>

@@ -23,6 +23,17 @@
 
 ## Version control
 
+### Why version control?
+
+Version control is the answer to these questions:
+- "It broke ... hopefully I have a working version somewhere?"
+- "Can you please send me the latest version?"
+- "Where is the latest version?"
+- "Which version are you using?"
+- "Which version have the authors used in the paper I am trying to reproduce?"
+- "Found a bug! Since when was it there?"
+- "I am sure it used to work. When did it change?"
+
 ### What are version control tools?
 
 - Version control is a tool that can **record snapshots of a project**.
@@ -38,7 +49,7 @@ Snapshots (**commits**) in the [EHT-imaging](https://github.com/achael/eht-imagi
 ```
 
 
-### What we typically like to snapshot
+### What we typically like to version control (or "snapshot")?
 
 - Software (this is how it started but Git/GitHub can track a lot more)
 - Scripts
@@ -51,9 +62,15 @@ Snapshots (**commits**) in the [EHT-imaging](https://github.com/achael/eht-imagi
 
 ### Why are snapshots valuable? Reproducibility!
 
+```{figure} img/basics/research_comic_phd.gif
+:alt: Research comic
+:width: 100%
+```
+
 - We can always go back if we make a mistake.
-- We have the means to refer to a well-defined version of a project when sharing, collaborating, and publishing.
+- We can test new ideas without editing the working version
 - If we discover a problem, we can find out when it was introduced.
+- We have the means to refer to a well-defined version of a project when sharing, collaborating, and publishing.
 
 ---
 
@@ -79,8 +96,8 @@ Snapshots (**commits**) in the [EHT-imaging](https://github.com/achael/eht-imagi
 ## Commits, branches, repositories, forks, clones
 
 - **repository**: The project, contains all data and history (commits, branches, tags).
-- **commit**: Snapshot of the project, gets a unique identifier (e.g. `c7f0e8bfc718be04525847fc7ac237f470add76e`).
 - **branch**: Independent development line, often we call the main development line `master`.
+- **commit**: Snapshot of the project, gets a unique identifier (e.g. `c7f0e8bfc718be04525847fc7ac237f470add76e`).
 - **tag**: A pointer to one commit, to be able to refer to it later. Like a sticky note that you attach to a particular commit (e.g. `phd-printed` or `paper-submitted`).
 - **cloning**: Copying the whole repository to your laptop - the first time. It is not necessary to download each file one by one.
 - **forking**: Taking a copy of a repository (which is typically not yours) - your
@@ -147,7 +164,7 @@ of people who are contributing and sharing code.
 
 ---
 
-> ## Why using repositories?
+> ## Why use repositories? Think of your usecases for the following:
 >
 > - All changes are recorded.
 > - We do not have to send changes via email.
@@ -161,7 +178,7 @@ of people who are contributing and sharing code.
 > - It is possible to serve websites directly from a repository.
 {: .discussion}
 
-> ## Discussion
+> ## Discussion: workflows without version control
 >
 > - How have you solved these in the past without version control?
 {: .discussion}
